@@ -1,0 +1,68 @@
+{
+  "page_id": "10",
+  "image": "10_text_memo_with_number_tables.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "10-1",
+      "text": "135",
+      "where": "\"135\" (San Diego row, LATEST QUARTER, INDEX TO U.S.)",
+      "how": "circle",
+      "case_type": [
+        "table cell"
+      ]
+    },
+    {
+      "id": "10-2",
+      "text": "-3.92",
+      "where": "\"-3.92\" (Glendale row, LATEST QUARTER, PT CHG)",
+      "how": "circle",
+      "case_type": [
+        "table cell",
+        "negative"
+      ]
+    },
+    {
+      "id": "10-3",
+      "text": "Montclair Ultra KS",
+      "where": "\"Montclair Ultra KS\" (row label, packing table)",
+      "how": "circle",
+      "case_type": [
+        "similar labels"
+      ]
+    },
+    {
+      "id": "10-4",
+      "text": ".25",
+      "context_must_include": [
+        "lt"
+      ],
+      "context_must_exclude": [
+        "94"
+      ],
+      "where": "\".25\" in the Montclair Lt. 100 row (CUR QTR), NOT the row above",
+      "how": "circle",
+      "case_type": [
+        "repeated value"
+      ]
+    },
+    {
+      "id": "10-5",
+      "text": "102",
+      "where": "\"102\" (L.A. So. row, already underlined)",
+      "how": "tight circle",
+      "case_type": [
+        "printed underline"
+      ]
+    },
+    {
+      "id": "10-6",
+      "text": "Anaheim",
+      "where": "\"Anaheim\" (division name)",
+      "how": "circle",
+      "case_type": [
+        "table row label"
+      ]
+    }
+  ]
+}

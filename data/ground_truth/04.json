@@ -1,0 +1,69 @@
+{
+  "page_id": "04",
+  "image": "04_text_two_column_journal_page.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "04-1",
+      "text": "Framingham",
+      "context_must_include": [
+        "kannel"
+      ],
+      "where": "\"Framingham\" in the byline (under author name), NOT the body",
+      "how": "circle",
+      "case_type": [
+        "repeated-word",
+        "italic",
+        "small"
+      ]
+    },
+    {
+      "id": "04-2",
+      "text": "325,000",
+      "where": "\"325,000\" (left column)",
+      "how": "circle",
+      "case_type": [
+        "number",
+        "small"
+      ]
+    },
+    {
+      "id": "04-3",
+      "text": "THE CARDIOVASCULAR HAZARDS",
+      "where": "\"THE CARDIOVASCULAR HAZARDS\" (heading, right column)",
+      "how": "one long circle around the heading",
+      "case_type": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "04-4",
+      "text": "$19 billion",
+      "where": "\"$19 billion\" (left column)",
+      "how": "tight circle",
+      "case_type": [
+        "number",
+        "tight",
+        "small"
+      ]
+    },
+    {
+      "id": "04-5",
+      "text": "Boston",
+      "where": "\"Boston\" in the footnote at bottom left",
+      "how": "circle",
+      "case_type": [
+        "tiny print"
+      ]
+    },
+    {
+      "id": "04-6",
+      "text": "inhale",
+      "where": "\"inhale.\" (end of a right-column paragraph)",
+      "how": "circle",
+      "case_type": [
+        "small"
+      ]
+    }
+  ]
+}

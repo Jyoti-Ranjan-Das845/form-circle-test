@@ -1,0 +1,72 @@
+{
+  "page_id": "06",
+  "image": "06_text_memo_key_findings_bullets.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "06-1",
+      "text": "24.4%",
+      "where": "\"24.4%\"",
+      "how": "circle",
+      "case_type": [
+        "number"
+      ]
+    },
+    {
+      "id": "06-2",
+      "text": "Marlboro",
+      "where": "\"Marlboro\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "06-3",
+      "text": "not",
+      "where": "\"not\" (already underlined: \"there is not a problem\")",
+      "how": "tight circle",
+      "case_type": [
+        "short word",
+        "printed underline"
+      ]
+    },
+    {
+      "id": "06-4",
+      "text": "4.6%",
+      "where": "\"4.6%\" (first bullet)",
+      "how": "circle",
+      "case_type": [
+        "number",
+        "similar values"
+      ]
+    },
+    {
+      "id": "06-5",
+      "text": "BIAD #93-13104",
+      "where": "\"(BIAD #93-13104)\" under SUBJECT",
+      "how": "circle",
+      "case_type": [
+        "same text handwritten in margin"
+      ]
+    },
+    {
+      "id": "06-6a",
+      "text": "18.5%",
+      "where": "\"18.5%\" and \"76%\"",
+      "how": "circle each",
+      "case_type": [
+        "multi"
+      ]
+    },
+    {
+      "id": "06-6b",
+      "text": "76%",
+      "where": "\"18.5%\" and \"76%\"",
+      "how": "circle each",
+      "case_type": [
+        "multi"
+      ]
+    }
+  ]
+}

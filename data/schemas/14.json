@@ -1,0 +1,187 @@
+{
+  "page_id": "14",
+  "questions": [
+    {
+      "id": "sex",
+      "text": "Male / Female (header)",
+      "select": "one",
+      "options": [
+        {
+          "label": "Male"
+        },
+        {
+          "label": "Female"
+        }
+      ]
+    },
+    {
+      "id": "q1a",
+      "text": "1a. Have you ever been told that you have hay fever?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1b",
+      "text": "1b. ... asthma?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1c",
+      "text": "1c. ... sinus trouble?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1d",
+      "text": "1d. ... lung disorder?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1e",
+      "text": "1e. ... an allergy?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "3. Do you smoke?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q8a",
+      "text": "8a. Discomfort during a flight: eyes",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q8b",
+      "text": "8b. Discomfort during a flight: ears",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q8c",
+      "text": "8c. Discomfort during a flight: nose",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q8d",
+      "text": "8d. Discomfort during a flight: throat",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q12a",
+      "text": "12a. Smoking in an aircraft should be permitted only in certain areas",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q12b",
+      "text": "12b. Smoking in an aircraft should not be permitted at all",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q12c",
+      "text": "12c. Smoking in an aircraft should be permitted as at present",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "page_id": "19",
+  "questions": [
+    {
+      "id": "sex",
+      "text": "Indicate: Male / Female",
+      "select": "one",
+      "options": [
+        {
+          "label": "Male"
+        },
+        {
+          "label": "Female"
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "text": "1. Into which of the following age groups does your age belong?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Under 25"
+        },
+        {
+          "label": "25-34"
+        },
+        {
+          "label": "35-49"
+        },
+        {
+          "label": "50 or over"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "2. Which of the following products do you use daily?",
+      "select": "many",
+      "options": [
+        {
+          "label": "Coffee"
+        },
+        {
+          "label": "Beer"
+        },
+        {
+          "label": "Soft drinks"
+        },
+        {
+          "label": "Cigarettes"
+        },
+        {
+          "label": "Breath mints"
+        },
+        {
+          "label": "Mouth wash"
+        }
+      ]
+    },
+    {
+      "id": "q3b_not_married",
+      "text": "3b. CHECK HERE IF NOT MARRIED [ ]",
+      "select": "one",
+      "options": [
+        {
+          "label": "Not married"
+        }
+      ]
+    }
+  ]
+}

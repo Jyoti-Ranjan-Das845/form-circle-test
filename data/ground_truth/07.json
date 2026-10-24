@@ -1,0 +1,68 @@
+{
+  "page_id": "07",
+  "image": "07_text_typewriter_qa_document.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "07-1",
+      "text": "TDK",
+      "where": "\"TDK\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "07-2",
+      "text": "Pittsburgh",
+      "where": "\"Pittsburgh,\"",
+      "how": "circle",
+      "case_type": [
+        "punctuation"
+      ]
+    },
+    {
+      "id": "07-3",
+      "text": "How often are you going to have theme nights?",
+      "where": "the whole bold sentence \"How often are you going to have theme nights?\"",
+      "how": "one loose loop around the sentence",
+      "case_type": [
+        "long phrase"
+      ]
+    },
+    {
+      "id": "07-4",
+      "text": "21",
+      "where": "\"21\" in \"at least 21 years of age\"",
+      "how": "tight circle",
+      "case_type": [
+        "number",
+        "tight"
+      ]
+    },
+    {
+      "id": "07-5",
+      "text": "Cleveland",
+      "where": "\"Cleveland\"",
+      "how": "double circle (two loops)",
+      "case_type": [
+        "double"
+      ]
+    },
+    {
+      "id": "07-6",
+      "text": "Approved",
+      "context_must_include": [
+        "4/24/89"
+      ],
+      "context_must_exclude": [
+        "page"
+      ],
+      "where": "\"Approved\" in the top line \"4/24/89 - Approved\", NOT the footer",
+      "how": "circle",
+      "case_type": [
+        "repeated-word"
+      ]
+    }
+  ]
+}

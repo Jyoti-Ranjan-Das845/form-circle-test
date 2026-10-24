@@ -1,0 +1,55 @@
+{
+  "page_id": "02",
+  "image": "02_text_typed_lab_report.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "02-1",
+      "text": "D. M. Teng",
+      "where": "\"D. M. Teng\" (PROJECT LEADER value)",
+      "how": "circle",
+      "case_type": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "02-2",
+      "text": "1901",
+      "where": "\"1901\" (CHARGE NUMBER value)",
+      "how": "circle",
+      "case_type": [
+        "number"
+      ]
+    },
+    {
+      "id": "02-3",
+      "text": "50-liter",
+      "where": "\"50-liter\" at the start of the line after \"...functioning satisfactorily. Three\"",
+      "how": "tight circle",
+      "case_type": [
+        "tight",
+        "hyphenated"
+      ]
+    },
+    {
+      "id": "02-4",
+      "text": "20 hours",
+      "where": "\"20 hours\" in \"Denitrification was accomplished in 20 hours\"",
+      "how": "loose circle",
+      "case_type": [
+        "phrase",
+        "loose"
+      ]
+    },
+    {
+      "id": "02-5",
+      "text": "pH",
+      "where": "\"pH\" in the noisy last paragraph (\"A portion of the pH profile\")",
+      "how": "open circle (leave a gap)",
+      "case_type": [
+        "open",
+        "noisy background"
+      ]
+    }
+  ]
+}

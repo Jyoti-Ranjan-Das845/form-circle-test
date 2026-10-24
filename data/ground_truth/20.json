@@ -1,0 +1,67 @@
+{
+  "page_id": "20",
+  "image": "20_options_health_survey_yes_no_circle.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "20-q1",
+      "question_id": "q1",
+      "expected": "YES",
+      "where": "Q1: \"YES\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "20-q1_2_1",
+      "question_id": "q1_2_1",
+      "expected": "NO",
+      "where": "Q1.2.1 February - June: \"NO\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "20-q1_2_2",
+      "question_id": "q1_2_2",
+      "expected": "YES",
+      "where": "Q1.2.2 July: \"YES\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "20-q1_2_3",
+      "question_id": "q1_2_3",
+      "expected": null,
+      "where": "Q1.2.3 August - October",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "20-q1_2_4",
+      "question_id": "q1_2_4",
+      "expected": "NO",
+      "where": "Q1.2.4 November - January: \"NO\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "20-q1_3",
+      "question_id": "q1_3",
+      "expected": "Sometimes worse, sometimes better",
+      "where": "Q1.3: the code \"3\"",
+      "how": "circle the code",
+      "case_type": [
+        "label vs code"
+      ]
+    }
+  ]
+}

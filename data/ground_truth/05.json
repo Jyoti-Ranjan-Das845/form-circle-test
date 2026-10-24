@@ -1,0 +1,53 @@
+{
+  "page_id": "05",
+  "image": "05_text_memo_serif_with_bullets.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "05-1",
+      "text": "Kevin Sweeney",
+      "where": "\"Kevin Sweeney\"",
+      "how": "circle",
+      "case_type": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "05-2",
+      "text": "MARCH 11, 1996",
+      "where": "\"MARCH 11, 1996\" (header date)",
+      "how": "circle",
+      "case_type": [
+        "date"
+      ]
+    },
+    {
+      "id": "05-3",
+      "text": "weak",
+      "where": "\"weak\" in \"controls are very weak\"",
+      "how": "tight circle",
+      "case_type": [
+        "tight"
+      ]
+    },
+    {
+      "id": "05-4",
+      "text": "toxic waste",
+      "where": "\"toxic waste\"",
+      "how": "circle",
+      "case_type": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "05-5",
+      "text": "Bacon",
+      "where": "\"Bacon\" in \"Shook, Hardy & Bacon\"",
+      "how": "tight circle touching \"Hardy\"",
+      "case_type": [
+        "tight",
+        "adjacent"
+      ]
+    }
+  ]
+}

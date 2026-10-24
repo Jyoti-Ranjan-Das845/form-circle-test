@@ -1,0 +1,79 @@
+{
+  "page_id": "12",
+  "image": "12_options_dense_screener_brand_codes.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "12-qA",
+      "question_id": "qA",
+      "expected": "No",
+      "where": "Q.A: \"No....2\"",
+      "how": "circle",
+      "case_type": [
+        "dotted codes"
+      ]
+    },
+    {
+      "id": "12-qB",
+      "question_id": "qB",
+      "expected": "25-34",
+      "where": "Q.B: \"25 - 34....2\"",
+      "how": "circle",
+      "case_type": [
+        "dotted codes"
+      ]
+    },
+    {
+      "id": "12-qC",
+      "question_id": "qC",
+      "expected": null,
+      "where": "Q.C",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "12-qD",
+      "question_id": "qD",
+      "expected": "Yes",
+      "where": "Q.D: \"Yes....1\"",
+      "how": "circle",
+      "case_type": [
+        "dotted codes"
+      ]
+    },
+    {
+      "id": "12-qE",
+      "question_id": "qE",
+      "expected": "King Size (85mm-95mm)",
+      "where": "Q.E: \"King Size (85mm-95mm)....2\"",
+      "how": "tight circle",
+      "case_type": [
+        "tight",
+        "small"
+      ]
+    },
+    {
+      "id": "12-qF",
+      "question_id": "qF",
+      "expected": "Real",
+      "where": "Q.F: \"Real....-7\" in the MIDDLE column (Kent in the first column has the same code -7)",
+      "how": "circle",
+      "case_type": [
+        "same code twice",
+        "small"
+      ]
+    },
+    {
+      "id": "12-qG",
+      "question_id": "qG",
+      "expected": "Male Full-Flavor",
+      "where": "Q.G: \"Male Full-Flavor....3\"",
+      "how": "circle",
+      "case_type": [
+        "dotted codes"
+      ]
+    }
+  ]
+}

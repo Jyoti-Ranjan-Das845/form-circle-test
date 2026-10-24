@@ -1,0 +1,241 @@
+{
+  "page_id": "12",
+  "questions": [
+    {
+      "id": "qA",
+      "text": "A. Does anyone in your household work for an advertising agency, marketing research company or a cigarette firm?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes",
+          "code": "1"
+        },
+        {
+          "label": "No",
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "id": "qB",
+      "text": "B. Into which of the following age categories do you fall?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Under 21",
+          "code": "X"
+        },
+        {
+          "label": "21-24",
+          "code": "1"
+        },
+        {
+          "label": "25-34",
+          "code": "2"
+        },
+        {
+          "label": "35-54",
+          "code": "3"
+        },
+        {
+          "label": "55 or older",
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "id": "qC",
+      "text": "C. Do you currently smoke at least four packs of cigarettes a week?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes",
+          "code": "1"
+        },
+        {
+          "label": "No",
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "id": "qD",
+      "text": "D. Is your regular brand of cigarettes filtered?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes",
+          "code": "1"
+        },
+        {
+          "label": "No",
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "id": "qE",
+      "text": "E. What size do you usually smoke?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Regular Size (Less than 85mm)",
+          "code": "1"
+        },
+        {
+          "label": "King Size (85mm-95mm)",
+          "code": "2"
+        },
+        {
+          "label": "Long (100mm)",
+          "code": "3"
+        },
+        {
+          "label": "Extra Long (110mm-120mm)",
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "id": "qF",
+      "text": "F. Which of these brands is your regular brand of cigarette?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Benson & Hedges Lights"
+        },
+        {
+          "label": "Camel Lights"
+        },
+        {
+          "label": "Carlton"
+        },
+        {
+          "label": "Decade"
+        },
+        {
+          "label": "Doral"
+        },
+        {
+          "label": "Facts"
+        },
+        {
+          "label": "Kent"
+        },
+        {
+          "label": "Kent Golden Lights"
+        },
+        {
+          "label": "L & M Lights"
+        },
+        {
+          "label": "Lucky Ten"
+        },
+        {
+          "label": "Marlboro Lights"
+        },
+        {
+          "label": "Merit"
+        },
+        {
+          "label": "Multifilter"
+        },
+        {
+          "label": "Now"
+        },
+        {
+          "label": "Old Gold Lights"
+        },
+        {
+          "label": "Pall Mall Lights"
+        },
+        {
+          "label": "Parliament"
+        },
+        {
+          "label": "Raleigh Lights"
+        },
+        {
+          "label": "Real"
+        },
+        {
+          "label": "Tareyton Lights"
+        },
+        {
+          "label": "True"
+        },
+        {
+          "label": "Vantage"
+        },
+        {
+          "label": "Viceroy Extra Mild"
+        },
+        {
+          "label": "Viceroy Rich Lights"
+        },
+        {
+          "label": "Winston Lights"
+        },
+        {
+          "label": "Benson & Hedges"
+        },
+        {
+          "label": "Camel Filters"
+        },
+        {
+          "label": "Chesterfield"
+        },
+        {
+          "label": "L & M"
+        },
+        {
+          "label": "Lark"
+        },
+        {
+          "label": "Marlboro"
+        },
+        {
+          "label": "Old Gold"
+        },
+        {
+          "label": "Pall Mall"
+        },
+        {
+          "label": "Raleigh Filters"
+        },
+        {
+          "label": "Tareyton"
+        },
+        {
+          "label": "Viceroy"
+        },
+        {
+          "label": "Winston"
+        }
+      ]
+    },
+    {
+      "id": "qG",
+      "text": "G. Quota group for this respondent",
+      "select": "one",
+      "options": [
+        {
+          "label": "Male Hi Fi",
+          "code": "1"
+        },
+        {
+          "label": "Female Hi Fi",
+          "code": "2"
+        },
+        {
+          "label": "Male Full-Flavor",
+          "code": "3"
+        },
+        {
+          "label": "Female Full-Flavor",
+          "code": "4"
+        }
+      ]
+    }
+  ]
+}

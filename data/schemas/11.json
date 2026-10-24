@@ -1,0 +1,160 @@
+{
+  "page_id": "11",
+  "questions": [
+    {
+      "id": "qA_29",
+      "text": "Q.A About how many packs of PRODUCT #29 did you smoke?",
+      "select": "one",
+      "options": [
+        {
+          "label": "None (did not smoke any)",
+          "code": "1"
+        },
+        {
+          "label": "Less than a pack",
+          "code": "2"
+        },
+        {
+          "label": "1 or 2 packs",
+          "code": "3"
+        },
+        {
+          "label": "3 or 4 packs",
+          "code": "4"
+        },
+        {
+          "label": "5 packs (all)",
+          "code": "5"
+        }
+      ]
+    },
+    {
+      "id": "qA_43",
+      "text": "Q.A About how many packs of PRODUCT #43 did you smoke?",
+      "select": "one",
+      "options": [
+        {
+          "label": "None (did not smoke any)",
+          "code": "1"
+        },
+        {
+          "label": "Less than a pack",
+          "code": "2"
+        },
+        {
+          "label": "1 or 2 packs",
+          "code": "3"
+        },
+        {
+          "label": "3 or 4 packs",
+          "code": "4"
+        },
+        {
+          "label": "5 packs (all)",
+          "code": "5"
+        }
+      ]
+    },
+    {
+      "id": "qB",
+      "text": "Q.B Why didn't you smoke the cigarettes we sent to you?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Product didn't arrive",
+          "code": "1"
+        },
+        {
+          "label": "Misplaced cigarettes",
+          "code": "2"
+        },
+        {
+          "label": "Cigarettes arrived damaged",
+          "code": "3"
+        },
+        {
+          "label": "Didn't like the ads",
+          "code": "4"
+        },
+        {
+          "label": "No interest",
+          "code": "5"
+        },
+        {
+          "label": "Other (SPECIFY) - terminate",
+          "code": "6"
+        },
+        {
+          "label": "Didn't have the time",
+          "code": "7"
+        },
+        {
+          "label": "Wasn't home",
+          "code": "8"
+        },
+        {
+          "label": "Was sick",
+          "code": "9"
+        },
+        {
+          "label": "Other (SPECIFY) - skip to Q. D",
+          "code": "0"
+        }
+      ]
+    },
+    {
+      "id": "qC",
+      "text": "Q.C Why didn't you smoke product #29 or #43?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Misplaced cigarettes",
+          "code": "1"
+        },
+        {
+          "label": "Didn't like the ad(s)",
+          "code": "2"
+        },
+        {
+          "label": "No interest",
+          "code": "3"
+        },
+        {
+          "label": "Other (SPECIFY) - terminate",
+          "code": "4"
+        },
+        {
+          "label": "Didn't have the time",
+          "code": "5"
+        },
+        {
+          "label": "Wasn't home",
+          "code": "6"
+        },
+        {
+          "label": "Was sick",
+          "code": "7"
+        },
+        {
+          "label": "Other (SPECIFY) - ask Q. D",
+          "code": "8"
+        }
+      ]
+    },
+    {
+      "id": "qD",
+      "text": "Q.D May we call you back in a day or two?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes",
+          "code": "1"
+        },
+        {
+          "label": "No",
+          "code": "2"
+        }
+      ]
+    }
+  ]
+}

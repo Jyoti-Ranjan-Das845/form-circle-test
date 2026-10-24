@@ -1,0 +1,47 @@
+{
+  "page_id": "18",
+  "image": "18_options_phone_survey_yes_no_codes.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "18-q1",
+      "question_id": "q1",
+      "expected": "Yes",
+      "where": "Q1: the code \"1\" next to Yes",
+      "how": "circle the code",
+      "case_type": [
+        "label vs code"
+      ]
+    },
+    {
+      "id": "18-q2",
+      "question_id": "q2",
+      "expected": "No",
+      "where": "Q2: the word \"No\"",
+      "how": "circle the word",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "18-time_zone",
+      "question_id": "time_zone",
+      "expected": "M",
+      "where": "TIME ZONE: the letter \"M\" in \"E C M P\"",
+      "how": "small circle",
+      "case_type": [
+        "single letter"
+      ]
+    },
+    {
+      "id": "18-callback_date",
+      "question_id": "callback_date",
+      "expected": null,
+      "where": "CALLBACK DATE",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    }
+  ]
+}

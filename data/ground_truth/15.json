@@ -1,0 +1,80 @@
+{
+  "page_id": "15",
+  "image": "15_options_focus_group_screener.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "15-q1a",
+      "question_id": "q1a",
+      "expected": "Yes",
+      "where": "Q1.a: \"Yes\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "15-q2",
+      "question_id": "q2",
+      "expected": [
+        "An automobile manufacturer",
+        "A food processor"
+      ],
+      "where": "Q2: \"An automobile manufacturer\" and \"A food processor\"",
+      "how": "circle each",
+      "case_type": [
+        "multi"
+      ]
+    },
+    {
+      "id": "15-q3a",
+      "question_id": "q3a",
+      "expected": "25-34",
+      "where": "Q3.a: \"25-34\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "15-q4b",
+      "question_id": "q4b",
+      "expected": "100mm",
+      "where": "Q4.b: \"100mm\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "15-q4c",
+      "question_id": "q4c",
+      "expected": "Filter",
+      "where": "Q4.c: \"Filter,\" only (NOT \"Non-Filter\")",
+      "how": "tight circle",
+      "case_type": [
+        "substring trap"
+      ]
+    },
+    {
+      "id": "15-q4d",
+      "question_id": "q4d",
+      "expected": "Non-Menthol",
+      "where": "Q4.d: \"Non-Menthol\"",
+      "how": "circle",
+      "case_type": [
+        "substring trap"
+      ]
+    },
+    {
+      "id": "15-q4e",
+      "question_id": "q4e",
+      "expected": null,
+      "where": "Q4.e",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    }
+  ]
+}

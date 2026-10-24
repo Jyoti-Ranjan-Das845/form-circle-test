@@ -1,0 +1,40 @@
+{
+  "page_id": "17",
+  "questions": [
+    {
+      "id": "II_3",
+      "text": "II.3 Have you any suggestions to make as to how CORESTA's efficiency might be improved in the following fields?",
+      "select": "many",
+      "options": [
+        {
+          "label": "a) Documentation and exchange of information"
+        },
+        {
+          "label": "b) Intergroup work"
+        },
+        {
+          "label": "c) Presentation and publication of communications"
+        },
+        {
+          "label": "d) Liaison with other organizations"
+        }
+      ]
+    },
+    {
+      "id": "II_4",
+      "text": "II.4 Within the Scientific Commission, would you like to see reforms or simple improvements with respect to:",
+      "select": "many",
+      "options": [
+        {
+          "label": "a) Its method of work"
+        },
+        {
+          "label": "b) The way it is elected"
+        },
+        {
+          "label": "c) Its rules of procedure"
+        }
+      ]
+    }
+  ]
+}

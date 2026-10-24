@@ -1,0 +1,57 @@
+{
+  "page_id": "13",
+  "image": "13_options_report_form_scoreboard_yes_no.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "13-q1",
+      "question_id": "q1",
+      "expected": "18",
+      "where": "Q1 scoreboard: 4th box from the right (BEST end)",
+      "how": "circle the box",
+      "case_type": [
+        "position"
+      ]
+    },
+    {
+      "id": "13-q5a",
+      "question_id": "q5a",
+      "expected": "No",
+      "where": "Q5a: the \"No\" box",
+      "how": "circle the box",
+      "case_type": [
+        "box option"
+      ]
+    },
+    {
+      "id": "13-q5b",
+      "question_id": "q5b",
+      "expected": null,
+      "where": "Q5b",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "13-q6a",
+      "question_id": "q6a",
+      "expected": "Bitter",
+      "where": "Q6a: the word \"Bitter\" (not its box)",
+      "how": "circle the word",
+      "case_type": [
+        "label vs box"
+      ]
+    },
+    {
+      "id": "13-q6b",
+      "question_id": "q6b",
+      "expected": "About right",
+      "where": "Q6b: the box next to \"About right\"",
+      "how": "circle the box",
+      "case_type": [
+        "box option"
+      ]
+    }
+  ]
+}

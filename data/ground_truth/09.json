@@ -1,0 +1,73 @@
+{
+  "page_id": "09",
+  "image": "09_text_memo_with_name_lists.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "09-1",
+      "text": "E. Merlo",
+      "where": "\"E. Merlo\" (Distribution list)",
+      "how": "circle",
+      "case_type": [
+        "name list"
+      ]
+    },
+    {
+      "id": "09-2",
+      "text": "C. Purcell",
+      "where": "\"C. Purcell\" in the cc list, NOT \"Clare Purcell\" in the body",
+      "how": "circle",
+      "case_type": [
+        "repeated-word"
+      ]
+    },
+    {
+      "id": "09-3",
+      "text": "August 16",
+      "where": "\"August 16\"",
+      "how": "circle",
+      "case_type": [
+        "date"
+      ]
+    },
+    {
+      "id": "09-4a",
+      "text": "J. Nelson",
+      "where": "\"J. Nelson\" and \"S. Parrish\" (two lines)",
+      "how": "ONE circle around both names",
+      "case_type": [
+        "multi in one mark"
+      ]
+    },
+    {
+      "id": "09-4b",
+      "text": "S. Parrish",
+      "where": "\"J. Nelson\" and \"S. Parrish\" (two lines)",
+      "how": "ONE circle around both names",
+      "case_type": [
+        "multi in one mark"
+      ]
+    },
+    {
+      "id": "09-5",
+      "text": "Appendix A",
+      "context_must_include": [
+        "listed"
+      ],
+      "where": "\"Appendix A\" in \"listed in Appendix A of the PM\", NOT the last line",
+      "how": "circle",
+      "case_type": [
+        "repeated-word"
+      ]
+    },
+    {
+      "id": "09-6",
+      "text": "10017-5592",
+      "where": "\"10017-5592\" (header address)",
+      "how": "circle",
+      "case_type": [
+        "number"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "page_id": "08",
+  "image": "08_text_bold_typewriter_memo.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "08-1",
+      "text": "FUBYAS",
+      "where": "\"FUBYAS\"",
+      "how": "circle",
+      "case_type": [
+        "made-up word"
+      ]
+    },
+    {
+      "id": "08-2",
+      "text": "22-25",
+      "where": "\"22-25\"",
+      "how": "circle",
+      "case_type": [
+        "number range"
+      ]
+    },
+    {
+      "id": "08-3",
+      "text": "Whitaker Park",
+      "where": "\"Whitaker Park\"",
+      "how": "circle",
+      "case_type": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "08-4",
+      "text": "Promotion",
+      "where": "\"Promotion\" in \"(MDD, Brand, Media, Promotion)\"",
+      "how": "tight circle touching \"Media\"",
+      "case_type": [
+        "tight",
+        "adjacent"
+      ]
+    },
+    {
+      "id": "08-5",
+      "text": "absurdity",
+      "where": "\"absurdity,\"",
+      "how": "open circle (leave a gap)",
+      "case_type": [
+        "open"
+      ]
+    },
+    {
+      "id": "08-6",
+      "text": "punk",
+      "where": "\"punk\" (last line)",
+      "how": "circle",
+      "case_type": [
+        "page edge"
+      ]
+    }
+  ]
+}

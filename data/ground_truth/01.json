@@ -1,0 +1,47 @@
+{
+  "page_id": "01",
+  "image": "01_text_typed_report_airliner_air_study.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "01-1",
+      "text": "Germantown",
+      "where": "\"Germantown\" (last line of BACKGROUND: \"Germantown MD, performed the study\")",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "01-2",
+      "text": "smoking",
+      "context_must_include": [
+        "period"
+      ],
+      "where": "\"smoking\" in \"the period when smoking was banned on\" (BACKGROUND)",
+      "how": "circle",
+      "case_type": [
+        "repeated-word"
+      ]
+    },
+    {
+      "id": "01-3",
+      "text": "92",
+      "where": "\"92\" in \"total of 92 flights\"",
+      "how": "tight circle",
+      "case_type": [
+        "number",
+        "tight"
+      ]
+    },
+    {
+      "id": "01-4",
+      "text": "unobtrusive",
+      "where": "\"unobtrusive\" in \"small, unobtrusive instruments\"",
+      "how": "circle",
+      "case_type": [
+        "printed-underline decoys on page"
+      ]
+    }
+  ]
+}

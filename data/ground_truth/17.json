@@ -1,0 +1,32 @@
+{
+  "page_id": "17",
+  "image": "17_options_inquiry_with_lettered_choices.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "17-II_3",
+      "question_id": "II_3",
+      "expected": [
+        "b) Intergroup work",
+        "d) Liaison with other organizations"
+      ],
+      "where": "II.3: \"b) Intergroup work\" and \"d) Liaison with other organizations\"",
+      "how": "circle each",
+      "case_type": [
+        "multi"
+      ]
+    },
+    {
+      "id": "17-II_4",
+      "question_id": "II_4",
+      "expected": [
+        "c) Its rules of procedure"
+      ],
+      "where": "II.4: \"c) Its rules of procedure\"",
+      "how": "open circle (leave a gap)",
+      "case_type": [
+        "open"
+      ]
+    }
+  ]
+}

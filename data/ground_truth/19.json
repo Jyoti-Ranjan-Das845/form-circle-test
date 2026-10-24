@@ -1,0 +1,51 @@
+{
+  "page_id": "19",
+  "image": "19_options_screener_brackets_age_products.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "19-sex",
+      "question_id": "sex",
+      "expected": "Female",
+      "where": "Indicate: the bracket next to \"Female\"",
+      "how": "circle the bracket",
+      "case_type": [
+        "bracket option"
+      ]
+    },
+    {
+      "id": "19-q1",
+      "question_id": "q1",
+      "expected": "35-49",
+      "where": "Q1: the bracket next to \"35 - 49\"",
+      "how": "circle the bracket",
+      "case_type": [
+        "bracket option"
+      ]
+    },
+    {
+      "id": "19-q2",
+      "question_id": "q2",
+      "expected": [
+        "Coffee",
+        "Cigarettes",
+        "Mouth wash"
+      ],
+      "where": "Q2: the brackets for \"Coffee\", \"Cigarettes\" and \"Mouth wash\"",
+      "how": "circle each bracket",
+      "case_type": [
+        "multi"
+      ]
+    },
+    {
+      "id": "19-q3b_not_married",
+      "question_id": "q3b_not_married",
+      "expected": "Not married",
+      "where": "Q3b: the \"[ ]\" after \"CHECK HERE IS NOT MARRIED\"",
+      "how": "circle it",
+      "case_type": [
+        "inline checkbox"
+      ]
+    }
+  ]
+}

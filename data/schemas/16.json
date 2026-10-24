@@ -1,0 +1,169 @@
+{
+  "page_id": "16",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "1. Do you or anyone in your household work for any of the following types of companies?",
+      "select": "one",
+      "options": [
+        {
+          "label": "An automobile manufacturer",
+          "code": "1"
+        },
+        {
+          "label": "A food processing company",
+          "code": "2"
+        },
+        {
+          "label": "An advertising agency"
+        },
+        {
+          "label": "A newspaper or magazine company"
+        },
+        {
+          "label": "A tobacco manufacturer"
+        },
+        {
+          "label": "An insurance company",
+          "code": "3"
+        },
+        {
+          "label": "A marketing research firm"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "2. Record Sex",
+      "select": "one",
+      "options": [
+        {
+          "label": "Male",
+          "code": "1"
+        },
+        {
+          "label": "Female",
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "id": "q3a",
+      "text": "3a. Have you participated in a marketing research study in the past twelve months involving...",
+      "select": "one",
+      "options": [
+        {
+          "label": "Beer",
+          "code": "1"
+        },
+        {
+          "label": "Soft Drinks",
+          "code": "2"
+        },
+        {
+          "label": "Cigarettes"
+        }
+      ]
+    },
+    {
+      "id": "q3b",
+      "text": "3b. Have you participated in any group discussions in the past 6 months?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes"
+        },
+        {
+          "label": "No",
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "4. Do you smoke at least ten cigarettes per day?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes",
+          "code": "1"
+        },
+        {
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "q5a",
+      "text": "5a. Is that a filter or non-filter cigarette?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Filter",
+          "code": "1"
+        },
+        {
+          "label": "Non-filter"
+        }
+      ]
+    },
+    {
+      "id": "q5b",
+      "text": "5b. Is that a menthol or non-menthol cigarette?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Menthol"
+        },
+        {
+          "label": "Non-Menthol",
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "id": "q5c",
+      "text": "5c. Is that the regular 85mm king size or the longer 100mm or the 120mm length?",
+      "select": "one",
+      "options": [
+        {
+          "label": "King Size 85mm",
+          "code": "1"
+        },
+        {
+          "label": "100mm",
+          "code": "2"
+        },
+        {
+          "label": "120mm",
+          "code": "3"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "6. Into which of the following groups does your age fall?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Under 20"
+        },
+        {
+          "label": "20-30",
+          "code": "1"
+        },
+        {
+          "label": "31-40",
+          "code": "2"
+        },
+        {
+          "label": "41-55",
+          "code": "3"
+        },
+        {
+          "label": "Over 55"
+        }
+      ]
+    }
+  ]
+}

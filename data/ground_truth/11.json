@@ -1,0 +1,59 @@
+{
+  "page_id": "11",
+  "image": "11_options_interview_with_code_tables.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "11-qA_29",
+      "question_id": "qA_29",
+      "expected": "None (did not smoke any)",
+      "where": "Q.A, PRODUCT #29 column: code \"10- 1\" (row \"None (did not smoke any)\")",
+      "how": "circle the code",
+      "case_type": [
+        "table",
+        "two columns"
+      ]
+    },
+    {
+      "id": "11-qA_43",
+      "question_id": "qA_43",
+      "expected": "3 or 4 packs",
+      "where": "Q.A, PRODUCT #43 column: code \"4\" (row \"3 or 4 packs\")",
+      "how": "circle the code",
+      "case_type": [
+        "table",
+        "two columns"
+      ]
+    },
+    {
+      "id": "11-qB",
+      "question_id": "qB",
+      "expected": null,
+      "where": "Q.B",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "11-qC",
+      "question_id": "qC",
+      "expected": "Wasn't home",
+      "where": "Q.C: the words \"Wasn't home\" (not its number)",
+      "how": "circle the label",
+      "case_type": [
+        "label vs code"
+      ]
+    },
+    {
+      "id": "11-qD",
+      "question_id": "qD",
+      "expected": "Yes",
+      "where": "Q.D: \"Yes\" (box at right)",
+      "how": "circle touching the No row",
+      "case_type": [
+        "tight"
+      ]
+    }
+  ]
+}

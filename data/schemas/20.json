@@ -1,0 +1,93 @@
+{
+  "page_id": "20",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "1. Have you had wheezing or whistling in your chest at any time in the last 12 months?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1_2_1",
+      "text": "1.2.1 Is your wheezing worse in February - June?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1_2_2",
+      "text": "1.2.2 Is your wheezing worse in July?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1_2_3",
+      "text": "1.2.3 Is your wheezing worse in August - October?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1_2_4",
+      "text": "1.2.4 Is your wheezing worse in November - January?",
+      "select": "one",
+      "options": [
+        {
+          "label": "YES"
+        },
+        {
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "id": "q1_3",
+      "text": "1.3 Is your wheezing better or worse on weekends?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Better",
+          "code": "1"
+        },
+        {
+          "label": "Worse",
+          "code": "2"
+        },
+        {
+          "label": "Sometimes worse, sometimes better",
+          "code": "3"
+        },
+        {
+          "label": "Neither worse nor better",
+          "code": "4"
+        }
+      ]
+    }
+  ]
+}

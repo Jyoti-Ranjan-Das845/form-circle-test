@@ -1,0 +1,154 @@
+{
+  "page_id": "14",
+  "image": "14_options_two_column_yes_no_questionnaire.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "14-sex",
+      "question_id": "sex",
+      "expected": "Male",
+      "where": "Header: \"Male\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "14-q1a",
+      "question_id": "q1a",
+      "expected": "YES",
+      "where": "Q1a hay fever: blank line under YES",
+      "how": "circle the blank",
+      "case_type": [
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q1b",
+      "question_id": "q1b",
+      "expected": "NO",
+      "where": "Q1b asthma: blank line under NO",
+      "how": "circle the blank",
+      "case_type": [
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q1c",
+      "question_id": "q1c",
+      "expected": null,
+      "where": "Q1c, Q1d, Q1e",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "14-q1d",
+      "question_id": "q1d",
+      "expected": null,
+      "where": "Q1c, Q1d, Q1e",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "14-q1e",
+      "question_id": "q1e",
+      "expected": null,
+      "where": "Q1c, Q1d, Q1e",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "14-q3",
+      "question_id": "q3",
+      "expected": "NO",
+      "where": "Q3 Do you smoke?: blank line under NO",
+      "how": "circle the blank",
+      "case_type": [
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q8a",
+      "question_id": "q8a",
+      "expected": "YES",
+      "where": "Q8a eyes and Q8d throat: blank lines under YES (8b, 8c blank)",
+      "how": "circle each blank",
+      "case_type": [
+        "multi",
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q8b",
+      "question_id": "q8b",
+      "expected": null,
+      "where": "Q8a eyes and Q8d throat: blank lines under YES (8b, 8c blank)",
+      "how": "circle each blank",
+      "case_type": [
+        "multi",
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q8c",
+      "question_id": "q8c",
+      "expected": null,
+      "where": "Q8a eyes and Q8d throat: blank lines under YES (8b, 8c blank)",
+      "how": "circle each blank",
+      "case_type": [
+        "multi",
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q8d",
+      "question_id": "q8d",
+      "expected": "YES",
+      "where": "Q8a eyes and Q8d throat: blank lines under YES (8b, 8c blank)",
+      "how": "circle each blank",
+      "case_type": [
+        "multi",
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q12a",
+      "question_id": "q12a",
+      "expected": "YES",
+      "where": "Q12a: blank under YES; Q12b: blank under NO; Q12c blank",
+      "how": "circle the blanks",
+      "case_type": [
+        "mixed",
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q12b",
+      "question_id": "q12b",
+      "expected": "NO",
+      "where": "Q12a: blank under YES; Q12b: blank under NO; Q12c blank",
+      "how": "circle the blanks",
+      "case_type": [
+        "mixed",
+        "columns"
+      ]
+    },
+    {
+      "id": "14-q12c",
+      "question_id": "q12c",
+      "expected": null,
+      "where": "Q12a: blank under YES; Q12b: blank under NO; Q12c blank",
+      "how": "circle the blanks",
+      "case_type": [
+        "mixed",
+        "columns"
+      ]
+    }
+  ]
+}

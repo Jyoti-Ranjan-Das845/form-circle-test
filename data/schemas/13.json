@@ -1,0 +1,139 @@
+{
+  "page_id": "13",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "1. Opinion scoreboard: which box is marked? Box 1 is the POOREST end (left), box 21 the BEST end (right).",
+      "select": "one",
+      "options": [
+        {
+          "label": "1"
+        },
+        {
+          "label": "2"
+        },
+        {
+          "label": "3"
+        },
+        {
+          "label": "4"
+        },
+        {
+          "label": "5"
+        },
+        {
+          "label": "6"
+        },
+        {
+          "label": "7"
+        },
+        {
+          "label": "8"
+        },
+        {
+          "label": "9"
+        },
+        {
+          "label": "10"
+        },
+        {
+          "label": "11"
+        },
+        {
+          "label": "12"
+        },
+        {
+          "label": "13"
+        },
+        {
+          "label": "14"
+        },
+        {
+          "label": "15"
+        },
+        {
+          "label": "16"
+        },
+        {
+          "label": "17"
+        },
+        {
+          "label": "18"
+        },
+        {
+          "label": "19"
+        },
+        {
+          "label": "20"
+        },
+        {
+          "label": "21"
+        }
+      ]
+    },
+    {
+      "id": "q5a",
+      "text": "5a. Does this cigarette taste like any brand of cigarette you have smoked before?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes"
+        },
+        {
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "q5b",
+      "text": "5b. (If Yes) What brand does it taste like?",
+      "select": "text"
+    },
+    {
+      "id": "q6a",
+      "text": "6a. Which taste came closest to describing cigarette CF?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Sweet",
+          "code": "1"
+        },
+        {
+          "label": "Salty",
+          "code": "2"
+        },
+        {
+          "label": "Bitter",
+          "code": "3"
+        },
+        {
+          "label": "Sour",
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "id": "q6b",
+      "text": "6b. Did you think cigarette CF tasted:",
+      "select": "one",
+      "options": [
+        {
+          "label": "Too salty",
+          "code": "1"
+        },
+        {
+          "label": "Not salty enough",
+          "code": "2"
+        },
+        {
+          "label": "About right",
+          "code": "3"
+        },
+        {
+          "label": "Not salty at all",
+          "code": "4"
+        }
+      ]
+    }
+  ]
+}

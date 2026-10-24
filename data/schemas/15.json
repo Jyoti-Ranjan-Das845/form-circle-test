@@ -1,0 +1,120 @@
+{
+  "page_id": "15",
+  "questions": [
+    {
+      "id": "q1a",
+      "text": "1.a. Have you smoked any cigarettes in the past seven days?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes"
+        },
+        {
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "2. Do you or does anyone in your family work for any of the following companies?",
+      "select": "many",
+      "options": [
+        {
+          "label": "An advertising agency"
+        },
+        {
+          "label": "A drug company"
+        },
+        {
+          "label": "A marketing research firm"
+        },
+        {
+          "label": "An automobile manufacturer"
+        },
+        {
+          "label": "A tobacco company or wholesaler"
+        },
+        {
+          "label": "A newspaper or magazine company"
+        },
+        {
+          "label": "A television manufacturer"
+        },
+        {
+          "label": "A food processor"
+        }
+      ]
+    },
+    {
+      "id": "q3a",
+      "text": "3.a. Is your age...",
+      "select": "one",
+      "options": [
+        {
+          "label": "18-24"
+        },
+        {
+          "label": "25-34"
+        },
+        {
+          "label": "35-50"
+        },
+        {
+          "label": "Over 50"
+        }
+      ]
+    },
+    {
+      "id": "q4b",
+      "text": "4.b. Is it the regular king size or the longer 100mm length?",
+      "select": "one",
+      "options": [
+        {
+          "label": "85mm"
+        },
+        {
+          "label": "100mm"
+        }
+      ]
+    },
+    {
+      "id": "q4c",
+      "text": "4.c. Is it a filter or non-filter?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Filter"
+        },
+        {
+          "label": "Non-Filter"
+        }
+      ]
+    },
+    {
+      "id": "q4d",
+      "text": "4.d. Is it a menthol or non-menthol cigarette?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Menthol"
+        },
+        {
+          "label": "Non-Menthol"
+        }
+      ]
+    },
+    {
+      "id": "q4e",
+      "text": "4.e. Have you bought for your own use a low tar cigarette within the last three months?",
+      "select": "one",
+      "options": [
+        {
+          "label": "Yes"
+        },
+        {
+          "label": "No"
+        }
+      ]
+    }
+  ]
+}

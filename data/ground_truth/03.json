@@ -1,0 +1,71 @@
+{
+  "page_id": "03",
+  "image": "03_text_article_serif_with_italics.png",
+  "kind": "text",
+  "items": [
+    {
+      "id": "03-1",
+      "text": "Circulation",
+      "context_must_include": [
+        "journal"
+      ],
+      "where": "\"Circulation\" in the body (\"journal Circulation Kawachi\"), NOT the byline",
+      "how": "circle",
+      "case_type": [
+        "repeated-word",
+        "italic"
+      ]
+    },
+    {
+      "id": "03-2",
+      "text": "32,000",
+      "where": "\"32,000\"",
+      "how": "circle",
+      "case_type": [
+        "number"
+      ]
+    },
+    {
+      "id": "03-3",
+      "text": "statistical bias",
+      "where": "\"statistical bias\" in the italic quote",
+      "how": "circle",
+      "case_type": [
+        "phrase",
+        "italic"
+      ]
+    },
+    {
+      "id": "03-4",
+      "text": "NADA",
+      "where": "\"NADA\" in \"NONE, NOTHING, ZERO, NADA, NIL\"",
+      "how": "open circle (leave a gap)",
+      "case_type": [
+        "open",
+        "neighbours"
+      ]
+    },
+    {
+      "id": "03-5",
+      "text": "Rosenblatt",
+      "context_must_include": [
+        "stanley"
+      ],
+      "where": "\"Rosenblatt\" in \"Stanley Rosenblatt\" (2nd paragraph)",
+      "how": "loose circle that spills onto the line above",
+      "case_type": [
+        "loose",
+        "repeated-word"
+      ]
+    },
+    {
+      "id": "03-6",
+      "text": "SMOKERS",
+      "where": "\"SMOKERS!\" (last paragraph)",
+      "how": "double circle (two loops)",
+      "case_type": [
+        "double"
+      ]
+    }
+  ]
+}

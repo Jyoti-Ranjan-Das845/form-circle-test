@@ -1,0 +1,97 @@
+{
+  "page_id": "16",
+  "image": "16_options_screener_dotted_codes.png",
+  "kind": "options",
+  "answers": [
+    {
+      "id": "16-q1",
+      "question_id": "q1",
+      "expected": "An insurance company",
+      "where": "Q1: \"An insurance company (CONTINUE)....3\"",
+      "how": "circle",
+      "case_type": [
+        "dotted codes"
+      ]
+    },
+    {
+      "id": "16-q2",
+      "question_id": "q2",
+      "expected": "Female",
+      "where": "Q2: \"Female....2\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "16-q3a",
+      "question_id": "q3a",
+      "expected": "Soft Drinks",
+      "where": "Q3a: \"Soft Drinks....2\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    },
+    {
+      "id": "16-q3b",
+      "question_id": "q3b",
+      "expected": "No",
+      "where": "Q3b: \"No (CONTINUE)....1\"",
+      "how": "loose circle",
+      "case_type": [
+        "loose"
+      ]
+    },
+    {
+      "id": "16-q4",
+      "question_id": "q4",
+      "expected": "Yes",
+      "where": "Q4: only the code digit \"1\" at the end of the Yes line",
+      "how": "small circle on the digit",
+      "case_type": [
+        "label vs code"
+      ]
+    },
+    {
+      "id": "16-q5a",
+      "question_id": "q5a",
+      "expected": null,
+      "where": "Q5a",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "16-q5b",
+      "question_id": "q5b",
+      "expected": "Non-Menthol",
+      "where": "Q5b: \"Non-Menthol (CONTINUE)....1\"",
+      "how": "circle",
+      "case_type": [
+        "substring trap"
+      ]
+    },
+    {
+      "id": "16-q5c",
+      "question_id": "q5c",
+      "expected": null,
+      "where": "Q5c",
+      "how": "leave blank",
+      "case_type": [
+        "blank"
+      ]
+    },
+    {
+      "id": "16-q6",
+      "question_id": "q6",
+      "expected": "31-40",
+      "where": "Q6: \"31-40....2\"",
+      "how": "circle",
+      "case_type": [
+        "clean"
+      ]
+    }
+  ]
+}

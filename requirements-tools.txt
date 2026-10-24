@@ -1,0 +1,6 @@
+# Only for tools/synthetic and tools/fetch_rvl.py
+playwright
+augraphy
+opencv-python-headless
+numpy
+pyarrow
