@@ -1,0 +1,344 @@
+{
+ "id": "157e5564-d336-40d1-9312-db95d3f023d9",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:38:21.715Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "MAY 22 '97 02:44PM PHILIP MORRIS P.2/4 | Secondhand Smoke-and-Mirrors http://www.junkscience.com/newa/mirrors.htm\n\n## **Secondhand Smoke-and-Mirrors**\n\n### **(How the Pros Tamper with Jury Pools)**\n\n**Ichiro Kawachi, Graham A. Colditz, Frank E. Spetzer, JoAnn E. Manson, Meir J. Stampfer, Walter C. Willet, Charles H. Hennekens**\n***Circulation* 1997;95:2374-239**\n\n<hr/>\n\nOn June 2, 1997, jury selection starts in the Florida trial involving flight attendants suing tobacco companies for various health effects allegedly caused by secondhand smoke.\n\nBut Harvard University's Ichiro Kawachi et al. (funded by the U.S. Government which is at \"war\" with the tobacco industry, the <u>fiercely anti-tobacco</u> American Heart Association and Miami trial lawyer Stanley Rosenblatt (who stands to make a bundle representing tens of thousands nonsmoking flight <u>attendants</u>) are making sure prospective jurors make up their minds before hearing any evidence.\n\nA scant <u>two weeks</u> before the trial begins, the <u>American</u> Heart Association published in its <u>journal</u> ***Circulation*** Kawachi et al.'s study of <u>32,000</u> nurses. The researchers claim that secondhand smoke increased the risk of heart attack by 91 percent. How convenient. And in the understatement of the year, attorney Rosenblatt said \"...it's very helpful to us.\"\n\nBut is it the substance of the study that's \"very helpful\"? Or just its timing and publicity?\n\nFirst, the study relies on statistics, not science. Kawachi et al. claim to identify a 91 percent increase in risk of heart attack among those \"regularly\" exposed to secondhand smoke. But even the National Cancer Institute views such statistics with suspicion:\n\n> *In epidemiologic research, [increases in risk of less than 100 percent] are considered small and are usually difficult to interpret. Such increases may be due to chance, <u>statistical bias</u> or the effects of confounding factors that are sometimes not evident.* [Source: National Cancer Institute, Press Release, October 26, 1994.]\n\nSecond, Kawachi et al. have <u>NO</u> data \u2014 i.e., <u>NONE, NOTHING, ZERO, NADA, NIL</u> \u2014 on how much secondhand smoke even one study subject was exposed to. Instead the study subjects were asked <u>ONCE</u> whether they were \"never,\" \"occasionally,\" or \"regularly\" exposed to secondhand smoke. Their responses were never verified. The researchers simply went on their word. Also, the responses were never updated. So the researchers assumed that someone \"regularly\" exposed to secondhand smoke when the question was first asked was <u>ALWAYS</u> \"regularly\" exposed throughout the study.\n\nAnd what do you suppose the exposure categories mean? If I'm exposed to secondhand smoke every Monday is that \"regular\" (i.e., it happens every Monday) or \"occasional\" (i.e., it happens only once a week)? And who is \"never\" exposed to secondhand smoke? What bubble do they live in?\n\nAlso, the study subjects were supposed to be nonsmokers. But were they? Studies report that up to 15 percent of nonsmokers are actually \u2014 are you ready for this \u2014 <u>**SMOKERS!**</u> It's a phenomenon called \"smoker misclassification.\" Many people are \"close smokers\" who won't admit they smoke for insurance or social reasons. This could be particularly true\n\n2053605729\n\n1 of 3 *S/21/97* 11:07",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 902
+   },
+   "charge_usd": 0.006666,
+   "layout": {
+    "status": "ok",
+    "width": 784,
+    "height": 1000,
+    "elements": [
+     {
+      "type": "page_header",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.80029296875,
+      "boxes": [
+       {
+        "x": 0.0923,
+        "y": 0.0129,
+        "w": 0.3102,
+        "h": 0.0121
+       }
+      ]
+     },
+     {
+      "type": "page_header",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.796875,
+      "boxes": [
+       {
+        "x": 0.829,
+        "y": 0.0161,
+        "w": 0.0517,
+        "h": 0.01
+       }
+      ]
+     },
+     {
+      "type": "page_header",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.8193359375,
+      "boxes": [
+       {
+        "x": 0.0184,
+        "y": 0.0422,
+        "w": 0.2173,
+        "h": 0.0159
+       }
+      ]
+     },
+     {
+      "type": "page_header",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.92041015625,
+      "boxes": [
+       {
+        "x": 0.6509,
+        "y": 0.0317,
+        "w": 0.3149,
+        "h": 0.0179
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       2,
+       2
+      ],
+      "confidence": 0.875,
+      "boxes": [
+       {
+        "x": 0.2143,
+        "y": 0.107,
+        "w": 0.5638,
+        "h": 0.032
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       4,
+       4
+      ],
+      "confidence": 0.969,
+      "boxes": [
+       {
+        "x": 0.2449,
+        "y": 0.151,
+        "w": 0.5089,
+        "h": 0.029
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       6,
+       7
+      ],
+      "confidence": 0.986,
+      "boxes": [
+       {
+        "x": 0.1837,
+        "y": 0.187,
+        "w": 0.6318,
+        "h": 0.052
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       11,
+       11
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1327,
+        "y": 0.279,
+        "w": 0.7143,
+        "h": 0.039
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       13,
+       13
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1339,
+        "y": 0.324,
+        "w": 0.736,
+        "h": 0.081
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       15,
+       15
+      ],
+      "confidence": 0.976,
+      "boxes": [
+       {
+        "x": 0.1365,
+        "y": 0.41,
+        "w": 0.7398,
+        "h": 0.069
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       17,
+       17
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1403,
+        "y": 0.488,
+        "w": 0.7106,
+        "h": 0.02
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       19,
+       19
+      ],
+      "confidence": 0.974,
+      "boxes": [
+       {
+        "x": 0.1403,
+        "y": 0.518,
+        "w": 0.7347,
+        "h": 0.051
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       21,
+       21
+      ],
+      "confidence": 0.993,
+      "boxes": [
+       {
+        "x": 0.1926,
+        "y": 0.5785,
+        "w": 0.6224,
+        "h": 0.0782
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       23,
+       23
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1454,
+        "y": 0.666,
+        "w": 0.7372,
+        "h": 0.1109
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       25,
+       25
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1505,
+        "y": 0.789,
+        "w": 0.7287,
+        "h": 0.0634
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       27,
+       27
+      ],
+      "confidence": 0.947,
+      "boxes": [
+       {
+        "x": 0.1518,
+        "y": 0.8636,
+        "w": 0.7332,
+        "h": 0.0605
+       }
+      ]
+     },
+     {
+      "type": "page_header",
+      "lines": [
+       29,
+       29
+      ],
+      "confidence": 0.5,
+      "boxes": [
+       {
+        "x": 0.9422,
+        "y": 0.8132,
+        "w": 0.0166,
+        "h": 0.0916
+       }
+      ]
+     },
+     {
+      "type": "page_footer",
+      "lines": [
+       31,
+       31
+      ],
+      "confidence": 0.90966796875,
+      "boxes": [
+       {
+        "x": 0.0511,
+        "y": 0.9662,
+        "w": 0.0368,
+        "h": 0.0105
+       }
+      ]
+     },
+     {
+      "type": "page_footer",
+      "lines": [
+       31,
+       31
+      ],
+      "confidence": 0.91455078125,
+      "boxes": [
+       {
+        "x": 0.8812,
+        "y": 0.9667,
+        "w": 0.0921,
+        "h": 0.0106
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 902
+ },
+ "charge_usd": 0.006666,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

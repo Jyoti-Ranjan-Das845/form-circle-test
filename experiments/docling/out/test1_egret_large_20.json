@@ -1,0 +1,487 @@
+{
+ "circles": [
+  [
+   573,
+   399,
+   630,
+   444
+  ],
+  [
+   642,
+   600,
+   674,
+   629
+  ],
+  [
+   584,
+   625,
+   627,
+   656
+  ],
+  [
+   641,
+   676,
+   674,
+   705
+  ],
+  [
+   608,
+   761,
+   631,
+   781
+  ]
+ ],
+ "items": [
+  {
+   "label": "section_header",
+   "text": "ASTHMAIN SENIORS POSSIBLE RELATIONSHIP WITH SMOG",
+   "box": [
+    277,
+    64,
+    540,
+    95
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "HE:",
+   "box": [
+    149,
+    130,
+    177,
+    146
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "DDRESS:",
+   "box": [
+    147,
+    170,
+    203,
+    187
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "Street",
+   "box": [
+    259,
+    185,
+    313,
+    202
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "City",
+   "box": [
+    266,
+    238,
+    305,
+    261
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "ELEPHONE NUMBER: (",
+   "box": [
+    143,
+    280,
+    299,
+    299
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "ODAY'S DATE:",
+   "box": [
+    143,
+    306,
+    245,
+    324
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "IRTH DATE:",
+   "box": [
+    143,
+    334,
+    228,
+    350
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "YMPTOMS RELATING TO YOUR CHEST OR BREATHING",
+   "box": [
+    141,
+    373,
+    504,
+    395
+   ],
+   "circle": []
+  },
+  {
+   "label": "list_item",
+   "text": "Have you had wheezing or whistling in your chest at any time in the la",
+   "box": [
+    169,
+    412,
+    528,
+    448
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "If \"NO\" skip to Question 2",
+   "box": [
+    170,
+    452,
+    395,
+    473
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "If \"YES\"",
+   "box": [
+    169,
+    479,
+    245,
+    497
+   ],
+   "circle": []
+  },
+  {
+   "label": "list_item",
+   "text": "How old were you when you first had wheezing or whistling in your ches",
+   "box": [
+    170,
+    507,
+    525,
+    555
+   ],
+   "circle": []
+  },
+  {
+   "label": "list_item",
+   "text": "Is your wheezing worse at any of the following times of the year?",
+   "box": [
+    169,
+    560,
+    519,
+    594
+   ],
+   "circle": []
+  },
+  {
+   "label": "list_item",
+   "text": "February - June",
+   "box": [
+    215,
+    599,
+    428,
+    620
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "1.2.2. July",
+   "box": [
+    214,
+    626,
+    335,
+    648
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "1.2.3 August - October",
+   "box": [
+    214,
+    652,
+    436,
+    673
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "1.2.4 November-January",
+   "box": [
+    214,
+    678,
+    451,
+    700
+   ],
+   "circle": []
+  },
+  {
+   "label": "list_item",
+   "text": "Is your wheezing better or worse on weekends?",
+   "box": [
+    168,
+    706,
+    504,
+    735
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "Better",
+   "box": [
+    463,
+    737,
+    518,
+    752
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "Sometimes worse, sometimes better",
+   "box": [
+    238,
+    759,
+    519,
+    779
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "Worse",
+   "box": [
+    470,
+    750,
+    518,
+    765
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "Neither worse nor better",
+   "box": [
+    312,
+    774,
+    518,
+    793
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "zip Code",
+   "box": [
+    500,
+    245,
+    572,
+    263
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "SEX:",
+   "box": [
+    493,
+    285,
+    530,
+    301
+   ],
+   "circle": []
+  },
+  {
+   "label": "picture",
+   "text": "",
+   "box": [
+    575,
+    401,
+    668,
+    449
+   ],
+   "circle": [
+    1
+   ]
+  },
+  {
+   "label": "text",
+   "text": "years old",
+   "box": [
+    590,
+    527,
+    672,
+    543
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "YES",
+   "box": [
+    589,
+    606,
+    619,
+    622
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "YES",
+   "box": [
+    588,
+    632,
+    620,
+    650
+   ],
+   "circle": [
+    3
+   ]
+  },
+  {
+   "label": "text",
+   "text": "NO",
+   "box": [
+    646,
+    604,
+    671,
+    627
+   ],
+   "circle": [
+    2
+   ]
+  },
+  {
+   "label": "text",
+   "text": "NO",
+   "box": [
+    647,
+    635,
+    670,
+    651
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "YES",
+   "box": [
+    589,
+    659,
+    619,
+    676
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "NO",
+   "box": [
+    647,
+    661,
+    670,
+    677
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "YES NO",
+   "box": [
+    589,
+    686,
+    670,
+    703
+   ],
+   "circle": [
+    4
+   ]
+  },
+  {
+   "label": "text",
+   "text": "(circle 1 no.)",
+   "box": [
+    560,
+    712,
+    676,
+    731
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "1",
+   "box": [
+    615,
+    741,
+    627,
+    755
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "2",
+   "box": [
+    615,
+    755,
+    626,
+    765
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "3",
+   "box": [
+    612,
+    764,
+    629,
+    780
+   ],
+   "circle": [
+    5
+   ]
+  },
+  {
+   "label": "text",
+   "text": "4",
+   "box": [
+    615,
+    780,
+    627,
+    794
+   ],
+   "circle": []
+  },
+  {
+   "label": "text",
+   "text": "2028386497",
+   "box": [
+    680,
+    687,
+    695,
+    819
+   ],
+   "circle": []
+  }
+ ],
+ "seconds": 59.22124654200161
+}

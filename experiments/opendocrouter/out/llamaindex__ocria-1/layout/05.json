@@ -1,0 +1,312 @@
+{
+ "id": "a1c5ce8a-e97a-4d59-8626-31223be94d1f",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:38:30.775Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "logo: Mission Viejo Company\n\n## MISSION VIEJO COMPANY\n### INTER-OFFICE CORRESPONDENCE\n26137 LA PAZ ROAD \u2022 MISSION VIEJO \u2022 CALIFORNIA 92691\n\n**To:** MARIE GALLAGHER\n**From:** DANETTE FENSTERMACHER\n**Subject:** PM INSTITUTE\u2014OPERATING AND INTERNAL ACCOUNTING CONTROLS\n**Date:** MARCH 11, 1996\n\nThe following summarizes my concerns surrounding the Institute's control environment. As you and I have discussed many times in the past, I believe the controls are very <u>weak</u> in a number of areas of the PM Institute.\n\nDuring a meeting <u>on</u> August 1, 1995, with Dr. Brenner and <u>Kevin Sweeney</u> from Shook, Hardy & ~~Bacon~~ <u>L.L.P.</u> (S,H&B), I distributed the attached control summary outlining the initiation of the implementation of minimum controls for the Institute. To my knowledge the only controls that have been implemented to date are those which my staff and I have established at MVC for the control of the Institute's assets. I realize that the Institute has been in a state of flux since the employees originally targeted to start up this venture have not accepted employment with the Institute. S,H&B has no doubt been kept busy with alternative structures for the organization in an effort to attract world renowned scientists.\n\nThe fact remains that the Institute and PM in particular, could have potential exposure in a number of areas. Listed below is a summary of the issues I believe should be improved by the implementation of internal controls and operating procedures.\n\n* The lack of supervision for the current employees is a key control missing at the Institute at this time. Without any supervision a whole range of issues are of concern. Some of the more significant areas <u>of concern</u> would be appropriateness of the scientific research, disposal of <u>toxic waste,</u> conformance to Federal and State safety regulations, and appropriateness of the purchases of goods and services received.\n\n* The scientists and temporary clerk verbally initiate the purchase of goods and services for the Institute. Payment is made based upon their acknowledgement of the receipt of the goods and services. Whether or not the goods and services\n\nMARCH 11, 1996 04:24PM MISSION VIEJO CO F-2 | 2048616146",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 548
+   },
+   "charge_usd": 0.004886,
+   "layout": {
+    "status": "ok",
+    "width": 754,
+    "height": 1000,
+    "elements": [
+     {
+      "type": "picture",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.5,
+      "boxes": [
+       {
+        "x": 0.2766,
+        "y": 0.0791,
+        "w": 0.4327,
+        "h": 0.0293
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       2,
+       2
+      ],
+      "confidence": 0.844,
+      "boxes": [
+       {
+        "x": 0.2766,
+        "y": 0.0791,
+        "w": 0.4327,
+        "h": 0.0293
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       3,
+       3
+      ],
+      "confidence": 0.844,
+      "boxes": [
+       {
+        "x": 0.3355,
+        "y": 0.112,
+        "w": 0.313,
+        "h": 0.014
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       4,
+       4
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.3328,
+        "y": 0.1315,
+        "w": 0.3144,
+        "h": 0.0116
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       6,
+       6
+      ],
+      "confidence": 0.8798828125,
+      "boxes": [
+       {
+        "x": 0.0486,
+        "y": 0.1674,
+        "w": 0.0743,
+        "h": 0.0112
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       6,
+       6
+      ],
+      "confidence": 0.8876953125,
+      "boxes": [
+       {
+        "x": 0.1563,
+        "y": 0.1597,
+        "w": 0.2091,
+        "h": 0.0145
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       7,
+       7
+      ],
+      "confidence": 0.86083984375,
+      "boxes": [
+       {
+        "x": 0.1549,
+        "y": 0.1898,
+        "w": 0.2913,
+        "h": 0.0154
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       8,
+       8
+      ],
+      "confidence": 0.88720703125,
+      "boxes": [
+       {
+        "x": 0.0475,
+        "y": 0.2231,
+        "w": 0.0745,
+        "h": 0.013
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       8,
+       8
+      ],
+      "confidence": 0.88623046875,
+      "boxes": [
+       {
+        "x": 0.1539,
+        "y": 0.2174,
+        "w": 0.7141,
+        "h": 0.0175
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       9,
+       9
+      ],
+      "confidence": 0.84033203125,
+      "boxes": [
+       {
+        "x": 0.6297,
+        "y": 0.1634,
+        "w": 0.0365,
+        "h": 0.011
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       9,
+       9
+      ],
+      "confidence": 0.779296875,
+      "boxes": [
+       {
+        "x": 0.6722,
+        "y": 0.156,
+        "w": 0.1651,
+        "h": 0.0169
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       11,
+       11
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1525,
+        "y": 0.277,
+        "w": 0.7228,
+        "h": 0.0663
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       13,
+       13
+      ],
+      "confidence": 0.997,
+      "boxes": [
+       {
+        "x": 0.1499,
+        "y": 0.362,
+        "w": 0.7241,
+        "h": 0.191
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       15,
+       15
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1485,
+        "y": 0.577,
+        "w": 0.7228,
+        "h": 0.0641
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       17,
+       17
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1516,
+        "y": 0.663,
+        "w": 0.7203,
+        "h": 0.1279
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       19,
+       19
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1505,
+        "y": 0.812,
+        "w": 0.7182,
+        "h": 0.064
+       }
+      ]
+     },
+     {
+      "type": "page_footer",
+      "lines": [
+       21,
+       21
+      ],
+      "confidence": 0.773,
+      "boxes": [
+       {
+        "x": 0.688,
+        "y": 0.956,
+        "w": 0.0746,
+        "h": 0.014
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 548
+ },
+ "charge_usd": 0.004886,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

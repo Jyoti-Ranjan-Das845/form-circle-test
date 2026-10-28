@@ -1,0 +1,11 @@
+prompt: Can you identify which words are circled in red in the image?
+seconds: 5.8
+
+Based on the image provided, the following words are circled in red:
+
+-   **nada**
+-   **NADA**
+-   **NADA**
+-   **NADA**
+-   **NADA**
+-   **NADA**

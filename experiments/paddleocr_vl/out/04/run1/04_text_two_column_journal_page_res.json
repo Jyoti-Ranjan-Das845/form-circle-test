@@ -1,0 +1,1132 @@
+{
+    "input_path": "/Users/jyotiranjandas/Downloads/form-circle-test/real_forms_marked/04_text_two_column_journal_page.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 754,
+    "height": 1000,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "American Heart Journal 101/3:319-28 March 1981",
+            "block_bbox": [
+                143,
+                28,
+                482,
+                47
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    143.0,
+                    28.0
+                ],
+                [
+                    481.0,
+                    28.0
+                ],
+                [
+                    481.0,
+                    46.0
+                ],
+                [
+                    143.0,
+                    46.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "CURRICULUM IN CARDIOLOGY",
+            "block_bbox": [
+                8,
+                68,
+                270,
+                90
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    8.0,
+                    68.0
+                ],
+                [
+                    270.0,
+                    68.0
+                ],
+                [
+                    270.0,
+                    90.0
+                ],
+                [
+                    8.0,
+                    90.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "Update on the role of cigarette smoking in coronary artery disease",
+            "block_bbox": [
+                6,
+                145,
+                421,
+                203
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    6.0,
+                    145.0
+                ],
+                [
+                    421.0,
+                    145.0
+                ],
+                [
+                    421.0,
+                    203.0
+                ],
+                [
+                    6.0,
+                    203.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "William B. Kannel, M.D. Framingham Mass.",
+            "block_bbox": [
+                7,
+                227,
+                265,
+                247
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    7.0,
+                    227.0
+                ],
+                [
+                    264.0,
+                    227.0
+                ],
+                [
+                    264.0,
+                    246.0
+                ],
+                [
+                    7.0,
+                    246.0
+                ]
+            ]
+        },
+        {
+            "block_label": "abstract",
+            "block_content": "Despite recent declines in cardiovascular mortality,\natherosclerotic disease is still the major health\nproblem facing Western society. With the identification\nof predisposing risk factors, the responsibility\nfor avoiding the atherosclerotic diseases has become\na personal endeavor requiring an alteration in life-\nstyle. The most firmly established risk factors for\ncoronary heart disease (CHD) are hypercholesterola-\nemia, hypertension, and cigarette smoking (Fig. 1).\nIn addition to these, diabetes, lack of exercise,\nobesity, and type A behavior all contribute to the\nmultifactorial atherogenic process. Not all physi-\nciants are convinced, however, that CHD is prevent-\nable by correcting these risk factors, and some claim\nthat the cigarette-CHD connection especially is\nactually a spurious illustration of guilt by association.\nA review of the evidence incriminating cigarette smoking in the development of atherosclerosis\nin general and CHD in particular would seem in-\norder.",
+            "block_bbox": [
+                4,
+                279,
+                292,
+                588
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    4.0,
+                    279.0
+                ],
+                [
+                    292.0,
+                    279.0
+                ],
+                [
+                    292.0,
+                    588.0
+                ],
+                [
+                    4.0,
+                    588.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "MAGNITUDE OF THE PROBLEM",
+            "block_bbox": [
+                4,
+                596,
+                175,
+                612
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    4.0,
+                    596.0
+                ],
+                [
+                    174.0,
+                    596.0
+                ],
+                [
+                    174.0,
+                    611.0
+                ],
+                [
+                    4.0,
+                    611.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Despite the fact that as early as 1938 cigarette smokers were shown to die at an earlier age, and a massive accumulation of subsequent data detailing the multiple hazards of cigarette smoking, almost 60 million Americans continue to smoke cigarettes and teenagers continue to take up the habit. It is estimated that the cigarette habit directly contributes to $325,000 premature deaths each year. The health care costs are estimated to be $8.2 billion, and host earnings are estimated at $19 billion. Although the per capita consumption of cigarettes appears to be declining, about 40% of adults still smoke. Although the relative risk of cigarette smoking is greater for lung cancer, the absolute risk is greater for coronary disease and smoking-related coronary deaths amount to some 250,000 yearly compared to 70,000 for cancer. The attributable risks for cigarette smoking are substantial, due to its high prevalence in the general population as well as its potency as a cardiovascular risk factor (Table 1).",
+            "block_bbox": [
+                1,
+                618,
+                289,
+                805
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    1.0,
+                    618.0
+                ],
+                [
+                    289.0,
+                    618.0
+                ],
+                [
+                    289.0,
+                    805.0
+                ],
+                [
+                    1.0,
+                    805.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                307,
+                282,
+                596,
+                408
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    307.0,
+                    282.0
+                ],
+                [
+                    596.0,
+                    282.0
+                ],
+                [
+                    596.0,
+                    408.0
+                ],
+                [
+                    307.0,
+                    408.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "THE CARDIOVASCULAR HAZARDS",
+            "block_bbox": [
+                308,
+                414,
+                496,
+                430
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    308.0,
+                    414.0
+                ],
+                [
+                    495.0,
+                    414.0
+                ],
+                [
+                    495.0,
+                    429.0
+                ],
+                [
+                    308.0,
+                    429.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cigarette smokers have twice the overall death rate of non-smokers in most of Western societies. The Framingham Study data are fairly representative of prospective epidemiologic evidence on the association between cigarette smoking and cardiovascular morbidity and mortality. Heavy smoking almost doubles cardiovascular and overall mortality under age 65 (Table II). Beyond age 65, neither significant nor substantial gradients of risk can be demonstrated in either sex for cardiovascular morbidity. In men, significant associations of cardiovascular mortality and overall mortality are noted in relation to cigarette smoking, even beyond age 65 (Table III). In women, no significant relationship can be shown. This may be related to the fact that many of these elderly women who smoke do not inhale.",
+            "block_bbox": [
+                303,
+                436,
+                595,
+                698
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    303.0,
+                    436.0
+                ],
+                [
+                    595.0,
+                    436.0
+                ],
+                [
+                    595.0,
+                    698.0
+                ],
+                [
+                    303.0,
+                    698.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "i. Sudden death, in particular, is strongly related to cigarette smoking (Fig. 2). Coronary mortality in general and sudden death specifically are related to cigarette smoking. The proportion of coronary heart disease deaths that are sudden increases progressively with the number of cigarettes smoked per day. Thus fatal coronary attacks occur more commonly in cigarette smokers and when they occur they are more likely to terminate suddenly.",
+            "block_bbox": [
+                303,
+                697,
+                593,
+                836
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    303.0,
+                    697.0
+                ],
+                [
+                    593.0,
+                    697.0
+                ],
+                [
+                    593.0,
+                    836.0
+                ],
+                [
+                    303.0,
+                    836.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cardiovascular morbidity. Not only are cardiovascular events likely to terminate fatally more often in cigarette smokers, but such attacks occurred more commonly than in non-smokers. Atherosclerotic cardiovascular disease incidence in general and each of its major clinical manifestations are related to",
+            "block_bbox": [
+                302,
+                835,
+                593,
+                929
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    302.0,
+                    835.0
+                ],
+                [
+                    593.0,
+                    835.0
+                ],
+                [
+                    593.0,
+                    929.0
+                ],
+                [
+                    302.0,
+                    929.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footnote",
+            "block_content": "From the National Heart, Lung and Blood Institute, Pramingham Heart study and the Boston University School of Medicine, Evans Research Foundation.",
+            "block_bbox": [
+                1,
+                823,
+                287,
+                860
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    1.0,
+                    823.0
+                ],
+                [
+                    287.0,
+                    823.0
+                ],
+                [
+                    287.0,
+                    860.0
+                ],
+                [
+                    1.0,
+                    860.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footnote",
+            "block_content": "Supported in part by contract numbers NIH-N01-HV-92922 and NIH-001-HV 52971.",
+            "block_bbox": [
+                3,
+                860,
+                286,
+                884
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    3.0,
+                    860.0
+                ],
+                [
+                    286.0,
+                    860.0
+                ],
+                [
+                    286.0,
+                    884.0
+                ],
+                [
+                    3.0,
+                    884.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footnote",
+            "block_content": "Received for publication Nov. 17, 1980; accepted Nov. 26, 1980.",
+            "block_bbox": [
+                2,
+                885,
+                248,
+                899
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    2.0,
+                    885.0
+                ],
+                [
+                    246.99996948242188,
+                    885.0
+                ],
+                [
+                    246.99996948242188,
+                    898.0
+                ],
+                [
+                    2.0,
+                    898.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footnote",
+            "block_content": "Sprint requests: Dr. W. B. Kannel, Framingham Heart Study, 118 Lincoln St., Framingham, MA 01701",
+            "block_bbox": [
+                2,
+                900,
+                288,
+                925
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    2.0,
+                    900.0
+                ],
+                [
+                    288.0,
+                    900.0
+                ],
+                [
+                    288.0,
+                    925.0
+                ],
+                [
+                    2.0,
+                    925.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "i02-8703/81/030319 + 10$01.00/0 @ 1981 The C. V. Mosby Co.",
+            "block_bbox": [
+                5,
+                956,
+                283,
+                970
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    5.0,
+                    956.0
+                ],
+                [
+                    282.0,
+                    956.0
+                ],
+                [
+                    282.0,
+                    969.0
+                ],
+                [
+                    5.0,
+                    969.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "319",
+            "block_bbox": [
+                570,
+                960,
+                593,
+                973
+            ],
+            "block_id": 17,
+            "block_order": null,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    570.0,
+                    960.0
+                ],
+                [
+                    592.0,
+                    960.0
+                ],
+                [
+                    592.0,
+                    972.0
+                ],
+                [
+                    570.0,
+                    972.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7913835048675537,
+                "coordinate": [
+                    143,
+                    28,
+                    482,
+                    47
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        143.0,
+                        28.0
+                    ],
+                    [
+                        481.0,
+                        28.0
+                    ],
+                    [
+                        481.0,
+                        46.0
+                    ],
+                    [
+                        143.0,
+                        46.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7297477126121521,
+                "coordinate": [
+                    8,
+                    68,
+                    270,
+                    90
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        8.0,
+                        68.0
+                    ],
+                    [
+                        270.0,
+                        68.0
+                    ],
+                    [
+                        270.0,
+                        90.0
+                    ],
+                    [
+                        8.0,
+                        90.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.9246141314506531,
+                "coordinate": [
+                    6,
+                    145,
+                    421,
+                    203
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        6.0,
+                        145.0
+                    ],
+                    [
+                        421.0,
+                        145.0
+                    ],
+                    [
+                        421.0,
+                        203.0
+                    ],
+                    [
+                        6.0,
+                        203.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7950557470321655,
+                "coordinate": [
+                    7,
+                    227,
+                    265,
+                    247
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        7.0,
+                        227.0
+                    ],
+                    [
+                        264.0,
+                        227.0
+                    ],
+                    [
+                        264.0,
+                        246.0
+                    ],
+                    [
+                        7.0,
+                        246.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "abstract",
+                "score": 0.9748953580856323,
+                "coordinate": [
+                    4,
+                    279,
+                    292,
+                    588
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        4.0,
+                        279.0
+                    ],
+                    [
+                        292.0,
+                        279.0
+                    ],
+                    [
+                        292.0,
+                        588.0
+                    ],
+                    [
+                        4.0,
+                        588.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8003969192504883,
+                "coordinate": [
+                    4,
+                    596,
+                    175,
+                    612
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        4.0,
+                        596.0
+                    ],
+                    [
+                        174.0,
+                        596.0
+                    ],
+                    [
+                        174.0,
+                        611.0
+                    ],
+                    [
+                        4.0,
+                        611.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9508974552154541,
+                "coordinate": [
+                    1,
+                    618,
+                    289,
+                    805
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1.0,
+                        618.0
+                    ],
+                    [
+                        289.0,
+                        618.0
+                    ],
+                    [
+                        289.0,
+                        805.0
+                    ],
+                    [
+                        1.0,
+                        805.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9461429119110107,
+                "coordinate": [
+                    307,
+                    282,
+                    596,
+                    408
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        307.0,
+                        282.0
+                    ],
+                    [
+                        596.0,
+                        282.0
+                    ],
+                    [
+                        596.0,
+                        408.0
+                    ],
+                    [
+                        307.0,
+                        408.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.803368091583252,
+                "coordinate": [
+                    308,
+                    414,
+                    496,
+                    430
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        308.0,
+                        414.0
+                    ],
+                    [
+                        495.0,
+                        414.0
+                    ],
+                    [
+                        495.0,
+                        429.0
+                    ],
+                    [
+                        308.0,
+                        429.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9629849195480347,
+                "coordinate": [
+                    303,
+                    436,
+                    595,
+                    698
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        303.0,
+                        436.0
+                    ],
+                    [
+                        595.0,
+                        436.0
+                    ],
+                    [
+                        595.0,
+                        698.0
+                    ],
+                    [
+                        303.0,
+                        698.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.95586097240448,
+                "coordinate": [
+                    303,
+                    697,
+                    593,
+                    836
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        303.0,
+                        697.0
+                    ],
+                    [
+                        593.0,
+                        697.0
+                    ],
+                    [
+                        593.0,
+                        836.0
+                    ],
+                    [
+                        303.0,
+                        836.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9458275437355042,
+                "coordinate": [
+                    302,
+                    835,
+                    593,
+                    929
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        302.0,
+                        835.0
+                    ],
+                    [
+                        593.0,
+                        835.0
+                    ],
+                    [
+                        593.0,
+                        929.0
+                    ],
+                    [
+                        302.0,
+                        929.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 10,
+                "label": "footnote",
+                "score": 0.7680356502532959,
+                "coordinate": [
+                    1,
+                    823,
+                    287,
+                    860
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1.0,
+                        823.0
+                    ],
+                    [
+                        287.0,
+                        823.0
+                    ],
+                    [
+                        287.0,
+                        860.0
+                    ],
+                    [
+                        1.0,
+                        860.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 10,
+                "label": "footnote",
+                "score": 0.8449169993400574,
+                "coordinate": [
+                    3,
+                    860,
+                    286,
+                    884
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        3.0,
+                        860.0
+                    ],
+                    [
+                        286.0,
+                        860.0
+                    ],
+                    [
+                        286.0,
+                        884.0
+                    ],
+                    [
+                        3.0,
+                        884.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 10,
+                "label": "footnote",
+                "score": 0.7306831479072571,
+                "coordinate": [
+                    2,
+                    885,
+                    248,
+                    899
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2.0,
+                        885.0
+                    ],
+                    [
+                        246.99996948242188,
+                        885.0
+                    ],
+                    [
+                        246.99996948242188,
+                        898.0
+                    ],
+                    [
+                        2.0,
+                        898.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 10,
+                "label": "footnote",
+                "score": 0.748490571975708,
+                "coordinate": [
+                    2,
+                    900,
+                    288,
+                    925
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2.0,
+                        900.0
+                    ],
+                    [
+                        288.0,
+                        900.0
+                    ],
+                    [
+                        288.0,
+                        925.0
+                    ],
+                    [
+                        2.0,
+                        925.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7242447137832642,
+                "coordinate": [
+                    5,
+                    956,
+                    283,
+                    970
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        5.0,
+                        956.0
+                    ],
+                    [
+                        282.0,
+                        956.0
+                    ],
+                    [
+                        282.0,
+                        969.0
+                    ],
+                    [
+                        5.0,
+                        969.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7300812005996704,
+                "coordinate": [
+                    570,
+                    960,
+                    593,
+                    973
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        570.0,
+                        960.0
+                    ],
+                    [
+                        592.0,
+                        960.0
+                    ],
+                    [
+                        592.0,
+                        972.0
+                    ],
+                    [
+                        570.0,
+                        972.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

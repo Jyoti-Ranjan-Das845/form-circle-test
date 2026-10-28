@@ -1,0 +1,33 @@
+{
+ "id": "1f7c43f3-8cc5-4af8-ae74-5fa70d672f65",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:37:50.939Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "**CHARGE NUMBER:** 1901\n**PROJECT TITLE:** Biochemical Modification of Tobacco\n**PERIOD COVERED:** May 1-31, 1979\n**PROJECT LEADER:** D. M. Teng\n**DATE OF REPORT:** June 8, 1979\n\n## I. <u>CONTROLLED FERMENTATION-DENITRIFICATION</u>\n\n### A. <u>Pilot Plant Facility</u><sup>1</sup>\n\nThe continuous centrifuge system was tested by New Brunswick Scientific Company personnel and found to be functioning satisfactorily. Three ~~50-liter~~ autoclavable containers were modified into an inoculum retention and transfer unit. Application of a vacuum at the air inlet facilitated the transfer of inoculum from the retention tanks into the 500-liter fermenter through the drain. After satisfactory test of all systems in the 500-liter fermenter, experiments were conducted to access the effect of retaining the inoculum in the retaining tank at room temperature before inoculation. No adverse effect in denitrification was noticed.\n\n### B. <u>Pilot Denitrification Test</u><sup>2</sup>\n\nAn initial pilot denitrification of SEL in the 500-liter fermenter was accomplished. The inoculum buildup was accomplished by growing the starter in the 28-liter fermenters and then in the 500-liter fermenter. The inoculum was retained in the retention tanks during the autoclaving of SEL and necessary components in the 500-liter fermenter. After cooling, <u>the inoculum</u> was introduced into the SEL. Denitrification was accomplished in <u>20 hours</u>. All the controls and inoculum-transferring system functioned satisfactorily.\n\nAs the bulk quantity chemicals needed for our pilot runs were damaged during shipment, further testing must be delayed until the chemicals are received.\n\n### C. <u>Pilot Supporting Laboratory</u>\n\nThe laboratory in \"C\" Pilot Plant is now operational and experiments to define optimal scale-up inoculum have been designed and are in progress.\n\n## II. <u>CONTROLLED FERMENTATION-CELLULASE</u>\n\n### A. <u>Scale-up of <u>Trichoderma</u> <u>viride</u> Cellulase</u><sup>3</sup>\n\nA portion of the <u>pH</u> profile of <u>T. viride</u> cellulase production in a shake flask was determined. The whole profile will be determined within the next couple of weeks.\n\n2022180280",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 577
+   },
+   "charge_usd": 0.004552
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 577
+ },
+ "charge_usd": 0.004552,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

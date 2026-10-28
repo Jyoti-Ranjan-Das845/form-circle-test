@@ -1,0 +1,202 @@
+{
+  "page": "04",
+  "expected": [
+    "Framingham",
+    "325,000",
+    "THE CARDIOVASCULAR HAZARDS",
+    "$19 billion",
+    "Boston",
+    "inhale"
+  ],
+  "circles": [
+    {
+      "circle": 1,
+      "box": [
+        145,
+        211,
+        231,
+        254
+      ],
+      "layout_regions_inside_circle": [],
+      "run1_blocks_containing_circle": [
+        {
+          "label": "text",
+          "bbox": [
+            7,
+            227,
+            265,
+            247
+          ],
+          "content": "William B. Kannel, M.D. Framingham Mass."
+        }
+      ],
+      "run2_spotted_inside_circle": []
+    },
+    {
+      "circle": 2,
+      "box": [
+        300,
+        399,
+        506,
+        438
+      ],
+      "layout_regions_inside_circle": [
+        {
+          "label": "paragraph_title",
+          "score": 0.803,
+          "coordinate": [
+            308,
+            414,
+            496,
+            430
+          ]
+        }
+      ],
+      "run1_blocks_containing_circle": [
+        {
+          "label": "paragraph_title",
+          "bbox": [
+            308,
+            414,
+            496,
+            430
+          ],
+          "content": "THE CARDIOVASCULAR HAZARDS"
+        }
+      ],
+      "run2_spotted_inside_circle": [
+        {
+          "text": "cardiovascular risk factor (Table I).",
+          "box": [
+            315,
+            391,
+            513,
+            406
+          ]
+        },
+        {
+          "text": "THE CARDIOVASCULAR HAZARDS",
+          "box": [
+            315,
+            416,
+            495,
+            428
+          ]
+        }
+      ]
+    },
+    {
+      "circle": 3,
+      "box": [
+        303,
+        676,
+        350,
+        700
+      ],
+      "layout_regions_inside_circle": [],
+      "run1_blocks_containing_circle": [
+        {
+          "label": "text",
+          "bbox": [
+            303,
+            436,
+            595,
+            698
+          ],
+          "content": "Cigarette smokers have twice the overall death rate of non-smokers in most of Western societies. The Framingham Study data are fairly representative of prospective epidemiologic evidence on the association between cigarette smoking and cardiovascular morbidity and mortality. Heavy smoking almost doubles cardiovascular and overall mortality under age 65 (Table II). Beyond age 65, neither significant nor substantial gradients of risk can be demonstrated in either sex for cardiovascular morbidity. In men, significant associations of cardiovascular mortality and overall mortality are noted in relation to cigarette smoking, even beyond age 65 (Table III). In women, no significant relationship can be shown. This may be related to the fact that many of these elderly women who smoke do not inhale."
+        }
+      ],
+      "run2_spotted_inside_circle": [
+        {
+          "text": "inhale.",
+          "box": [
+            315,
+            686,
+            349,
+            699
+          ]
+        }
+      ]
+    },
+    {
+      "circle": 4,
+      "box": [
+        43,
+        718,
+        96,
+        744
+      ],
+      "layout_regions_inside_circle": [],
+      "run1_blocks_containing_circle": [
+        {
+          "label": "text",
+          "bbox": [
+            1,
+            618,
+            289,
+            805
+          ],
+          "content": "Despite the fact that as early as 1938 cigarette smokers were shown to die at an earlier age, and a massive accumulation of subsequent data detailing the multiple hazards of cigarette smoking, almost 60 million Americans continue to smoke cigarettes and teenagers continue to take up the habit. It is estimated that the cigarette habit directly contributes to $325,000 premature deaths each year. The health care costs are estimated to be $8.2 billion, and host earnings are estimated at $19 billion. Although the per capita consumption of cigarettes appears to be declining, about 40% of adults still smoke. Although the relative risk of cigarette smoking is greater for lung cancer, the absolute risk is greater for coronary disease and smoking-related coronary deaths amount to some 250,000 yearly compared to 70,000 for cancer. The attributable risks for cigarette smoking are substantial, due to its high prevalence in the general population as well as its potency as a cardiovascular risk factor (Table 1)."
+        }
+      ],
+      "run2_spotted_inside_circle": []
+    },
+    {
+      "circle": 5,
+      "box": [
+        160,
+        752,
+        226,
+        776
+      ],
+      "layout_regions_inside_circle": [],
+      "run1_blocks_containing_circle": [
+        {
+          "label": "text",
+          "bbox": [
+            1,
+            618,
+            289,
+            805
+          ],
+          "content": "Despite the fact that as early as 1938 cigarette smokers were shown to die at an earlier age, and a massive accumulation of subsequent data detailing the multiple hazards of cigarette smoking, almost 60 million Americans continue to smoke cigarettes and teenagers continue to take up the habit. It is estimated that the cigarette habit directly contributes to $325,000 premature deaths each year. The health care costs are estimated to be $8.2 billion, and host earnings are estimated at $19 billion. Although the per capita consumption of cigarettes appears to be declining, about 40% of adults still smoke. Although the relative risk of cigarette smoking is greater for lung cancer, the absolute risk is greater for coronary disease and smoking-related coronary deaths amount to some 250,000 yearly compared to 70,000 for cancer. The attributable risks for cigarette smoking are substantial, due to its high prevalence in the general population as well as its potency as a cardiovascular risk factor (Table 1)."
+        }
+      ],
+      "run2_spotted_inside_circle": []
+    },
+    {
+      "circle": 6,
+      "box": [
+        57,
+        830,
+        98,
+        851
+      ],
+      "layout_regions_inside_circle": [],
+      "run1_blocks_containing_circle": [
+        {
+          "label": "footnote",
+          "bbox": [
+            1,
+            823,
+            287,
+            860
+          ],
+          "content": "From the National Heart, Lung and Blood Institute, Pramingham Heart study and the Boston University School of Medicine, Evans Research Foundation."
+        }
+      ],
+      "run2_spotted_inside_circle": []
+    }
+  ],
+  "layout_labels": [
+    "abstract",
+    "doc_title",
+    "footer",
+    "footnote",
+    "header",
+    "number",
+    "paragraph_title",
+    "text"
+  ],
+  "n_spotted": 88
+}

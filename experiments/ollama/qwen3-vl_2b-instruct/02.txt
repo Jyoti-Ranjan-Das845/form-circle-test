@@ -1,0 +1,11 @@
+prompt: Can you identify which words are circled in red in the image?
+seconds: 5.7
+
+Certainly, here are the words that are circled in red in the image:
+
+- **50-liter**
+- **28-liter**
+- **20 hours**
+- **ph**
+- **Cellulase**
+- **500-liter**

@@ -8,3 +8,9 @@ build/
 augraphy_cache/
 form_images/
 answer_key/
+.venv_vlm/
+practice/
+external/
+.venv_sam3/
+.venv_docling/
+.env

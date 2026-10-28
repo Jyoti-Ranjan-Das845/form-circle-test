@@ -1,0 +1,9 @@
+prompt: Can you identify which words are circled in red in the image?
+seconds: 8.8
+
+Based on the image provided, the words circled in red are:
+
+- **smoking**
+- **unobtrusive**
+- **23**
+- **70**

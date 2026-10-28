@@ -1,0 +1,33 @@
+{
+ "id": "ffa8852c-7322-4c5a-880b-fcdb6db7f1cd",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:39:22.274Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "American Heart Journal 101:3;319-28 March 1981\n\n## CURRICULUM IN CARDIOLOGY\n\n### **Update on the role of cigarette smoking in coronary artery disease**\n\nWilliam B. Kannel, M.D. *Framingham, Mass.*\n\nDespite recent declines in cardiovascular mortality, atherosclerotic disease is still the major health problem facing Western society. With the identification of predisposing risk factors, the responsibility for avoiding the atherosclerotic diseases has become a personal endeavor requiring an alteration in lifestyle.<sup>1</sup> The most firmly established risk factors for coronary heart disease (CHD) are hypercholesterolemia, hypertension, and cigarette smoking (Fig. 1). In addition to these, diabetes, lack of exercise, obesity, and type A behavior all contribute to the multifactorial atherogenic process. Not all physicians are convinced, however, that CHD is preventable by correcting these risk factors, and some claim that the cigarette-CHD connection especially is actually a spurious illustration of guilt by association.<sup>2</sup> A review of the evidence incriminating cigarette smoking in the development of atherosclerosis in general and CHD in particular would seem in order.\n\n#### **MAGNITUDE OF THE PROBLEM**\n\nDespite the fact that as early as 1938 cigarette smokers were shown to die at an earlier age,<sup>3</sup> and a massive accumulation of subsequent data detailing the multiple hazards of cigarette smoking, almost 60 million Americans continue to smoke cigarettes and teenagers continue to take up the habit.<sup>4</sup> It is estimated that the cigarette habit directly contributes to 325,000 premature deaths each year. The health care costs are estimated to be $8.2 billion, and lost earnings are estimated at $19 billion.<sup>5</sup> Although the per capita consumption of cigarettes appears to be declining, about 40% of adults still smoke.\n\nAlthough the *relative* risk of cigarette smoking is greater for lung cancer, the *absolute* risk is greatest for coronary disease and smoking related coronary deaths amount to some 250,000 yearly compared to 70,000 for cancer. The attributable risks for *cigarette* smoking are substantial, due to its high prevalence in the general population as well as its potency as a cardiovascular risk factor (Table I).\n\n#### **THE CARDIOVASCULAR HAZARDS**\n\nCigarette smokers have twice the overall death rate of non-smokers in most of Western societies.<sup>6,7</sup> The Framingham Study data are fairly representative of prospective epidemiologic evidence on the association between cigarette smoking and cardiovascular morbidity and mortality. Heavy smoking almost doubles cardiovascular and overall mortality under age 65 (Table II). Beyond age 65, neither significant nor substantial gradients of risk can be demonstrated in either sex for cardiovascular *morbidity*. In men, significant associations of cardiovascular *morbidity* and overall mortality are noted in relation to cigarette smoking, even beyond age 65 (Table III). In women, no significant relationship can be shown. This may be related to the fact that many of these elderly women who smoke do not inhale.\n\nSudden death, in particular, is strongly related to cigarette smoking (Fig. 2). Coronary mortality in general and sudden death specifically are related to cigarette smoking. The proportion of coronary heart disease deaths that are sudden increases progressively with the number of cigarettes smoked per day. Thus fatal coronary attacks occur more commonly in cigarette smokers and when they occur they are more likely to terminate suddenly.\n\n**Cardiovascular morbidity.** Not only are cardiovascular events likely to terminate fatally more often in cigarette smokers, but such attacks occurred more commonly than in non-smokers. Atherosclerotic cardiovascular disease incidence in general and each of its major clinical manifestations are related to\n\nFrom the National Heart, Lung and Blood Institute, Framingham Heart Study and the Boston University School of Medicine, Evans Research Foundation.\n\nSupported in part by contract numbers NIH-N01-HV-92952 and NIH-NIH HV 52971.\n\nReceived for publication Nov. 17, 1980; accepted Nov. 26, 1980.\n\n*Copyright requests: Dr. W. B. Kannel, Framingham Heart Study, 118 Lincoln St., Framingham, MA 01701*\n\n002-8703/81/030319 + 10$01.00/0 \u00a9 1981 The C. V. Mosby Co. | 319",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 1023
+   },
+   "charge_usd": 0.006706
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 1023
+ },
+ "charge_usd": 0.006706,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

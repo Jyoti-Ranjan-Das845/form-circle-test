@@ -1,0 +1,33 @@
+{
+ "id": "56765484-a053-479c-a8ff-5483a20552b9",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:37:35.166Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "## ASTHMA IN SENIORS\n## POSSIBLE RELATIONSHIP WITH SMOG\n\n**NAME:**\n\n**ADDRESS:**\n**Street:**\n**City:**\n**Zip Code:**\n\n**TELEPHONE NUMBER:** (  )\n**SEX:**\n\n**TODAY'S DATE:**\n\n**BIRTH DATE:**\n\n### SYMPTOMS RELATING TO YOUR CHEST OR BREATHING\n\n1. **Have you had wheezing or whistling in your chest at any time in the last 12 months?**\n   - YES (circled)\n   - NO (circle)\n\n   **If \"NO\" skip to Question 2**\n   **If \"YES\"**\n\n   **1.1 How old were you when you first had wheezing or whistling in your chest? (make the best estimate that you can)**\n   **years old:**\n\n   **1.2 Is your wheezing worse at any of the following times of the year?**\n\n   **1.2.1. February - June**\n   - YES\n   - NO (circled)\n\n   **1.2.2. July**\n   - YES (circled)\n   - NO\n\n   **1.2.3 August - October**\n   - YES\n   - NO\n\n   **1.2.4 November - January**\n   - YES\n   - NO (circled)\n\n   **1.3 Is your wheezing better or worse on weekends?** (circle 1 no.)\n   - Better: 1\n   - Worse: 2\n   - Sometimes worse, sometimes better: 3 (circled)\n   - Neither worse nor better: 4\n\n2028386497\n\n-33-",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1851,
+    "output_tokens": 429
+   },
+   "charge_usd": 0.003868
+  }
+ ],
+ "usage": {
+  "input_tokens": 1851,
+  "output_tokens": 429
+ },
+ "charge_usd": 0.003868,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

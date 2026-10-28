@@ -1,0 +1,10 @@
+prompt: Can you identify which words are circled in red in the image?
+seconds: 5.5
+
+The words circled in red in the image are:
+- "weak"
+- "August 1"
+- "S,H&B"
+- "toxic waste"
+- "conformance"
+- "to the receipt of the goods and services"

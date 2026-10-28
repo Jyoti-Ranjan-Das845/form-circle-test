@@ -1,0 +1,245 @@
+{
+ "id": "eeeaa89d-bc6d-4342-b558-34ae03d45210",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:38:14.337Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "SENT BY:Xerox Telecopier 7020 ; 2-12-90 ; 4:21PM ; 12023474540+ 6371505:# 2 | 02, 12, 90 03:28 PM \\*DOT GOVT AFFAIRS\\* P02 | DOT/P-10 | 2/5/90\n\nsignature: John Doe\n\n## <u>U.S. Department of Transportation</u>\n\n### <u>Study of Airliner Cabin Air Quality</u>\n\n#### <u>Summary</u>\n\n### <u>BACKGROUND</u>\n\nIn December 1989, an independent contractor for the U.S. Department of Transportation (DOT) completed its year long study of the air quality in airliner cabins. The purpose of this work was to develop information on exposure to various pollutants that were suspected of representing a health risk for airliner cabin occupants. These pollutants included tobacco smoke, carbon dioxide, microbial aerosols, ozone, and cosmic radiation. The study was conducted during the period when <u>smoking</u> was banned on scheduled commercial flights having durations of two hours or less, pursuant to Public Law 100-202, and preceded passage of Public Law 101-164, which bans smoking on practically all scheduled domestic flights. Geomet Technologies, Inc., of <u>Germantown</u> MD, performed the study for the Department.\n\n### <u>MEASUREMENT</u>\n\n<u>Overall Procedure</u> - In order to assure that the conditions sampled were fully representative of the in-flight conditions that the public actually experiences, yet not cause undue <u>alarm to</u> passengers, measurements were taken using small, <u>unobtrusive</u> instruments, packaged in compact carry-on bags--of the type typically carried because they can be stowed under airliner seats. Technicians booked passage as ordinary revenue passengers on a total of <u>(92)</u> flights between April and June of 1989: 23 <u>nonsmoking</u> and 69 <u>smoking</u> flights, including eight on international routes. Flights were selected randomly out of the schedule for all flights between the nation's 70 largest airports, in such a way as to be statistically representative of the airlines, types of aircraft, flight durations, and times-of-day for departures.\n\nOn <u>smoking</u> flights, four technicians were positioned in <u>cockpit</u> one each in the smoking section, the no-smoking boundary region <u>(the</u> three <u>nonsmoking</u> rows nearest the smoking section), the middle of the no-smoking section, and the part of the no-smoking section that was the most remote from the smoking section. On <u>nonsmoking</u> flights, technicians were placed at two locations, the middle and the rear of the plane. The instrument package was typically placed on the technician's lap or lap tray to obtain measurements of contaminants most representative of passenger breathing levels.\n\n<u>Measurement of Smoking By-products</u> - There are literally hundreds of by-products left in the air after smoking, in the form of gases and suspended particles, which are collectively termed environmental tobacco smoke (ETS). To establish the levels of ETS in\n\n2046776340",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 771
+   },
+   "charge_usd": 0.006008,
+   "layout": {
+    "status": "ok",
+    "width": 757,
+    "height": 1000,
+    "elements": [
+     {
+      "type": "page_header",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.952,
+      "boxes": [
+       {
+        "x": 0.0476,
+        "y": 0.004,
+        "w": 0.8811,
+        "h": 0.061
+       }
+      ]
+     },
+     {
+      "type": "picture",
+      "lines": [
+       2,
+       2
+      ],
+      "confidence": 0.3,
+      "boxes": [
+       {
+        "x": 0.7533,
+        "y": 0.0683,
+        "w": 0.1408,
+        "h": 0.1091
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       4,
+       4
+      ],
+      "confidence": 0.73,
+      "boxes": [
+       {
+        "x": 0.3395,
+        "y": 0.12,
+        "w": 0.3659,
+        "h": 0.019
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       6,
+       6
+      ],
+      "confidence": 0.604,
+      "boxes": [
+       {
+        "x": 0.5125,
+        "y": 0.148,
+        "w": 0.107,
+        "h": 0.022
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       8,
+       8
+      ],
+      "confidence": 0.781,
+      "boxes": [
+       {
+        "x": 0.4663,
+        "y": 0.184,
+        "w": 0.0859,
+        "h": 0.015
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       10,
+       10
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.1229,
+        "y": 0.227,
+        "w": 0.122,
+        "h": 0.017
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       12,
+       12
+      ],
+      "confidence": 0.977,
+      "boxes": [
+       {
+        "x": 0.1162,
+        "y": 0.2571,
+        "w": 0.7754,
+        "h": 0.1979
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       14,
+       14
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.1215,
+        "y": 0.4663,
+        "w": 0.1331,
+        "h": 0.0167
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       16,
+       16
+      ],
+      "confidence": 0.975,
+      "boxes": [
+       {
+        "x": 0.1189,
+        "y": 0.494,
+        "w": 0.7847,
+        "h": 0.2
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       18,
+       18
+      ],
+      "confidence": 0.97,
+      "boxes": [
+       {
+        "x": 0.1176,
+        "y": 0.708,
+        "w": 0.7847,
+        "h": 0.134
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       20,
+       20
+      ],
+      "confidence": 0.957,
+      "boxes": [
+       {
+        "x": 0.1162,
+        "y": 0.8539,
+        "w": 0.7827,
+        "h": 0.0581
+       }
+      ]
+     },
+     {
+      "type": "page_footer",
+      "lines": [
+       22,
+       22
+      ],
+      "confidence": 0.1,
+      "boxes": [
+       {
+        "x": 0.9141,
+        "y": 0.894,
+        "w": 0.0357,
+        "h": 0.0422
+       }
+      ]
+     },
+     {
+      "type": "picture",
+      "lines": null,
+      "confidence": 0.713,
+      "boxes": [
+       {
+        "x": 0.6738,
+        "y": 0.0569,
+        "w": 0.0523,
+        "h": 0.0256
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 771
+ },
+ "charge_usd": 0.006008,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

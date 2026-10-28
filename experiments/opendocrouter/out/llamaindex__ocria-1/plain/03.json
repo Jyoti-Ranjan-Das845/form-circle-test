@@ -1,0 +1,33 @@
+{
+ "id": "b85b0df4-e684-4930-b3da-146599710dba",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:37:54.676Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "MAY 22 '97 02:44PM PHILIP MORRIS P.2/4 | Secondhand Smoke-and-Mirrors http://www.junkscience.com/newa/mirrors.htm\n\n## Secondhand Smoke-and-Mirrors\n\n### (How the Pros Tamper with Jury Pools)\n\n**Ichiro Kawachi, Graham A. Colditz, Frank E. Spetzer, JoAnn E. Manson, Meir J. Stampfer, Walter C. Willet, Charles H. Hennekens**\n*Circulation 1997;95:2374-239*\n\n<hr/>\n\nOn June 2, 1997, jury selection starts in the Florida trial involving flight attendants suing tobacco companies for various health effects allegedly caused by secondhand smoke.\n\nBut Harvard University's Ichiro Kawachi et al. (funded by the U.S. Government which is at \"war\" with the tobacco industry, the <u>fiercely anti-tobacco</u> American Heart Association and Miami trial lawyer Stanley Rosenblatt (who stands to make a bundle representing tens of thousands nonsmoking flight <u>attendants</u>) are making sure prospective jurors make up their minds before hearing any evidence.\n\nA scant <u>two weeks</u> before the trial begins, the <u>American</u> Heart Association published in its <u>journal</u> *Circulation* Kawachi et al.'s study of <u>32,000</u> nurses. The researchers claim that secondhand smoke increased the risk of heart attack by 91 percent. How convenient. And in the understatement of the year, attorney Rosenblatt said \"...it's very helpful to us.\"\n\nBut is it the substance of the study that's \"very helpful\"? Or just its timing and publicity?\n\nFirst, the study relies on statistics, not science. Kawachi et al. claim to identify a 91 percent increase in risk of heart attack among those \"regularly\" exposed to secondhand smoke. But even the National Cancer Institute views such statistics with suspicion:\n\n> *In epidemiologic research, [increases in risk of less than 100 percent] are considered small and are usually difficult to interpret. Such increases may be due to chance, <u>statistical bias</u> or the effects of confounding factors that are sometimes not evident.* [Source: National Cancer Institute, Press Release, October 26, 1994.]\n\nSecond, Kawachi et al. have <u>NO</u> data \u2014 i.e., <u>NONE, NOTHING, ZERO, NADA, NIL</u> \u2014 on how much secondhand smoke even one study subject was exposed to. Instead the study subjects were asked <u>ONCE</u> whether they were \"never,\" \"occasionally,\" or \"regularly\" exposed to secondhand smoke. Their responses were never verified. The researchers simply went on their word. Also, the responses were never updated. So the researchers assumed that someone \"regularly\" exposed to secondhand smoke when the question was first asked was <u>ALWAYS</u> \"regularly\" exposed throughout the study.\n\nAnd what do you suppose the exposure categories mean? If I'm exposed to secondhand smoke every Monday is that \"regular\" (i.e., it happens every Monday) or \"occasional\" (i.e., it happens only once a week)? And who is \"never\" exposed to secondhand smoke? What bubble do they live in?\n\nAlso, the study subjects were supposed to be nonsmokers. But were they? Studies report that up to 15 percent of nonsmokers are actually \u2014 are you ready for this \u2014 <u>SMOKERS!</u> It's a phenomenon called \"smoker misclassification.\" Many people are \"close smokers\" who won't admit they smoke for insurance or social reasons. This could be particularly true\n\n2053605729\n\n1 of 3 | 5/21/97 11:07",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 897
+   },
+   "charge_usd": 0.006098
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 897
+ },
+ "charge_usd": 0.006098,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

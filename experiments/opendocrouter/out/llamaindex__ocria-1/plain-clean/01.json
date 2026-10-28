@@ -1,0 +1,33 @@
+{
+ "id": "cce34faa-f980-42a0-97f9-fd158ea62d18",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:39:09.921Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "SENT BY:Xerox Telecopier 7020 ; 2-12-90 ; 4:21PM ; 12023474540+ 6371505:# 2 | 02, 12, 90 03:28 PM \\*DOT GOVT AFFAIRS 102 DOD/P-10 | 2/5/90\n\nsignature: John Doe\n\n## <u>U.S. Department of Transportation</u>\n## <u>Study of Airliner Cabin Air Quality</u>\n\n### <u>Summary</u>\n\n#### <u>BACKGROUND</u>\n\nIn December 1989, an independent contractor for the U.S. Department of Transportation (DOT) completed its year long study of the air quality in airliner cabins. The purpose of this work was to develop information on exposure to various pollutants that were suspected of representing a health risk for airliner cabin occupants. These pollutants included tobacco smoke, carbon dioxide, microbial aerosols, ozone, and cosmic radiation. The study was conducted during the period when smoking was banned on scheduled commercial flights having durations of two hours or less, pursuant to Public Law 100-202, and preceded passage of Public Law 101-164, which bans smoking on practically all scheduled domestic flights. Geomet Technologies, Inc., of Germantown MD, performed the study for the Department.\n\n#### <u>MEASUREMENT</u>\n\n<u>**Overall Procedure**</u> - In order to assure that the conditions sampled were fully representative of the in-flight conditions that the public actually experiences, yet not cause undue alarm to passengers, measurements were taken using small, unobtrusive instruments, packaged in compact carry-on bags--of the type typically carried because they can be stowed under airliner seats. Technicians booked passage as ordinary revenue passengers on a total of 92 flights between April and June of 1989: 23 nonsmoking and 69 smoking flights, including eight on international routes. Flights were selected randomly out of the schedule for all flights between the nation's 70 largest airports, in such a way as to be statistically representative of the airlines, types of aircraft, flight durations, and times-of-day for departures.\n\nOn smoking flights, four technicians were positioned in one row each in the smoking section, the no-smoking boundary region (the three nonsmoking rows nearest the smoking section), the middle of the no-smoking section, and the part of the no-smoking section that was the most remote from the smoking section. On nonsmoking flights, technicians were placed at two locations, the middle and the rear of the plane. The instrument package was typically placed on the technician's lap or lap tray to obtain measurements of contaminants most representative of passenger breathing levels.\n\n<u>**Measurement of Smoking By-products**</u> - There are literally hundreds of by-products left in the air after smoking, in the form of gases and suspended particles, which are collectively termed environmental tobacco smoke (ETS). To establish the levels of ETS in\n\n2046776340",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 698
+   },
+   "charge_usd": 0.005137
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 698
+ },
+ "charge_usd": 0.005137,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

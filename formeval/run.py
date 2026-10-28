@@ -7,6 +7,7 @@ Usage:
 --pipeline   a .py file or module, optionally with ":function" (default function name: run)
 --pages      comma-separated page ids (default: every page that has been marked)
 --gray       give the pipeline grey-scale copies, so red ink cannot be used as a shortcut
+--ink        black|blue|pencil: repaint the hand marks in that ink on the clean page (main score: black)
 --marked-dir folder with the marked pages (default: real_forms_marked)
 """
 import argparse
@@ -20,9 +21,22 @@ import traceback
 from datetime import datetime
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageChops
 
 from . import contract, data, grade
+
+
+INKS = {"black": (25, 25, 30), "blue": (30, 45, 150), "pencil": (115, 115, 115)}
+
+
+def repaint_marks(clean_path, marked_path, ink):
+    """Redraw the hand marks (marked page minus clean page) in another ink on the clean page."""
+    clean = Image.open(clean_path).convert("RGB")
+    marked = Image.open(marked_path).convert("RGB").resize(clean.size)
+    mask = ImageChops.difference(clean, marked).convert("L").point(lambda v: 255 if v > 60 else 0)
+    out = clean.copy()
+    out.paste(Image.new("RGB", clean.size, INKS[ink]), mask=mask)
+    return out
 
 
 def load_pipeline(spec):
@@ -57,6 +71,9 @@ def main(argv=None):
     ap.add_argument("--pipeline", required=True)
     ap.add_argument("--pages")
     ap.add_argument("--gray", action="store_true")
+    ap.add_argument("--ink", choices=sorted(INKS), help="repaint the hand marks in this ink (overrides --gray)")
+    ap.add_argument("--ignore-context", action="store_true",
+                    help="count a circled word as found even if it is the wrong occurrence of a repeated word")
     ap.add_argument("--marked-dir", default=str(data.MARKED_DIR))
     ap.add_argument("--out", default=str(data.ROOT / "results"))
     args = ap.parse_args(argv)
@@ -70,7 +87,7 @@ def main(argv=None):
     if not pages:
         sys.exit("no marked pages found — mark some pages in real_forms_marked/ first")
 
-    mode = "gray" if args.gray else "color"
+    mode = args.ink or ("gray" if args.gray else "color")
     run_dir = Path(args.out) / name / f"{datetime.now():%Y%m%d-%H%M%S}-{mode}"
     (run_dir / "predictions").mkdir(parents=True)
     tmp = tempfile.TemporaryDirectory()
@@ -80,7 +97,11 @@ def main(argv=None):
     for pid in pages:
         truth = data.load_truth(pid)
         image = marked_dir / truth["image"]
-        if args.gray:
+        if args.ink:
+            inked = Path(tmp.name) / truth["image"]
+            repaint_marks(data.CLEAN_DIR / truth["image"], image, args.ink).save(inked)
+            image = inked
+        elif args.gray:
             gray = Path(tmp.name) / truth["image"]
             Image.open(image).convert("L").save(gray)
             image = gray
@@ -97,7 +118,7 @@ def main(argv=None):
         seconds = time.perf_counter() - started
 
         (run_dir / "predictions" / f"{pid}.json").write_text(json.dumps(output, indent=2, ensure_ascii=False))
-        rep = grade.grade_page(truth, data.load_schema(pid), output)
+        rep = grade.grade_page(truth, data.load_schema(pid), output, args.ignore_context)
         rep.update({"seconds": round(seconds, 2), "error": error})
         reports.append(rep)
         total_correct += rep["correct"]

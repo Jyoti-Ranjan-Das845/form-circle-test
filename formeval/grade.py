@@ -16,14 +16,14 @@ def _context_ok(item, context):
     return all(w in got for w in need) and not any(w in got for w in avoid)
 
 
-def grade_text(truth, output):
+def grade_text(truth, output, ignore_context=False):
     preds = list(output.get("marked", []))
     used = [False] * len(preds)
     results = []
     for item in truth["items"]:
         hit = None
         for i, p in enumerate(preds):
-            if not used[i] and same_text(p["text"], item["text"]) and _context_ok(item, p.get("context")):
+            if not used[i] and same_text(p["text"], item["text"]) and (ignore_context or _context_ok(item, p.get("context"))):
                 hit = i
                 break
         if hit is not None:
@@ -39,7 +39,9 @@ def _resolve(answer, question):
     if answer is None:
         return None
     for opt in question.get("options", []):
-        if same_text(answer, opt["label"]) or (opt.get("code") and norm(answer) == norm(opt["code"])):
+        code = opt.get("code")
+        if (same_text(answer, opt["label"]) or (code and norm(answer) == norm(code))
+                or (code and same_text(answer, f"{opt['label']} (code {code})"))):  # as the shared prompt lists options
             return opt["label"]
     return answer
 
@@ -69,9 +71,9 @@ def grade_options(truth, schema, output):
     return results, []  # options pages have a fixed set of questions, so there are no extras
 
 
-def grade_page(truth, schema, output):
+def grade_page(truth, schema, output, ignore_context=False):
     if truth["kind"] == "text":
-        results, extras = grade_text(truth, output)
+        results, extras = grade_text(truth, output, ignore_context)
     else:
         results, extras = grade_options(truth, schema, output)
     correct = sum(r["correct"] for r in results)

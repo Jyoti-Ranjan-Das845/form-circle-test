@@ -1,0 +1,33 @@
+{
+ "id": "57265ae1-9b27-4a7f-bb2c-4120a8b0a066",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:38:09.266Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "logo: BDR\n\nApril 16, 1993\n\n**TO:** Mr. E. C. Leary\n**FROM:** G. R. Davis\n**SUBJECT:** <u>March CAMEL Cash Tracking Results</u>\n(BIAD #93-13104)\n\nAttached are the results through March from the CAMEL Cash Tracker Tag-on. While I've mentioned a few key findings from the results, a full first quarter analysis utilizing Diary data as well as these Tracker results will be issued when the March Diary data becomes available (probably middle of next month).\n\n## <u>KEY FINDINGS:</u>\n\n* While the aided participation rate among total smokers has fallen versus February (to <u>4.6%</u>, this decline should be interpreted with caution as it appears the total smoker participation measure is being affected by the volatility in our monthly share of smoker results. This is evidenced by looking at competitive and franchise aided participation levels: they simply haven't fallen off enough to account for the decline in the total smoker participation rate (and, as info, the 18+ CAMEL Ex. Reg SOS for March was 3.5%, down from 5.0% in February).\n\n    - Further, participation <u>among</u> competitive smokers is flat (at 2.0%) on an unaided basis and is actually up among <u>Marlboro</u> smokers (to 4.2%), which would indicate there is <u>not</u> a problem at the moment.\n\n* Unaided awareness of CAMEL Cash among competitive smokers is up (to <u>24.4%</u>), and is above levels observed during the Cash II program, which suggests the positive impact of media support behind the Cash III program.\n\n* The efforts at reaching new competitive players via <u>improved</u> media support and <u>earlier/</u> broader catalog distribution appear to have paid off, as <u>18.5%</u> of current competitive savers claim to have just begun saving CAMEL Cash in 1993.\n\n    - And, catalog distribution is continuing to improve: <u>78%</u> of competitive savers have now seen the third catalog, while only 38% had seen the Cash II catalog at the same point in time.\n\n93-13104\n\n51569 5114",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 541
+   },
+   "charge_usd": 0.004378
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 541
+ },
+ "charge_usd": 0.004378,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

@@ -1,0 +1,247 @@
+{
+  "page": "04",
+  "model": "mlx-community/Qwen3-VL-2B-Instruct-4bit",
+  "load_seconds": 2.7,
+  "expected": [
+    "Framingham",
+    "325,000",
+    "THE CARDIOVASCULAR HAZARDS",
+    "$19 billion",
+    "Boston",
+    "inhale"
+  ],
+  "true_circles": [
+    [
+      145,
+      211,
+      231,
+      254
+    ],
+    [
+      300,
+      399,
+      506,
+      438
+    ],
+    [
+      303,
+      676,
+      350,
+      700
+    ],
+    [
+      43,
+      718,
+      96,
+      744
+    ],
+    [
+      160,
+      752,
+      226,
+      776
+    ],
+    [
+      57,
+      830,
+      98,
+      851
+    ]
+  ],
+  "runs": {
+    "direct_color": {
+      "seconds": 4.69,
+      "raw": "THE CARDIOVASCULAR HAZARDS\nSudden death, in particular, is strongly related to cigarette smoking (Fig. 2). Coronary mortality in general and sudden death specifically are related to cigarette smoking. The proportion of coronary heart disease deaths that are sudden increases progressively with the number of cigarettes smoked per day. Thus fatal coronary attacks occur more commonly in cigarette smokers and when they occur they are more likely to terminate suddenly.",
+      "prompt_tokens": 805,
+      "output_tokens": 88,
+      "found": [
+        "THE CARDIOVASCULAR HAZARDS"
+      ],
+      "extras": [
+        "Sudden death, in particular, is strongly related to cigarette smoking (Fig. 2). Coronary mortality in general and sudden death specifically are related to cigarette smoking. The proportion of coronary heart disease deaths that are sudden increases progressively with the number of cigarettes smoked per day. Thus fatal coronary attacks occur more commonly in cigarette smokers and when they occur they are more likely to terminate suddenly."
+      ]
+    },
+    "grounded_color": {
+      "seconds": 4.01,
+      "raw": "```json\n[\n  {\"bbox_2d\": [419, 199, 441, 214], \"label\": \"the printed text inside the circle\"}\n]\n```",
+      "prompt_tokens": 819,
+      "output_tokens": 45,
+      "boxes": [
+        {
+          "box": [
+            316,
+            199,
+            333,
+            214
+          ],
+          "label": "the printed text inside the circle"
+        }
+      ],
+      "circles_hit": 0,
+      "per_circle": [
+        {
+          "circle": [
+            145,
+            211,
+            231,
+            254
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            300,
+            399,
+            506,
+            438
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            303,
+            676,
+            350,
+            700
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            43,
+            718,
+            96,
+            744
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            160,
+            752,
+            226,
+            776
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            57,
+            830,
+            98,
+            851
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        }
+      ]
+    },
+    "direct_gray": {
+      "seconds": 3.62,
+      "raw": "William B. Kannel, M.D. Framingham, Mass.",
+      "prompt_tokens": 805,
+      "output_tokens": 15,
+      "found": [
+        "Framingham"
+      ],
+      "extras": []
+    },
+    "grounded_gray": {
+      "seconds": 4.05,
+      "raw": "```json\n[\n  {\"bbox_2d\": [211, 191, 224, 202], \"label\": \"the printed text inside the circle\"}\n]\n```",
+      "prompt_tokens": 819,
+      "output_tokens": 45,
+      "boxes": [
+        {
+          "box": [
+            159,
+            191,
+            169,
+            202
+          ],
+          "label": "the printed text inside the circle"
+        }
+      ],
+      "circles_hit": 0,
+      "per_circle": [
+        {
+          "circle": [
+            145,
+            211,
+            231,
+            254
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            300,
+            399,
+            506,
+            438
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            303,
+            676,
+            350,
+            700
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            43,
+            718,
+            96,
+            744
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            160,
+            752,
+            226,
+            776
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        },
+        {
+          "circle": [
+            57,
+            830,
+            98,
+            851
+          ],
+          "hit": false,
+          "box": null,
+          "label": null
+        }
+      ]
+    }
+  }
+}

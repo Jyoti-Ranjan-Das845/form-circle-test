@@ -1,0 +1,8 @@
+prompt: Can you identify which words are circled in red in the image?
+seconds: 5.5
+
+The red circles in the image highlight the following words:
+
+- "THE CARDIOVASCULAR HAZARDS"
+- "inhal" (partially circled)
+- "the" (partially circled)

@@ -1,0 +1,328 @@
+{
+ "id": "1a360086-438f-417a-9c5e-2dabdba820e2",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:38:36.019Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "logo: BDR\n\nApril 16, 1993\n\n**TO:** Mr. E. C. Leary\n**FROM:** G. R. Davis\n**SUBJECT:** <u>March CAMEL Cash Tracking Results</u>\n(BIAD #93-13104)\n\nAttached are the results through March from the CAMEL Cash Tracker Tag-on. While I've mentioned a few key findings from the results, a full first quarter analysis utilizing Diary data as well as these Tracker results will be issued when the March Diary data becomes available (probably middle of next month).\n\n## <u>KEY FINDINGS:</u>\n\n* While the aided participation rate among total smokers has fallen versus February (to <u>4.6%</u>), this decline should be interpreted with caution as it appears the total smoker participation measure is being affected by the volatility in our monthly share of smoker results. This is evidenced by looking at competitive and franchise aided participation levels: they simply haven't fallen off enough to account for the decline in the total smoker participation rate (and, as info, the 18+ CAMEL Ex. Reg SOS for March was 3.5%, down from 5.0% in February).\n\n    - Further, participation <u>among</u> competitive smokers is flat (at 2.0%) on an unaided basis and is actually up among <u>Marlboro</u> smokers (to 4.2%), which would indicate there is <u>not</u> a problem at the moment.\n\n* Unaided awareness of CAMEL Cash among competitive smokers is up (to <u>24.4%</u>), and is above levels observed during the Cash II program, which suggests the positive impact of media support behind the Cash III program.\n\n* The efforts at reaching new competitive players via <u>improved</u> media support and <u>earlier/</u> broader catalog distribution appear to have paid off, as <u>18.5%</u> of current competitive savers claim to have just begun saving CAMEL Cash in 1993.\n\n    - And, catalog distribution is continuing to improve: <u>78%</u> of competitive savers have now seen the third catalog, while only 38% had seen the Cash II catalog at the same point in time.\n\n93-13104\n\n51569 5114",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 542
+   },
+   "charge_usd": 0.004856,
+   "layout": {
+    "status": "ok",
+    "width": 754,
+    "height": 1000,
+    "elements": [
+     {
+      "type": "picture",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.5,
+      "boxes": [
+       {
+        "x": 0.8993,
+        "y": 0.0025,
+        "w": 0.07,
+        "h": 0.0186
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       2,
+       2
+      ],
+      "confidence": 0.844,
+      "boxes": [
+       {
+        "x": 0.4284,
+        "y": 0.108,
+        "w": 0.1167,
+        "h": 0.02
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       4,
+       4
+      ],
+      "confidence": 0.91455078125,
+      "boxes": [
+       {
+        "x": 0.1123,
+        "y": 0.2079,
+        "w": 0.03,
+        "h": 0.0129
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       4,
+       4
+      ],
+      "confidence": 0.93017578125,
+      "boxes": [
+       {
+        "x": 0.2273,
+        "y": 0.2084,
+        "w": 0.1203,
+        "h": 0.016
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       5,
+       5
+      ],
+      "confidence": 0.93505859375,
+      "boxes": [
+       {
+        "x": 0.1128,
+        "y": 0.2406,
+        "w": 0.0556,
+        "h": 0.0123
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       5,
+       5
+      ],
+      "confidence": 0.9150390625,
+      "boxes": [
+       {
+        "x": 0.2268,
+        "y": 0.2412,
+        "w": 0.0914,
+        "h": 0.013
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       6,
+       6
+      ],
+      "confidence": 0.9384765625,
+      "boxes": [
+       {
+        "x": 0.1121,
+        "y": 0.2732,
+        "w": 0.0841,
+        "h": 0.0131
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       6,
+       6
+      ],
+      "confidence": 0.7783203125,
+      "boxes": [
+       {
+        "x": 0.2259,
+        "y": 0.2738,
+        "w": 0.3,
+        "h": 0.0161
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       7,
+       7
+      ],
+      "confidence": 0.61376953125,
+      "boxes": [
+       {
+        "x": 0.2972,
+        "y": 0.2898,
+        "w": 0.1428,
+        "h": 0.0165
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       9,
+       9
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1061,
+        "y": 0.353,
+        "w": 0.7498,
+        "h": 0.068
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       11,
+       11
+      ],
+      "confidence": 0.813,
+      "boxes": [
+       {
+        "x": 0.1074,
+        "y": 0.453,
+        "w": 0.134,
+        "h": 0.0175
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       13,
+       13
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1089,
+        "y": 0.485,
+        "w": 0.7306,
+        "h": 0.1171
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       15,
+       15
+      ],
+      "confidence": 0.98,
+      "boxes": [
+       {
+        "x": 0.136,
+        "y": 0.616,
+        "w": 0.7204,
+        "h": 0.0505
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       17,
+       17
+      ],
+      "confidence": 0.981,
+      "boxes": [
+       {
+        "x": 0.1072,
+        "y": 0.681,
+        "w": 0.7337,
+        "h": 0.053
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       19,
+       19
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.1068,
+        "y": 0.747,
+        "w": 0.7234,
+        "h": 0.0518
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       21,
+       21
+      ],
+      "confidence": 0.767,
+      "boxes": [
+       {
+        "x": 0.134,
+        "y": 0.813,
+        "w": 0.7188,
+        "h": 0.05
+       }
+      ]
+     },
+     {
+      "type": "page_footer",
+      "lines": [
+       23,
+       23
+      ],
+      "confidence": 0.612,
+      "boxes": [
+       {
+        "x": 0.0252,
+        "y": 0.8019,
+        "w": 0.0292,
+        "h": 0.1312
+       }
+      ]
+     },
+     {
+      "type": "page_footer",
+      "lines": [
+       25,
+       25
+      ],
+      "confidence": 0.5,
+      "boxes": [
+       {
+        "x": 0.9098,
+        "y": 0.8466,
+        "w": 0.0155,
+        "h": 0.0908
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1820,
+  "output_tokens": 542
+ },
+ "charge_usd": 0.004856,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}

@@ -1,0 +1,662 @@
+{
+ "id": "77956c97-a54b-4b04-8ac3-42221f21f54d",
+ "status": "completed",
+ "mode": "sync",
+ "model": "llamaindex/ocria-1",
+ "model_version": "2026-10-22",
+ "price_version": "2026-10-06",
+ "created_at": "2026-10-27T12:38:39.876Z",
+ "error_code": null,
+ "page_count": 1,
+ "pages_done": 1,
+ "pages": [
+  {
+   "page": 1,
+   "status": "ok",
+   "markdown": "## ASTHMA IN SENIORS\n## POSSIBLE RELATIONSHIP WITH SMOG\n\n**NAME:**\n\n**ADDRESS:**\n**Street:**\n**City:**\n**Zip Code:**\n\n**TELEPHONE NUMBER:** (  )\n**SEX:**\n\n**TODAY'S DATE:**\n\n**BIRTH DATE:**\n\n### SYMPTOMS RELATING TO YOUR CHEST OR BREATHING\n\n1. **Have you had wheezing or whistling in your chest at any time in the last 12 months?**\n   - YES (circled)\n   - NO (circle)\n\n   **If \"NO\" skip to Question 2**\n\n   **If \"YES\"**\n\n   **1.1 How old were you when you first had wheezing or whistling in your chest? (make the best estimate that you can)**\n   **years old:**\n\n   **1.2 Is your wheezing worse at any of the following times of the year?**\n\n   **1.2.1. February - June**\n   - YES\n   - NO (circled)\n\n   **1.2.2. July**\n   - YES (circled)\n   - NO\n\n   **1.2.3 August - October**\n   - YES\n   - NO\n\n   **1.2.4 November - January**\n   - YES\n   - NO (circled)\n\n   **1.3 Is your wheezing better or worse on weekends?** (circle 1 no.)\n   - Better: 1\n   - Worse: 2\n   - Sometimes worse, sometimes better: 3 (circled)\n   - Neither worse nor better: 4\n\n2028386497\n\n-33-",
+   "cached": false,
+   "usage": {
+    "input_tokens": 1851,
+    "output_tokens": 429
+   },
+   "charge_usd": 0.004324,
+   "layout": {
+    "status": "ok",
+    "width": 789,
+    "height": 1000,
+    "elements": [
+     {
+      "type": "section_header",
+      "lines": [
+       0,
+       0
+      ],
+      "confidence": 0.844,
+      "boxes": [
+       {
+        "x": 0.4259,
+        "y": 0.066,
+        "w": 0.1825,
+        "h": 0.013
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       1,
+       1
+      ],
+      "confidence": 0.875,
+      "boxes": [
+       {
+        "x": 0.3536,
+        "y": 0.073,
+        "w": 0.3308,
+        "h": 0.021
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       3,
+       3
+      ],
+      "confidence": 0.3,
+      "boxes": [
+       {
+        "x": 0.1875,
+        "y": 0.1722,
+        "w": 0.0653,
+        "h": 0.0136
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       6,
+       6
+      ],
+      "confidence": 0.90283203125,
+      "boxes": [
+       {
+        "x": 0.3303,
+        "y": 0.1876,
+        "w": 0.0642,
+        "h": 0.0115
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       7,
+       7
+      ],
+      "confidence": 0.88427734375,
+      "boxes": [
+       {
+        "x": 0.3402,
+        "y": 0.2425,
+        "w": 0.0435,
+        "h": 0.0145
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       8,
+       8
+      ],
+      "confidence": 0.91357421875,
+      "boxes": [
+       {
+        "x": 0.6361,
+        "y": 0.2474,
+        "w": 0.0855,
+        "h": 0.0139
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       10,
+       11
+      ],
+      "confidence": 0.51,
+      "boxes": [
+       {
+        "x": 0.6286,
+        "y": 0.288,
+        "w": 0.0317,
+        "h": 0.011
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       13,
+       13
+      ],
+      "confidence": 0.727,
+      "boxes": [
+       {
+        "x": 0.2307,
+        "y": 0.307,
+        "w": 0.0684,
+        "h": 0.015
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       15,
+       15
+      ],
+      "confidence": 0.3,
+      "boxes": [
+       {
+        "x": 0.1814,
+        "y": 0.3365,
+        "w": 0.1047,
+        "h": 0.011
+       }
+      ]
+     },
+     {
+      "type": "section_header",
+      "lines": [
+       17,
+       17
+      ],
+      "confidence": 0.919,
+      "boxes": [
+       {
+        "x": 0.1787,
+        "y": 0.372,
+        "w": 0.4575,
+        "h": 0.021
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       19,
+       19
+      ],
+      "confidence": 0.979,
+      "boxes": [
+       {
+        "x": 0.2129,
+        "y": 0.411,
+        "w": 0.4563,
+        "h": 0.036
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       20,
+       20
+      ],
+      "confidence": 0.813,
+      "boxes": [
+       {
+        "x": 0.7516,
+        "y": 0.424,
+        "w": 0.0887,
+        "h": 0.027
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       21,
+       21
+      ],
+      "confidence": 0,
+      "boxes": []
+     },
+     {
+      "type": "form",
+      "lines": [
+       23,
+       23
+      ],
+      "confidence": 0.938,
+      "boxes": [
+       {
+        "x": 0.2142,
+        "y": 0.45,
+        "w": 0.2864,
+        "h": 0.023
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       25,
+       25
+      ],
+      "confidence": 0.813,
+      "boxes": [
+       {
+        "x": 0.218,
+        "y": 0.483,
+        "w": 0.0798,
+        "h": 0.011
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       27,
+       28
+      ],
+      "confidence": 0.972,
+      "boxes": [
+       {
+        "x": 0.2193,
+        "y": 0.509,
+        "w": 0.4385,
+        "h": 0.046
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       30,
+       30
+      ],
+      "confidence": 1,
+      "boxes": [
+       {
+        "x": 0.218,
+        "y": 0.558,
+        "w": 0.4385,
+        "h": 0.035
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       32,
+       32
+      ],
+      "confidence": 0.875,
+      "boxes": [
+       {
+        "x": 0.275,
+        "y": 0.602,
+        "w": 0.052,
+        "h": 0.011
+       },
+       {
+        "x": 0.379,
+        "y": 0.603,
+        "w": 0.161,
+        "h": 0.016
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       33,
+       33
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.7503,
+        "y": 0.609,
+        "w": 0.0317,
+        "h": 0.011
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       34,
+       34
+      ],
+      "confidence": 0.1,
+      "boxes": [
+       {
+        "x": 0.8188,
+        "y": 0.607,
+        "w": 0.0317,
+        "h": 0.017
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       36,
+       36
+      ],
+      "confidence": 0.79,
+      "boxes": [
+       {
+        "x": 0.275,
+        "y": 0.629,
+        "w": 0.052,
+        "h": 0.011
+       },
+       {
+        "x": 0.379,
+        "y": 0.632,
+        "w": 0.0431,
+        "h": 0.013
+       }
+      ]
+     },
+     {
+      "type": "list_item",
+      "lines": [
+       37,
+       37
+      ],
+      "confidence": 0.3,
+      "boxes": [
+       {
+        "x": 0.7489,
+        "y": 0.5295,
+        "w": 0.0988,
+        "h": 0.0121
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       38,
+       38
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.8238,
+        "y": 0.638,
+        "w": 0.0228,
+        "h": 0.01
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       40,
+       40
+      ],
+      "confidence": 0.906,
+      "boxes": [
+       {
+        "x": 0.275,
+        "y": 0.656,
+        "w": 0.052,
+        "h": 0.011
+       },
+       {
+        "x": 0.3777,
+        "y": 0.657,
+        "w": 0.1724,
+        "h": 0.014
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       41,
+       41
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.749,
+        "y": 0.662,
+        "w": 0.033,
+        "h": 0.012
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       42,
+       42
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.8238,
+        "y": 0.665,
+        "w": 0.0228,
+        "h": 0.01
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       44,
+       44
+      ],
+      "confidence": 0.906,
+      "boxes": [
+       {
+        "x": 0.275,
+        "y": 0.682,
+        "w": 0.052,
+        "h": 0.011
+       },
+       {
+        "x": 0.3777,
+        "y": 0.683,
+        "w": 0.1926,
+        "h": 0.016
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       45,
+       45
+      ],
+      "confidence": 0.581,
+      "boxes": [
+       {
+        "x": 0.749,
+        "y": 0.689,
+        "w": 0.033,
+        "h": 0.01
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       46,
+       46
+      ],
+      "confidence": 0.1,
+      "boxes": [
+       {
+        "x": 0.8162,
+        "y": 0.686,
+        "w": 0.0342,
+        "h": 0.017
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       48,
+       48
+      ],
+      "confidence": 0.7939453125,
+      "boxes": [
+       {
+        "x": 0.2148,
+        "y": 0.708,
+        "w": 0.4225,
+        "h": 0.0251
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "lines": [
+       48,
+       48
+      ],
+      "confidence": 0.79296875,
+      "boxes": [
+       {
+        "x": 0.7112,
+        "y": 0.7135,
+        "w": 0.1438,
+        "h": 0.0162
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       49,
+       49
+      ],
+      "confidence": 0.1,
+      "boxes": [
+       {
+        "x": 0.5906,
+        "y": 0.74,
+        "w": 0.0646,
+        "h": 0.01
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       50,
+       50
+      ],
+      "confidence": 0.1,
+      "boxes": [
+       {
+        "x": 0.5944,
+        "y": 0.749,
+        "w": 0.0621,
+        "h": 0.016
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       51,
+       51
+      ],
+      "confidence": 0.79,
+      "boxes": [
+       {
+        "x": 0.3054,
+        "y": 0.76,
+        "w": 0.3498,
+        "h": 0.017
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       52,
+       52
+      ],
+      "confidence": 0.853,
+      "boxes": [
+       {
+        "x": 0.398,
+        "y": 0.774,
+        "w": 0.3942,
+        "h": 0.017
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       54,
+       54
+      ],
+      "confidence": 0.3,
+      "boxes": [
+       {
+        "x": 0.7497,
+        "y": 0.6355,
+        "w": 0.0324,
+        "h": 0.0111
+       }
+      ]
+     },
+     {
+      "type": "form",
+      "lines": [
+       56,
+       56
+      ],
+      "confidence": 0.781,
+      "boxes": [
+       {
+        "x": 0.4943,
+        "y": 0.821,
+        "w": 0.0253,
+        "h": 0.012
+       }
+      ]
+     },
+     {
+      "type": "picture",
+      "lines": null,
+      "confidence": 0.651,
+      "boxes": [
+       {
+        "x": 0.729,
+        "y": 0.4003,
+        "w": 0.1189,
+        "h": 0.0502
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "input_tokens": 1851,
+  "output_tokens": 429
+ },
+ "charge_usd": 0.004324,
+ "has_more": false,
+ "next_cursor": null,
+ "results_expire_at": null
+}
