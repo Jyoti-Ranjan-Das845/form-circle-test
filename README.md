@@ -114,9 +114,13 @@ Results on the 7 pages (38 circled items), on an 8 GB M2:
 | reader | found | exact | extras | s/crop |
 |---|---|---|---|---|
 | PaddleOCR-VL 1.5 bf16 | **38/38** | **38/38** | 0 | 0.5 |
+| Qwen3.5-9B 4-bit, thinking off * | **38/38** | **38/38** | 0 | 0.9 |
 | Tesseract 5 | 34/38 | 33/38 | 2 | 0.07 |
 | RapidOCR (default PP-OCR models) | 33/38 | 33/38 | 5 | 0.23 |
 
+- **\* Qwen3.5-9B** was run on a different Mac (a Mac mini) with the same detector settings and pixel-identical
+  inside crops, and scored with `experiment/score.py`. Its speed is from that machine. Run it here with
+  `--reader qwen3.5-9b`.
 - **found:** the expected text appears as whole words in the answer.
 - **exact:** the answer is exactly the expected text, ignoring case and punctuation.
 - **extras:** answers that match nothing.
