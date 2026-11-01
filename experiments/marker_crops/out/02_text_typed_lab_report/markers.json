@@ -1,0 +1,151 @@
+{
+ "page": "02_text_typed_lab_report",
+ "size": [
+  777,
+  1000
+ ],
+ "params": {
+  "gap": 8,
+  "pad": 6,
+  "min_area": 40,
+  "diff_thresh": 30,
+  "pages": null
+ },
+ "markers": [
+  {
+   "x1": 275,
+   "y1": 146,
+   "x2": 316,
+   "y2": 178,
+   "w": 42,
+   "h": 33,
+   "ink_px": 333,
+   "red_fraction": 0.88,
+   "mean_rgb": [
+    253,
+    152,
+    134
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 1,
+   "crop_box": [
+    269,
+    140,
+    323,
+    185
+   ],
+   "crop_marked": "crops/marker_01_marked.png",
+   "crop_clean": "crops/marker_01_clean.png",
+   "crop_inside": "crops/marker_01_inside.png"
+  },
+  {
+   "x1": 268,
+   "y1": 238,
+   "x2": 380,
+   "y2": 280,
+   "w": 113,
+   "h": 43,
+   "ink_px": 642,
+   "red_fraction": 0.922,
+   "mean_rgb": [
+    255,
+    127,
+    104
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 2,
+   "crop_box": [
+    262,
+    232,
+    387,
+    287
+   ],
+   "crop_marked": "crops/marker_02_marked.png",
+   "crop_clean": "crops/marker_02_clean.png",
+   "crop_inside": "crops/marker_02_inside.png"
+  },
+  {
+   "x1": 115,
+   "y1": 417,
+   "x2": 187,
+   "y2": 441,
+   "w": 73,
+   "h": 25,
+   "ink_px": 434,
+   "red_fraction": 0.853,
+   "mean_rgb": [
+    246,
+    135,
+    115
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 3,
+   "crop_box": [
+    109,
+    411,
+    194,
+    448
+   ],
+   "crop_marked": "crops/marker_03_marked.png",
+   "crop_clean": "crops/marker_03_clean.png",
+   "crop_inside": "crops/marker_03_inside.png"
+  },
+  {
+   "x1": 546,
+   "y1": 652,
+   "x2": 614,
+   "y2": 672,
+   "w": 69,
+   "h": 21,
+   "ink_px": 444,
+   "red_fraction": 0.869,
+   "mean_rgb": [
+    244,
+    137,
+    119
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 4,
+   "crop_box": [
+    540,
+    646,
+    621,
+    679
+   ],
+   "crop_marked": "crops/marker_04_marked.png",
+   "crop_clean": "crops/marker_04_clean.png",
+   "crop_inside": "crops/marker_04_inside.png"
+  },
+  {
+   "x1": 317,
+   "y1": 897,
+   "x2": 343,
+   "y2": 921,
+   "w": 27,
+   "h": 25,
+   "ink_px": 209,
+   "red_fraction": 0.914,
+   "mean_rgb": [
+    250,
+    133,
+    112
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 5,
+   "crop_box": [
+    311,
+    891,
+    350,
+    928
+   ],
+   "crop_marked": "crops/marker_05_marked.png",
+   "crop_clean": "crops/marker_05_clean.png",
+   "crop_inside": "crops/marker_05_inside.png"
+  }
+ ]
+}

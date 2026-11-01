@@ -1,0 +1,151 @@
+{
+ "page": "05_text_memo_serif_with_bullets",
+ "size": [
+  754,
+  1000
+ ],
+ "params": {
+  "gap": 8,
+  "pad": 6,
+  "min_area": 40,
+  "diff_thresh": 30,
+  "pages": null
+ },
+ "markers": [
+  {
+   "x1": 505,
+   "y1": 137,
+   "x2": 634,
+   "y2": 185,
+   "w": 130,
+   "h": 49,
+   "ink_px": 913,
+   "red_fraction": 0.897,
+   "mean_rgb": [
+    255,
+    143,
+    123
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 1,
+   "crop_box": [
+    499,
+    131,
+    641,
+    192
+   ],
+   "crop_marked": "crops/marker_01_marked.png",
+   "crop_clean": "crops/marker_01_clean.png",
+   "crop_inside": "crops/marker_01_inside.png"
+  },
+  {
+   "x1": 227,
+   "y1": 320,
+   "x2": 270,
+   "y2": 345,
+   "w": 44,
+   "h": 26,
+   "ink_px": 293,
+   "red_fraction": 0.874,
+   "mean_rgb": [
+    252,
+    140,
+    121
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 2,
+   "crop_box": [
+    221,
+    314,
+    277,
+    352
+   ],
+   "crop_marked": "crops/marker_02_marked.png",
+   "crop_clean": "crops/marker_02_clean.png",
+   "crop_inside": "crops/marker_02_inside.png"
+  },
+  {
+   "x1": 515,
+   "y1": 347,
+   "x2": 628,
+   "y2": 386,
+   "w": 114,
+   "h": 40,
+   "ink_px": 722,
+   "red_fraction": 0.882,
+   "mean_rgb": [
+    254,
+    144,
+    125
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 3,
+   "crop_box": [
+    509,
+    341,
+    635,
+    393
+   ],
+   "crop_marked": "crops/marker_03_marked.png",
+   "crop_clean": "crops/marker_03_clean.png",
+   "crop_inside": "crops/marker_03_inside.png"
+  },
+  {
+   "x1": 226,
+   "y1": 384,
+   "x2": 275,
+   "y2": 407,
+   "w": 50,
+   "h": 24,
+   "ink_px": 307,
+   "red_fraction": 0.899,
+   "mean_rgb": [
+    253,
+    137,
+    116
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 4,
+   "crop_box": [
+    220,
+    378,
+    282,
+    414
+   ],
+   "crop_marked": "crops/marker_04_marked.png",
+   "crop_clean": "crops/marker_04_clean.png",
+   "crop_inside": "crops/marker_04_inside.png"
+  },
+  {
+   "x1": 486,
+   "y1": 719,
+   "x2": 566,
+   "y2": 750,
+   "w": 81,
+   "h": 32,
+   "ink_px": 517,
+   "red_fraction": 0.882,
+   "mean_rgb": [
+    248,
+    148,
+    131
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 5,
+   "crop_box": [
+    480,
+    713,
+    573,
+    757
+   ],
+   "crop_marked": "crops/marker_05_marked.png",
+   "crop_clean": "crops/marker_05_clean.png",
+   "crop_inside": "crops/marker_05_inside.png"
+  }
+ ]
+}

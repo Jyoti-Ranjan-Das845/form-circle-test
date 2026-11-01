@@ -1,0 +1,124 @@
+{
+ "page": "01_text_typed_report_airliner_air_study",
+ "size": [
+  757,
+  1000
+ ],
+ "params": {
+  "gap": 8,
+  "pad": 6,
+  "min_area": 40,
+  "diff_thresh": 30,
+  "pages": null
+ },
+ "markers": [
+  {
+   "x1": 475,
+   "y1": 359,
+   "x2": 545,
+   "y2": 381,
+   "w": 71,
+   "h": 23,
+   "ink_px": 425,
+   "red_fraction": 0.944,
+   "mean_rgb": [
+    248,
+    107,
+    81
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 1,
+   "crop_box": [
+    469,
+    353,
+    552,
+    388
+   ],
+   "crop_marked": "crops/marker_01_marked.png",
+   "crop_clean": "crops/marker_01_clean.png",
+   "crop_inside": "crops/marker_01_inside.png"
+  },
+  {
+   "x1": 89,
+   "y1": 434,
+   "x2": 190,
+   "y2": 460,
+   "w": 102,
+   "h": 27,
+   "ink_px": 530,
+   "red_fraction": 0.902,
+   "mean_rgb": [
+    238,
+    107,
+    83
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 2,
+   "crop_box": [
+    83,
+    428,
+    197,
+    467
+   ],
+   "crop_marked": "crops/marker_02_marked.png",
+   "crop_clean": "crops/marker_02_clean.png",
+   "crop_inside": "crops/marker_02_inside.png"
+  },
+  {
+   "x1": 527,
+   "y1": 537,
+   "x2": 636,
+   "y2": 557,
+   "w": 110,
+   "h": 21,
+   "ink_px": 509,
+   "red_fraction": 0.959,
+   "mean_rgb": [
+    243,
+    96,
+    69
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 3,
+   "crop_box": [
+    521,
+    531,
+    643,
+    564
+   ],
+   "crop_marked": "crops/marker_03_marked.png",
+   "crop_clean": "crops/marker_03_clean.png",
+   "crop_inside": "crops/marker_03_inside.png"
+  },
+  {
+   "x1": 169,
+   "y1": 599,
+   "x2": 196,
+   "y2": 618,
+   "w": 28,
+   "h": 20,
+   "ink_px": 180,
+   "red_fraction": 0.939,
+   "mean_rgb": [
+    253,
+    114,
+    88
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 4,
+   "crop_box": [
+    163,
+    593,
+    203,
+    625
+   ],
+   "crop_marked": "crops/marker_04_marked.png",
+   "crop_clean": "crops/marker_04_clean.png",
+   "crop_inside": "crops/marker_04_inside.png"
+  }
+ ]
+}

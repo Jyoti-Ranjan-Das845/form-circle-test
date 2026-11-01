@@ -1,0 +1,178 @@
+{
+ "page": "04_text_two_column_journal_page",
+ "size": [
+  754,
+  1000
+ ],
+ "params": {
+  "gap": 8,
+  "pad": 6,
+  "min_area": 40,
+  "diff_thresh": 30,
+  "pages": null
+ },
+ "markers": [
+  {
+   "x1": 148,
+   "y1": 213,
+   "x2": 228,
+   "y2": 251,
+   "w": 81,
+   "h": 39,
+   "ink_px": 432,
+   "red_fraction": 0.926,
+   "mean_rgb": [
+    254,
+    127,
+    104
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 1,
+   "crop_box": [
+    142,
+    207,
+    235,
+    258
+   ],
+   "crop_marked": "crops/marker_01_marked.png",
+   "crop_clean": "crops/marker_01_clean.png",
+   "crop_inside": "crops/marker_01_inside.png"
+  },
+  {
+   "x1": 302,
+   "y1": 402,
+   "x2": 503,
+   "y2": 436,
+   "w": 202,
+   "h": 35,
+   "ink_px": 1420,
+   "red_fraction": 0.923,
+   "mean_rgb": [
+    254,
+    142,
+    122
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 2,
+   "crop_box": [
+    296,
+    396,
+    510,
+    443
+   ],
+   "crop_marked": "crops/marker_02_marked.png",
+   "crop_clean": "crops/marker_02_clean.png",
+   "crop_inside": "crops/marker_02_inside.png"
+  },
+  {
+   "x1": 305,
+   "y1": 679,
+   "x2": 348,
+   "y2": 697,
+   "w": 44,
+   "h": 19,
+   "ink_px": 207,
+   "red_fraction": 0.947,
+   "mean_rgb": [
+    254,
+    125,
+    101
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 3,
+   "crop_box": [
+    299,
+    673,
+    355,
+    704
+   ],
+   "crop_marked": "crops/marker_03_marked.png",
+   "crop_clean": "crops/marker_03_clean.png",
+   "crop_inside": "crops/marker_03_inside.png"
+  },
+  {
+   "x1": 46,
+   "y1": 721,
+   "x2": 93,
+   "y2": 741,
+   "w": 48,
+   "h": 21,
+   "ink_px": 303,
+   "red_fraction": 0.855,
+   "mean_rgb": [
+    252,
+    144,
+    125
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 4,
+   "crop_box": [
+    40,
+    715,
+    100,
+    748
+   ],
+   "crop_marked": "crops/marker_04_marked.png",
+   "crop_clean": "crops/marker_04_clean.png",
+   "crop_inside": "crops/marker_04_inside.png"
+  },
+  {
+   "x1": 163,
+   "y1": 754,
+   "x2": 223,
+   "y2": 773,
+   "w": 61,
+   "h": 20,
+   "ink_px": 330,
+   "red_fraction": 0.852,
+   "mean_rgb": [
+    253,
+    127,
+    105
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 5,
+   "crop_box": [
+    157,
+    748,
+    230,
+    780
+   ],
+   "crop_marked": "crops/marker_05_marked.png",
+   "crop_clean": "crops/marker_05_clean.png",
+   "crop_inside": "crops/marker_05_inside.png"
+  },
+  {
+   "x1": 60,
+   "y1": 832,
+   "x2": 96,
+   "y2": 848,
+   "w": 37,
+   "h": 17,
+   "ink_px": 226,
+   "red_fraction": 0.898,
+   "mean_rgb": [
+    249,
+    133,
+    112
+   ],
+   "shape": "closed",
+   "note": "",
+   "id": 6,
+   "crop_box": [
+    54,
+    826,
+    103,
+    855
+   ],
+   "crop_marked": "crops/marker_06_marked.png",
+   "crop_clean": "crops/marker_06_clean.png",
+   "crop_inside": "crops/marker_06_inside.png"
+  }
+ ]
+}

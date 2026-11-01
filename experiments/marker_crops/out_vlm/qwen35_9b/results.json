@@ -1,0 +1,692 @@
+{
+ "marked": [
+  {
+   "page": "01",
+   "id": 1,
+   "answer": "smoking",
+   "s": 1.0
+  },
+  {
+   "page": "01",
+   "id": 2,
+   "answer": "Germantown",
+   "s": 1.0
+  },
+  {
+   "page": "01",
+   "id": 3,
+   "answer": "unobtrusive",
+   "s": 1.0
+  },
+  {
+   "page": "01",
+   "id": 4,
+   "answer": "92",
+   "s": 0.8
+  },
+  {
+   "page": "02",
+   "id": 1,
+   "answer": "1901",
+   "s": 1.0
+  },
+  {
+   "page": "02",
+   "id": 2,
+   "answer": "D. M. Teng",
+   "s": 1.0
+  },
+  {
+   "page": "02",
+   "id": 3,
+   "answer": "50-liter",
+   "s": 0.9
+  },
+  {
+   "page": "02",
+   "id": 4,
+   "answer": "20 hours.",
+   "s": 1.0
+  },
+  {
+   "page": "02",
+   "id": 5,
+   "answer": "pH",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 1,
+   "answer": "Rosenblatt",
+   "s": 0.7
+  },
+  {
+   "page": "03",
+   "id": 2,
+   "answer": "Circulation",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 3,
+   "answer": "32,000",
+   "s": 1.0
+  },
+  {
+   "page": "03",
+   "id": 4,
+   "answer": "statistical bias,",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 5,
+   "answer": "NADA",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 6,
+   "answer": "SMOKERS!",
+   "s": 0.9
+  },
+  {
+   "page": "04",
+   "id": 1,
+   "answer": "Framingham",
+   "s": 0.9
+  },
+  {
+   "page": "04",
+   "id": 2,
+   "answer": "THE CARDIOVASCULAR HAZARDS",
+   "s": 1.2
+  },
+  {
+   "page": "04",
+   "id": 3,
+   "answer": "inhale.",
+   "s": 0.9
+  },
+  {
+   "page": "04",
+   "id": 4,
+   "answer": "325,000",
+   "s": 1.1
+  },
+  {
+   "page": "04",
+   "id": 5,
+   "answer": "$19 billion.",
+   "s": 1.0
+  },
+  {
+   "page": "04",
+   "id": 6,
+   "answer": "Boston",
+   "s": 0.8
+  },
+  {
+   "page": "05",
+   "id": 1,
+   "answer": "MARCH 11, 1996",
+   "s": 1.3
+  },
+  {
+   "page": "05",
+   "id": 2,
+   "answer": "weak",
+   "s": 0.8
+  },
+  {
+   "page": "05",
+   "id": 3,
+   "answer": "Kevin Sweeney",
+   "s": 0.9
+  },
+  {
+   "page": "05",
+   "id": 4,
+   "answer": "Bacon",
+   "s": 0.9
+  },
+  {
+   "page": "05",
+   "id": 5,
+   "answer": "f toxic waste,",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 1,
+   "answer": "(BIAD #93-13104)",
+   "s": 1.4
+  },
+  {
+   "page": "06",
+   "id": 2,
+   "answer": "4.6%)",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 3,
+   "answer": "Marlboro",
+   "s": 0.9
+  },
+  {
+   "page": "06",
+   "id": 4,
+   "answer": "not",
+   "s": 0.8
+  },
+  {
+   "page": "06",
+   "id": 5,
+   "answer": "24.4%",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 6,
+   "answer": "18.5%",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 7,
+   "answer": "76%",
+   "s": 0.9
+  },
+  {
+   "page": "20",
+   "id": 1,
+   "answer": "YES",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 2,
+   "answer": "YES",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 3,
+   "answer": "NO",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 4,
+   "answer": "NO",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 5,
+   "answer": "3",
+   "s": 0.8
+  }
+ ],
+ "both": [
+  {
+   "page": "01",
+   "id": 1,
+   "answer": "smoking",
+   "s": 1.4
+  },
+  {
+   "page": "01",
+   "id": 2,
+   "answer": "Germantown",
+   "s": 1.5
+  },
+  {
+   "page": "01",
+   "id": 3,
+   "answer": "unobtrusive",
+   "s": 1.5
+  },
+  {
+   "page": "01",
+   "id": 4,
+   "answer": "92",
+   "s": 1.4
+  },
+  {
+   "page": "02",
+   "id": 1,
+   "answer": "1901",
+   "s": 1.5
+  },
+  {
+   "page": "02",
+   "id": 2,
+   "answer": "D. M. Teng",
+   "s": 1.5
+  },
+  {
+   "page": "02",
+   "id": 3,
+   "answer": "50-liter",
+   "s": 1.4
+  },
+  {
+   "page": "02",
+   "id": 4,
+   "answer": "20 hours.",
+   "s": 1.5
+  },
+  {
+   "page": "02",
+   "id": 5,
+   "answer": "pH",
+   "s": 1.3
+  },
+  {
+   "page": "03",
+   "id": 1,
+   "answer": "Rosenblatt",
+   "s": 1.2
+  },
+  {
+   "page": "03",
+   "id": 2,
+   "answer": "Circulation K",
+   "s": 1.5
+  },
+  {
+   "page": "03",
+   "id": 3,
+   "answer": "32,000",
+   "s": 1.6
+  },
+  {
+   "page": "03",
+   "id": 4,
+   "answer": "statistical bias,",
+   "s": 1.4
+  },
+  {
+   "page": "03",
+   "id": 5,
+   "answer": "NADA",
+   "s": 1.2
+  },
+  {
+   "page": "03",
+   "id": 6,
+   "answer": "-SMOKERS!",
+   "s": 1.5
+  },
+  {
+   "page": "04",
+   "id": 1,
+   "answer": "Framingham",
+   "s": 1.3
+  },
+  {
+   "page": "04",
+   "id": 2,
+   "answer": "THE CARDIOVASCULAR HAZARDS",
+   "s": 1.7
+  },
+  {
+   "page": "04",
+   "id": 3,
+   "answer": "inhale.",
+   "s": 1.3
+  },
+  {
+   "page": "04",
+   "id": 4,
+   "answer": "325,000",
+   "s": 1.5
+  },
+  {
+   "page": "04",
+   "id": 5,
+   "answer": "$19 billion.",
+   "s": 1.5
+  },
+  {
+   "page": "04",
+   "id": 6,
+   "answer": "Boston U",
+   "s": 1.4
+  },
+  {
+   "page": "05",
+   "id": 1,
+   "answer": ": MARCH 11, 1996",
+   "s": 1.9
+  },
+  {
+   "page": "05",
+   "id": 2,
+   "answer": "weak",
+   "s": 1.3
+  },
+  {
+   "page": "05",
+   "id": 3,
+   "answer": "Kevin Sweeney",
+   "s": 1.4
+  },
+  {
+   "page": "05",
+   "id": 4,
+   "answer": "Bacon",
+   "s": 1.4
+  },
+  {
+   "page": "05",
+   "id": 5,
+   "answer": "f toxic waste,",
+   "s": 1.5
+  },
+  {
+   "page": "06",
+   "id": 1,
+   "answer": "(BIAD #93-13104)",
+   "s": 1.9
+  },
+  {
+   "page": "06",
+   "id": 2,
+   "answer": "4.6%",
+   "s": 1.5
+  },
+  {
+   "page": "06",
+   "id": 3,
+   "answer": "Marlboro",
+   "s": 1.4
+  },
+  {
+   "page": "06",
+   "id": 4,
+   "answer": "not",
+   "s": 1.3
+  },
+  {
+   "page": "06",
+   "id": 5,
+   "answer": "24.4%",
+   "s": 1.5
+  },
+  {
+   "page": "06",
+   "id": 6,
+   "answer": "18.5%",
+   "s": 1.6
+  },
+  {
+   "page": "06",
+   "id": 7,
+   "answer": "76%",
+   "s": 1.4
+  },
+  {
+   "page": "20",
+   "id": 1,
+   "answer": "YES",
+   "s": 1.3
+  },
+  {
+   "page": "20",
+   "id": 2,
+   "answer": "YES",
+   "s": 1.3
+  },
+  {
+   "page": "20",
+   "id": 3,
+   "answer": "NO",
+   "s": 1.3
+  },
+  {
+   "page": "20",
+   "id": 4,
+   "answer": "NO",
+   "s": 1.3
+  },
+  {
+   "page": "20",
+   "id": 5,
+   "answer": "3",
+   "s": 1.3
+  }
+ ],
+ "inside": [
+  {
+   "page": "01",
+   "id": 1,
+   "answer": "smoking",
+   "s": 0.9
+  },
+  {
+   "page": "01",
+   "id": 2,
+   "answer": "Germantown",
+   "s": 1.0
+  },
+  {
+   "page": "01",
+   "id": 3,
+   "answer": "unobtrusive",
+   "s": 1.0
+  },
+  {
+   "page": "01",
+   "id": 4,
+   "answer": "92",
+   "s": 0.9
+  },
+  {
+   "page": "02",
+   "id": 1,
+   "answer": "1901",
+   "s": 1.0
+  },
+  {
+   "page": "02",
+   "id": 2,
+   "answer": "D. M. Teng",
+   "s": 1.0
+  },
+  {
+   "page": "02",
+   "id": 3,
+   "answer": "50-liter",
+   "s": 0.9
+  },
+  {
+   "page": "02",
+   "id": 4,
+   "answer": "20 hours",
+   "s": 0.9
+  },
+  {
+   "page": "02",
+   "id": 5,
+   "answer": "pH",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 1,
+   "answer": "rosenblatt",
+   "s": 0.8
+  },
+  {
+   "page": "03",
+   "id": 2,
+   "answer": "Circulation",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 3,
+   "answer": "32,000",
+   "s": 1.0
+  },
+  {
+   "page": "03",
+   "id": 4,
+   "answer": "statistical bias",
+   "s": 0.9
+  },
+  {
+   "page": "03",
+   "id": 5,
+   "answer": "NADA",
+   "s": 0.7
+  },
+  {
+   "page": "03",
+   "id": 6,
+   "answer": "smokers!",
+   "s": 0.9
+  },
+  {
+   "page": "04",
+   "id": 1,
+   "answer": "Framingham,",
+   "s": 0.8
+  },
+  {
+   "page": "04",
+   "id": 2,
+   "answer": "THE CARDIOVASCULAR HAZARDS",
+   "s": 1.2
+  },
+  {
+   "page": "04",
+   "id": 3,
+   "answer": "inhale.",
+   "s": 0.8
+  },
+  {
+   "page": "04",
+   "id": 4,
+   "answer": "325,000",
+   "s": 1.0
+  },
+  {
+   "page": "04",
+   "id": 5,
+   "answer": "$19 billion",
+   "s": 1.0
+  },
+  {
+   "page": "04",
+   "id": 6,
+   "answer": "Boston",
+   "s": 0.8
+  },
+  {
+   "page": "05",
+   "id": 1,
+   "answer": "MARCH 11, 1996",
+   "s": 1.3
+  },
+  {
+   "page": "05",
+   "id": 2,
+   "answer": "weak:",
+   "s": 0.9
+  },
+  {
+   "page": "05",
+   "id": 3,
+   "answer": "Kevin Sweeney",
+   "s": 0.9
+  },
+  {
+   "page": "05",
+   "id": 4,
+   "answer": "Bacon",
+   "s": 0.9
+  },
+  {
+   "page": "05",
+   "id": 5,
+   "answer": "toxic waste",
+   "s": 0.9
+  },
+  {
+   "page": "06",
+   "id": 1,
+   "answer": "(BIAD#93-13104)",
+   "s": 1.4
+  },
+  {
+   "page": "06",
+   "id": 2,
+   "answer": "4.6%",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 3,
+   "answer": "Marlboro",
+   "s": 0.9
+  },
+  {
+   "page": "06",
+   "id": 4,
+   "answer": "not",
+   "s": 0.8
+  },
+  {
+   "page": "06",
+   "id": 5,
+   "answer": "24.4%)",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 6,
+   "answer": "18.5%",
+   "s": 1.0
+  },
+  {
+   "page": "06",
+   "id": 7,
+   "answer": "76%\u3001",
+   "s": 1.0
+  },
+  {
+   "page": "20",
+   "id": 1,
+   "answer": "yes",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 2,
+   "answer": "YES",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 3,
+   "answer": "no",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 4,
+   "answer": "NO",
+   "s": 0.8
+  },
+  {
+   "page": "20",
+   "id": 5,
+   "answer": "3",
+   "s": 0.8
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+[
+ {
+  "page": "01_text_typed_report_airliner_air_study",
+  "status": "ok",
+  "markers": 4,
+  "gt_items": 4,
+  "closed": 4,
+  "flagged_ids": [],
+  "min_red_fraction": 0.902
+ },
+ {
+  "page": "02_text_typed_lab_report",
+  "status": "ok",
+  "markers": 5,
+  "gt_items": 5,
+  "closed": 5,
+  "flagged_ids": [],
+  "min_red_fraction": 0.853
+ },
+ {
+  "page": "03_text_article_serif_with_italics",
+  "status": "ok",
+  "markers": 6,
+  "gt_items": 6,
+  "closed": 6,
+  "flagged_ids": [],
+  "min_red_fraction": 0.865
+ },
+ {
+  "page": "04_text_two_column_journal_page",
+  "status": "ok",
+  "markers": 6,
+  "gt_items": 6,
+  "closed": 6,
+  "flagged_ids": [],
+  "min_red_fraction": 0.852
+ },
+ {
+  "page": "05_text_memo_serif_with_bullets",
+  "status": "ok",
+  "markers": 5,
+  "gt_items": 5,
+  "closed": 5,
+  "flagged_ids": [],
+  "min_red_fraction": 0.874
+ },
+ {
+  "page": "06_text_memo_key_findings_bullets",
+  "status": "ok",
+  "markers": 7,
+  "gt_items": 7,
+  "closed": 7,
+  "flagged_ids": [],
+  "min_red_fraction": 0.875
+ },
+ {
+  "page": "07_text_typewriter_qa_document",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 6
+ },
+ {
+  "page": "08_text_bold_typewriter_memo",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 6
+ },
+ {
+  "page": "09_text_memo_with_name_lists",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 7
+ },
+ {
+  "page": "10_text_memo_with_number_tables",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 6
+ },
+ {
+  "page": "11_options_interview_with_code_tables",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 5
+ },
+ {
+  "page": "12_options_dense_screener_brand_codes",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 7
+ },
+ {
+  "page": "13_options_report_form_scoreboard_yes_no",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 5
+ },
+ {
+  "page": "14_options_two_column_yes_no_questionnaire",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 14
+ },
+ {
+  "page": "15_options_focus_group_screener",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 7
+ },
+ {
+  "page": "16_options_screener_dotted_codes",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 9
+ },
+ {
+  "page": "17_options_inquiry_with_lettered_choices",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 2
+ },
+ {
+  "page": "18_options_phone_survey_yes_no_codes",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 4
+ },
+ {
+  "page": "19_options_screener_brackets_age_products",
+  "status": "unmarked",
+  "markers": 0,
+  "gt_items": 4
+ },
+ {
+  "page": "20_options_health_survey_yes_no_circle",
+  "status": "ok",
+  "markers": 5,
+  "gt_items": 6,
+  "closed": 5,
+  "flagged_ids": [],
+  "min_red_fraction": 0.856
+ }
+]
