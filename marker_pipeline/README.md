@@ -115,6 +115,7 @@ Results on the 7 pages (38 circled items), 2026-11-02, on an 8 GB M2:
 |---|---|---|---|---|---|
 | PaddleOCR-VL 1.5 bf16 | inside | **38/38** | **38/38** | 0 | 0.52 |
 | PaddleOCR-VL 1.5 bf16 | marked | 36/38 | 28/38 | 2 | 0.56 |
+| Qwen3.5-4B 6-bit, thinking off | marked | **38/38** | **38/38** | 0 | 3.09 |
 | Tesseract 5 | inside | 34/38 | 33/38 | 2 | 0.06 |
 | Tesseract 5 | marked | 17/38 | 0/38 | 15 | 0.09 |
 | RapidOCR (default PP-OCR models) | inside | 33/38 | 33/38 | 5 | 0.21 |
