@@ -1,0 +1,15 @@
+# core: detection and cropping
+numpy>=1.26
+pillow>=10
+opencv-python>=4.8
+scikit-image>=0.22
+
+# readers (install the ones you use)
+mlx-vlm>=0.7          # MLX vision models: PaddleOCR-VL, Qwen3.5, Gemma 4 ... (Apple Silicon only)
+rapidocr>=3           # PP-OCR through ONNX Runtime
+onnxruntime>=1.17
+# tesseract: system program, `brew install tesseract` / `apt install tesseract-ocr`
+# openai:<model> readers need nothing extra (standard library HTTP)
+
+# tests
+pytest>=8
