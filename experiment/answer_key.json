@@ -1,0 +1,270 @@
+{
+ "_about": "Expected circled text per page of experiment/dataset/ready_to_use (38 items). 'accept' lists every string that counts as that item: an option's label or its printed code. Page img_20 also has one question that is deliberately left unmarked, listed under 'unmarked'.",
+ "img_01": {
+  "kind": "text",
+  "items": [
+   {
+    "id": "01-1",
+    "accept": [
+     "Germantown"
+    ]
+   },
+   {
+    "id": "01-2",
+    "accept": [
+     "smoking"
+    ]
+   },
+   {
+    "id": "01-3",
+    "accept": [
+     "92"
+    ]
+   },
+   {
+    "id": "01-4",
+    "accept": [
+     "unobtrusive"
+    ]
+   }
+  ]
+ },
+ "img_02": {
+  "kind": "text",
+  "items": [
+   {
+    "id": "02-1",
+    "accept": [
+     "D. M. Teng"
+    ]
+   },
+   {
+    "id": "02-2",
+    "accept": [
+     "1901"
+    ]
+   },
+   {
+    "id": "02-3",
+    "accept": [
+     "50-liter"
+    ]
+   },
+   {
+    "id": "02-4",
+    "accept": [
+     "20 hours"
+    ]
+   },
+   {
+    "id": "02-5",
+    "accept": [
+     "pH"
+    ]
+   }
+  ]
+ },
+ "img_03": {
+  "kind": "text",
+  "items": [
+   {
+    "id": "03-1",
+    "accept": [
+     "Circulation"
+    ]
+   },
+   {
+    "id": "03-2",
+    "accept": [
+     "32,000"
+    ]
+   },
+   {
+    "id": "03-3",
+    "accept": [
+     "statistical bias"
+    ]
+   },
+   {
+    "id": "03-4",
+    "accept": [
+     "NADA"
+    ]
+   },
+   {
+    "id": "03-5",
+    "accept": [
+     "Rosenblatt"
+    ]
+   },
+   {
+    "id": "03-6",
+    "accept": [
+     "SMOKERS"
+    ]
+   }
+  ]
+ },
+ "img_04": {
+  "kind": "text",
+  "items": [
+   {
+    "id": "04-1",
+    "accept": [
+     "Framingham"
+    ]
+   },
+   {
+    "id": "04-2",
+    "accept": [
+     "325,000"
+    ]
+   },
+   {
+    "id": "04-3",
+    "accept": [
+     "THE CARDIOVASCULAR HAZARDS"
+    ]
+   },
+   {
+    "id": "04-4",
+    "accept": [
+     "$19 billion"
+    ]
+   },
+   {
+    "id": "04-5",
+    "accept": [
+     "Boston"
+    ]
+   },
+   {
+    "id": "04-6",
+    "accept": [
+     "inhale"
+    ]
+   }
+  ]
+ },
+ "img_05": {
+  "kind": "text",
+  "items": [
+   {
+    "id": "05-1",
+    "accept": [
+     "Kevin Sweeney"
+    ]
+   },
+   {
+    "id": "05-2",
+    "accept": [
+     "MARCH 11, 1996"
+    ]
+   },
+   {
+    "id": "05-3",
+    "accept": [
+     "weak"
+    ]
+   },
+   {
+    "id": "05-4",
+    "accept": [
+     "toxic waste"
+    ]
+   },
+   {
+    "id": "05-5",
+    "accept": [
+     "Bacon"
+    ]
+   }
+  ]
+ },
+ "img_06": {
+  "kind": "text",
+  "items": [
+   {
+    "id": "06-1",
+    "accept": [
+     "24.4%"
+    ]
+   },
+   {
+    "id": "06-2",
+    "accept": [
+     "Marlboro"
+    ]
+   },
+   {
+    "id": "06-3",
+    "accept": [
+     "not"
+    ]
+   },
+   {
+    "id": "06-4",
+    "accept": [
+     "4.6%"
+    ]
+   },
+   {
+    "id": "06-5",
+    "accept": [
+     "BIAD #93-13104"
+    ]
+   },
+   {
+    "id": "06-6a",
+    "accept": [
+     "18.5%"
+    ]
+   },
+   {
+    "id": "06-6b",
+    "accept": [
+     "76%"
+    ]
+   }
+  ]
+ },
+ "img_20": {
+  "kind": "options",
+  "items": [
+   {
+    "id": "20-q1",
+    "accept": [
+     "YES"
+    ]
+   },
+   {
+    "id": "20-q1_2_1",
+    "accept": [
+     "NO"
+    ]
+   },
+   {
+    "id": "20-q1_2_2",
+    "accept": [
+     "YES"
+    ]
+   },
+   {
+    "id": "20-q1_2_4",
+    "accept": [
+     "NO"
+    ]
+   },
+   {
+    "id": "20-q1_3",
+    "accept": [
+     "Sometimes worse, sometimes better",
+     "3"
+    ]
+   }
+  ],
+  "unmarked": [
+   "20-q1_2_3"
+  ]
+ }
+}

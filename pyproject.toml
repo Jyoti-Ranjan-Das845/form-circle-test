@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markpipe"
+version = "0.1.0"
+description = "Find pen-circled text on scanned pages: diff-based mark detection, crops, pluggable readers"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pillow>=10", "opencv-python>=4.8", "scikit-image>=0.22"]
+
+[project.optional-dependencies]
+mlx = ["mlx-vlm>=0.7"]
+ocr = ["rapidocr>=3", "onnxruntime>=1.17"]
+test = ["pytest>=8"]
+
+[project.scripts]
+markpipe = "markpipe.cli:main"
+
+[tool.setuptools]
+packages = ["markpipe", "markpipe.readers"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
