@@ -1,0 +1,134 @@
+{
+  "_about": "Human reading of each page (README.md), in a form the scorer can compare. Not verified by the prescriber. sure=false marks readings the human was unsure of ('?' in the README); those are left out of exact-match scores. per_day: doses per day, 'weekly', or null when the page does not let a reader tell. duration: '<n> days|months', 'none' when no duration is written for that line, or null when it cannot be told (cut-off page). date: ISO, or null when not legible.",
+  "rx1": {
+    "date": null,
+    "bp": [100, 80], "bp_sure": true,
+    "labs": [
+      {"name": "FBS", "value": 146, "sure": true},
+      {"name": "PPBS", "value": 342, "sure": true}
+    ],
+    "meds": [
+      {"name": "Insugen 30/70", "sure": true, "per_day": 2, "duration": "none"},
+      {"name": "Doloneurom-NT 200/10", "sure": false, "per_day": 1, "duration": null},
+      {"name": "Myelobest", "sure": true, "per_day": 1, "duration": "none"}
+    ],
+    "tests": ["USG", "creatinine", "lipid", "FBS", "PPBS"]
+  },
+  "rx2": {
+    "date": null,
+    "bp": [150, 76], "bp_sure": true,
+    "labs": [],
+    "meds": [
+      {"name": "Telx-3D", "sure": false, "per_day": null, "duration": null},
+      {"name": "Sugita DM-500", "sure": false, "per_day": null, "duration": null},
+      {"name": "Roscenava CV", "sure": false, "per_day": null, "duration": null},
+      {"name": "Pentanerve GPX", "sure": false, "per_day": null, "duration": null}
+    ],
+    "tests": []
+  },
+  "rx3": {
+    "date": "2026-10-03",
+    "bp": [110, 82], "bp_sure": true,
+    "labs": [
+      {"name": "FBS", "value": 180, "sure": true},
+      {"name": "PPBS", "value": 246, "sure": true}
+    ],
+    "meds": [
+      {"name": "Glimisave MV 2.2", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Cospiaq SM 25/1000", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Geminor M4", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Rosuhelp 10", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Myelohelp", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "PAN-D", "sure": true, "per_day": 1, "duration": "10 days"}
+    ],
+    "tests": ["FBS", "PPBS"]
+  },
+  "rx4": {
+    "date": "2026-10-03",
+    "bp": [110, 67], "bp_sure": true,
+    "labs": [],
+    "meds": [
+      {"name": "Lupisulin M30", "sure": true, "per_day": 2, "duration": "none"},
+      {"name": "Glycomet SR 500", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Calcimed XL", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Rosuhelp 10", "sure": true, "per_day": 1, "duration": "none"}
+    ],
+    "tests": ["FBS", "PPBS", "urea", "creatinine", "lipid", "USG"]
+  },
+  "rx5": {
+    "date": "2026-10-03",
+    "bp": [126, 86], "bp_sure": true,
+    "labs": [
+      {"name": "TG", "value": 344, "sure": true},
+      {"name": "LDL", "value": 134, "sure": true},
+      {"name": "FBS", "value": 345, "sure": true},
+      {"name": "PPBS", "value": 430, "sure": true},
+      {"name": "HbA1c", "value": 10.2, "sure": true},
+      {"name": "TSH", "value": 8.56, "sure": true},
+      {"name": "creatinine", "value": 0.53, "sure": true},
+      {"name": "AST/ALT", "value": "53/38", "sure": true},
+      {"name": "Hb", "value": 10.6, "sure": true}
+    ],
+    "meds": [
+      {"name": "SHLT-D Trio 1000", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Glimisave MV 2.2", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Thyrox 37.5", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Rosuhelp 10", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Loyfor XL", "sure": false, "per_day": 1, "duration": "none"}
+    ],
+    "tests": ["FBS", "PPBS", "AST", "Hb", "TSH", "lipid"]
+  },
+  "rx6": {
+    "date": "2026-10-03",
+    "bp": [138, 84], "bp_sure": true,
+    "labs": [
+      {"name": "FBS", "value": 152, "sure": true},
+      {"name": "PPBS", "value": 204, "sure": true}
+    ],
+    "meds": [
+      {"name": "Geminor M2 Forte", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Santa SM 1000", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Nurokind Plus", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Pregal NT", "sure": false, "per_day": 1, "duration": "none"},
+      {"name": "Rosuhelp 10", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Rexidin M Forte", "sure": true, "per_day": 2, "duration": "7 days"},
+      {"name": "Bifolate", "sure": true, "per_day": 1, "duration": "2 months"}
+    ],
+    "tests": ["lipid"]
+  },
+  "rx7": {
+    "date": "2026-10-03",
+    "bp": [160, 100], "bp_sure": true,
+    "labs": [
+      {"name": "FBS", "value": 128, "sure": true},
+      {"name": "PPBS", "value": 198, "sure": true},
+      {"name": "HbA1c", "value": 7.1, "sure": true},
+      {"name": "Na", "value": 135, "sure": true},
+      {"name": "K", "value": 4.48, "sure": false},
+      {"name": "creatinine", "value": 0.61, "sure": false},
+      {"name": "LDL", "value": 102, "sure": true},
+      {"name": "TSH", "value": 4.19, "sure": true}
+    ],
+    "meds": [
+      {"name": "Nicardia Retard 20", "sure": true, "per_day": 2, "duration": "none"},
+      {"name": "Telista H 40", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Met XL 25", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Rosuhelp 10", "sure": true, "per_day": 1, "duration": "none"},
+      {"name": "Oma Q10", "sure": false, "per_day": 1, "duration": "none"}
+    ],
+    "tests": ["FBS", "PPBS", "Na", "K", "AST"]
+  },
+  "rx8": {
+    "date": "2026-10-04",
+    "bp": [116, 81], "bp_sure": true,
+    "labs": [],
+    "meds": [
+      {"name": "Etoshine-MR", "sure": true, "per_day": 2, "duration": "10 days"},
+      {"name": "Myelohelp", "sure": true, "per_day": 1, "duration": "30 days"},
+      {"name": "Uprise-D3", "sure": true, "per_day": "weekly", "duration": "3 months"},
+      {"name": "Susrab-DSR", "sure": true, "per_day": 1, "duration": "10 days"},
+      {"name": "Flenabenz Gel", "sure": false, "per_day": 2, "duration": "none"}
+    ],
+    "tests": []
+  }
+}
