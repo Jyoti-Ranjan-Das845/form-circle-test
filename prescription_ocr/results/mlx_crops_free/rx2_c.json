@@ -1,0 +1,19 @@
+{
+  "image": "rx2_c.jpeg",
+  "gt": "Tab. Telx-3D",
+  "free": {
+    "seconds": 3.7,
+    "raw": "Tab.",
+    "scores": {
+      "cer": 0.667,
+      "wer": 0.5,
+      "word_f1": 0.667,
+      "word_recall": 0.5
+    }
+  },
+  "tag": {
+    "seconds": 3.8,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/2"
+  }
+}

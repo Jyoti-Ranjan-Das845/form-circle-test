@@ -1,0 +1,19 @@
+{
+  "image": "rx3_c.jpeg",
+  "gt": "Cap PAN-D",
+  "free": {
+    "seconds": 3.8,
+    "raw": "\"cap p.AN-D\"",
+    "scores": {
+      "cer": 0.333,
+      "wer": 1.0,
+      "word_f1": 0.0,
+      "word_recall": 0.0
+    }
+  },
+  "tag": {
+    "seconds": 3.8,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/2"
+  }
+}

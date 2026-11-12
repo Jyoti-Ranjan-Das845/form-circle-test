@@ -1,0 +1,19 @@
+{
+  "image": "rx3_a.jpeg",
+  "gt": "Bp - 110/82 mm",
+  "free": {
+    "seconds": 3.9,
+    "raw": "\"P1 - 110/82 mmHg\"",
+    "scores": {
+      "cer": 0.357,
+      "wer": 0.5,
+      "word_f1": 0.5,
+      "word_recall": 0.5
+    }
+  },
+  "tag": {
+    "seconds": 3.7,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/4"
+  }
+}

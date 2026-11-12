@@ -1,0 +1,19 @@
+{
+  "image": "rx5_b.jpeg",
+  "gt": "A1C - 10.2%\nTSH - 8.56\nCreat - 0.53\nAST/ALT - 53/38\nHb - 10.6",
+  "free": {
+    "seconds": 5.2,
+    "raw": "\"↑↑↑ 10.2%.\"\n\"↑↑↑ 8.56\"\n\"Creat - 0.53\"\n\"↑↑↑ 53/38.\"\n\"↑↑↑ 10.6\"",
+    "scores": {
+      "cer": 0.508,
+      "wer": 0.933,
+      "word_f1": 0.077,
+      "word_recall": 0.067
+    }
+  },
+  "tag": {
+    "seconds": 6.1,
+    "raw": "{\"prescription_elements\": {\"diagnosticResults\": [{\"category\": \"laboratory\", \"name\": \"Creat\", \"results\": [{\"name\": \"Creat\", \"value\": 0.53}]}, {\"category\": \"laboratory\", \"name\": \"TS1 / ACT\", \"results\": [{\"name\": \"TS1\", \"value\": 53}, {\"name\": \"ACT\", \"value\": 38}]}]}}",
+    "gt_words_found": "2/15"
+  }
+}

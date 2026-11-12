@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "image": "rx8_c.jpeg",
+  "mode": "mlx free prompt",
+  "prompt": "Transcribe all the text in this image exactly as written. Output only the text.",
+  "seconds": 4.0,
+  "raw": "\"Tab. Etosline-MPR\""
+}

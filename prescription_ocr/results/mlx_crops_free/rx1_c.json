@@ -1,0 +1,19 @@
+{
+  "image": "rx1_c.jpeg",
+  "gt": "Cap Myelobest",
+  "free": {
+    "seconds": 3.8,
+    "raw": "\"Co p Nyelobest\"",
+    "scores": {
+      "cer": 0.385,
+      "wer": 1.5,
+      "word_f1": 0.0,
+      "word_recall": 0.0
+    }
+  },
+  "tag": {
+    "seconds": 3.9,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/2"
+  }
+}

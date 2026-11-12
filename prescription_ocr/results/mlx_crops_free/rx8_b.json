@@ -1,0 +1,19 @@
+{
+  "image": "rx8_b.jpeg",
+  "gt": "C/O - calf pain (B/L)",
+  "free": {
+    "seconds": 4.1,
+    "raw": "C/O calf perianal (B/L)",
+    "scores": {
+      "cer": 0.333,
+      "wer": 0.4,
+      "word_f1": 0.667,
+      "word_recall": 0.6
+    }
+  },
+  "tag": {
+    "seconds": 4.0,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/5"
+  }
+}

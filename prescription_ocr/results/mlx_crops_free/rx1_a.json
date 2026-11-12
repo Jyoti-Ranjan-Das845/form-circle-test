@@ -1,0 +1,19 @@
+{
+  "image": "rx1_a.jpeg",
+  "gt": "FBS. 146\n2h. PPBS - 342",
+  "free": {
+    "seconds": 4.2,
+    "raw": "HBs. 146\n2h. PPD - 342",
+    "scores": {
+      "cer": 0.13,
+      "wer": 0.333,
+      "word_f1": 0.667,
+      "word_recall": 0.667
+    }
+  },
+  "tag": {
+    "seconds": 4.8,
+    "raw": "{\"prescription_elements\": {\"diagnosticResults\": [{\"category\": \"laboratory\", \"name\": \"HBsAg\", \"results\": [{\"name\": \"HBsAg\", \"value\": 146}]}]}}",
+    "gt_words_found": "1/6"
+  }
+}

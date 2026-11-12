@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "image": "rx7_a.jpeg",
+  "mode": "mlx free prompt",
+  "prompt": "Transcribe all the text in this image exactly as written. Output only the text.",
+  "seconds": 4.1,
+  "raw": "\"000 160/100 000\""
+}

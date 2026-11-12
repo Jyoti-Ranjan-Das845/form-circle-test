@@ -1,0 +1,19 @@
+{
+  "image": "rx4_b.jpeg",
+  "gt": "Tab Glycomet SR 500",
+  "free": {
+    "seconds": 3.7,
+    "raw": "\"Gylcomet SR\"",
+    "scores": {
+      "cer": 0.526,
+      "wer": 1.0,
+      "word_f1": 0.0,
+      "word_recall": 0.0
+    }
+  },
+  "tag": {
+    "seconds": 3.7,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/4"
+  }
+}

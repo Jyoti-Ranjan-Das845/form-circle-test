@@ -1,0 +1,19 @@
+{
+  "image": "rx1_b.jpeg",
+  "gt": "Diabetic diet",
+  "free": {
+    "seconds": 3.7,
+    "raw": "Diabetic diet",
+    "scores": {
+      "cer": 0.0,
+      "wer": 0.0,
+      "word_f1": 1.0,
+      "word_recall": 1.0
+    }
+  },
+  "tag": {
+    "seconds": 3.8,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/2"
+  }
+}

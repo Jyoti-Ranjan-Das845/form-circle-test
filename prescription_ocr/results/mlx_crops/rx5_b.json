@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "seconds": 6.0,
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 87
+  },
+  "raw": "{\"prescription_elements\": {\"diagnosticResults\": [{\"category\": \"laboratory\", \"name\": \"Creat\", \"results\": [{\"name\": \"Creat\", \"value\": 0.53}]}, {\"category\": \"laboratory\", \"name\": \"TS1 / ACT\", \"results\": [{\"name\": \"TS1\", \"value\": 53}, {\"name\": \"ACT\", \"value\": 38}]}]}}",
+  "json": {
+    "prescription_elements": {
+      "diagnosticResults": [
+        {
+          "category": "laboratory",
+          "name": "Creat",
+          "results": [
+            {
+              "name": "Creat",
+              "value": 0.53
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "TS1 / ACT",
+          "results": [
+            {
+              "name": "TS1",
+              "value": 53
+            },
+            {
+              "name": "ACT",
+              "value": 38
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "image": "rx5_b.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "repetition_penalty": null,
+  "peak_memory_gb": 8.2
+}

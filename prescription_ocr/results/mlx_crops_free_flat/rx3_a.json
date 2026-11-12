@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "image": "rx3_a.jpeg",
+  "mode": "mlx free prompt",
+  "prompt": "Transcribe all the text in this image exactly as written. Output only the text.",
+  "seconds": 3.9,
+  "raw": "\"P1 - 110/82 mmHg\""
+}

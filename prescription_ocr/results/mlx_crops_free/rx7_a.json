@@ -1,0 +1,19 @@
+{
+  "image": "rx7_a.jpeg",
+  "gt": "Bp - 160/100 mm",
+  "free": {
+    "seconds": 4.1,
+    "raw": "\"000 160/100 000\"",
+    "scores": {
+      "cer": 0.533,
+      "wer": 0.75,
+      "word_f1": 0.286,
+      "word_recall": 0.25
+    }
+  },
+  "tag": {
+    "seconds": 3.9,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/4"
+  }
+}

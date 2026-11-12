@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "seconds": 4.9,
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 45
+  },
+  "raw": "{\"prescription_elements\": {\"diagnosticResults\": [{\"category\": \"laboratory\", \"name\": \"HBsAg\", \"results\": [{\"name\": \"HBsAg\", \"value\": 146}]}]}}",
+  "json": {
+    "prescription_elements": {
+      "diagnosticResults": [
+        {
+          "category": "laboratory",
+          "name": "HBsAg",
+          "results": [
+            {
+              "name": "HBsAg",
+              "value": 146
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "image": "rx1_a.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "repetition_penalty": null,
+  "peak_memory_gb": 8.2
+}

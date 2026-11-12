@@ -1,0 +1,19 @@
+{
+  "image": "rx6_a.jpeg",
+  "gt": "FBS - 152\nPPBS - 204 mg/dl",
+  "free": {
+    "seconds": 3.9,
+    "raw": "\"fx - 152\"",
+    "scores": {
+      "cer": 0.769,
+      "wer": 0.857,
+      "word_f1": 0.2,
+      "word_recall": 0.143
+    }
+  },
+  "tag": {
+    "seconds": 3.9,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/7"
+  }
+}

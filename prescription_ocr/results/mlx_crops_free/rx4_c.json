@@ -1,0 +1,19 @@
+{
+  "image": "rx4_c.jpeg",
+  "gt": "Dyslipidemia",
+  "free": {
+    "seconds": 3.7,
+    "raw": "\"m liquid\"",
+    "scores": {
+      "cer": 0.75,
+      "wer": 2.0,
+      "word_f1": 0.0,
+      "word_recall": 0.0
+    }
+  },
+  "tag": {
+    "seconds": 3.8,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/1"
+  }
+}

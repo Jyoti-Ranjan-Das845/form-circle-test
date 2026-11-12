@@ -1,0 +1,19 @@
+{
+  "image": "rx5_a.jpeg",
+  "gt": "TG - 344 mg/dl\nLDL - 134 mg/dl\nFBS - 345 mg/dl\nPPBS - 430 mg/dl",
+  "free": {
+    "seconds": 4.0,
+    "raw": "\"TK - 344 mg/dl\"",
+    "scores": {
+      "cer": 0.81,
+      "wer": 0.875,
+      "word_f1": 0.2,
+      "word_recall": 0.125
+    }
+  },
+  "tag": {
+    "seconds": 7.0,
+    "raw": "{\"prescription_elements\": {\"medicationRequest\": [{\"name\": \"T.K\", \"frequency\": \"3-4-4\", \"note\": \"mg/dl\"}, {\"name\": \"L.M\", \"frequency\": \"1-3-4\", \"note\": \"mg/dl\"}, {\"name\": \"F.A\", \"frequency\": \"3-4-4\", \"note\": \"mg/dl\"}, {\"name\": \"P.R\", \"frequency\": \"9-3-0\", \"note\": \"mg/dl\"}]}}",
+    "gt_words_found": "8/16"
+  }
+}

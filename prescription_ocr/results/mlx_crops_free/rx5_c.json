@@ -1,0 +1,19 @@
+{
+  "image": "rx5_c.jpeg",
+  "gt": "Thyrox 37.5",
+  "free": {
+    "seconds": 4.0,
+    "raw": "\"37.5\"",
+    "scores": {
+      "cer": 0.727,
+      "wer": 1.0,
+      "word_f1": 0.0,
+      "word_recall": 0.0
+    }
+  },
+  "tag": {
+    "seconds": 4.0,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/2"
+  }
+}

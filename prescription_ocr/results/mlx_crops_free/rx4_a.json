@@ -1,0 +1,19 @@
+{
+  "image": "rx4_a.jpeg",
+  "gt": "Bp - 110/67 mmHg",
+  "free": {
+    "seconds": 4.0,
+    "raw": "\"30° - 110° (mm)\"",
+    "scores": {
+      "cer": 0.625,
+      "wer": 0.75,
+      "word_f1": 0.25,
+      "word_recall": 0.25
+    }
+  },
+  "tag": {
+    "seconds": 3.9,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/4"
+  }
+}

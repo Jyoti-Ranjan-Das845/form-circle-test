@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "seconds": 4.0,
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 8
+  },
+  "raw": "{\"prescription_elements\": {}}",
+  "json": {
+    "prescription_elements": {}
+  },
+  "image": "rx7_b.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "repetition_penalty": null,
+  "peak_memory_gb": 8.3
+}

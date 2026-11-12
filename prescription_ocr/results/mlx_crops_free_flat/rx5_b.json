@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "image": "rx5_b.jpeg",
+  "mode": "mlx free prompt",
+  "prompt": "Transcribe all the text in this image exactly as written. Output only the text.",
+  "seconds": 5.2,
+  "raw": "\"↑↑↑ 10.2%.\"\n\"↑↑↑ 8.56\"\n\"Creat - 0.53\"\n\"↑↑↑ 53/38.\"\n\"↑↑↑ 10.6\""
+}

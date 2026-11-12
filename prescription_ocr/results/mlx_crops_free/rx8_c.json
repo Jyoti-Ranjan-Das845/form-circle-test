@@ -1,0 +1,19 @@
+{
+  "image": "rx8_c.jpeg",
+  "gt": "1) Tab. Etoshine-MR",
+  "free": {
+    "seconds": 4.0,
+    "raw": "\"Tab. Etosline-MPR\"",
+    "scores": {
+      "cer": 0.316,
+      "wer": 1.0,
+      "word_f1": 0.0,
+      "word_recall": 0.0
+    }
+  },
+  "tag": {
+    "seconds": 3.9,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/3"
+  }
+}

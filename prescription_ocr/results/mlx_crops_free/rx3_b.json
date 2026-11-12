@@ -1,0 +1,19 @@
+{
+  "image": "rx3_b.jpeg",
+  "gt": "FBS - 180\nPPBS - 246 mg/dl",
+  "free": {
+    "seconds": 4.0,
+    "raw": "\"foc - 1500\"",
+    "scores": {
+      "cer": 0.808,
+      "wer": 0.857,
+      "word_f1": 0.2,
+      "word_recall": 0.143
+    }
+  },
+  "tag": {
+    "seconds": 3.9,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/7"
+  }
+}

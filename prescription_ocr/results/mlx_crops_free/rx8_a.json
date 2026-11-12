@@ -1,0 +1,19 @@
+{
+  "image": "rx8_a.jpeg",
+  "gt": "BP: 116/81",
+  "free": {
+    "seconds": 4.1,
+    "raw": "BP: 116 / 81",
+    "scores": {
+      "cer": 0.2,
+      "wer": 1.5,
+      "word_f1": 0.333,
+      "word_recall": 0.5
+    }
+  },
+  "tag": {
+    "seconds": 4.0,
+    "raw": "{\"prescription_elements\": {}}",
+    "gt_words_found": "0/2"
+  }
+}
