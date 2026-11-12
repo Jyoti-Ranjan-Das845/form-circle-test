@@ -1,0 +1,242 @@
+{
+  "rx1_a": {
+    "source": "images/rx1.jpeg",
+    "box_x0_y0_x1_y1": [
+      85,
+      365,
+      275,
+      470
+    ],
+    "text": "FBS. 146\n2h. PPBS - 342"
+  },
+  "rx1_b": {
+    "source": "images/rx1.jpeg",
+    "box_x0_y0_x1_y1": [
+      450,
+      550,
+      665,
+      608
+    ],
+    "text": "Diabetic diet"
+  },
+  "rx1_c": {
+    "source": "images/rx1.jpeg",
+    "box_x0_y0_x1_y1": [
+      480,
+      1018,
+      720,
+      1082
+    ],
+    "text": "Cap Myelobest"
+  },
+  "rx2_a": {
+    "source": "images/rx2.jpeg",
+    "box_x0_y0_x1_y1": [
+      105,
+      405,
+      195,
+      455
+    ],
+    "text": "71/F"
+  },
+  "rx2_b": {
+    "source": "images/rx2.jpeg",
+    "box_x0_y0_x1_y1": [
+      0,
+      765,
+      95,
+      835
+    ],
+    "text": "150/76"
+  },
+  "rx2_c": {
+    "source": "images/rx2.jpeg",
+    "box_x0_y0_x1_y1": [
+      355,
+      625,
+      640,
+      672
+    ],
+    "text": "Tab. Telx-3D"
+  },
+  "rx3_a": {
+    "source": "images/rx3.jpeg",
+    "box_x0_y0_x1_y1": [
+      445,
+      595,
+      575,
+      628
+    ],
+    "text": "Bp - 110/82 mm"
+  },
+  "rx3_b": {
+    "source": "images/rx3.jpeg",
+    "box_x0_y0_x1_y1": [
+      195,
+      635,
+      335,
+      692
+    ],
+    "text": "FBS - 180\nPPBS - 246 mg/dl"
+  },
+  "rx3_c": {
+    "source": "images/rx3.jpeg",
+    "box_x0_y0_x1_y1": [
+      500,
+      866,
+      600,
+      905
+    ],
+    "text": "Cap PAN-D"
+  },
+  "rx4_a": {
+    "source": "images/rx4.jpeg",
+    "box_x0_y0_x1_y1": [
+      415,
+      502,
+      565,
+      534
+    ],
+    "text": "Bp - 110/67 mmHg"
+  },
+  "rx4_b": {
+    "source": "images/rx4.jpeg",
+    "box_x0_y0_x1_y1": [
+      450,
+      627,
+      625,
+      662
+    ],
+    "text": "Tab Glycomet SR 500"
+  },
+  "rx4_c": {
+    "source": "images/rx4.jpeg",
+    "box_x0_y0_x1_y1": [
+      285,
+      478,
+      372,
+      508
+    ],
+    "text": "Dyslipidemia"
+  },
+  "rx5_a": {
+    "source": "images/rx5.jpeg",
+    "box_x0_y0_x1_y1": [
+      80,
+      478,
+      235,
+      572
+    ],
+    "text": "TG - 344 mg/dl\nLDL - 134 mg/dl\nFBS - 345 mg/dl\nPPBS - 430 mg/dl"
+  },
+  "rx5_b": {
+    "source": "images/rx5.jpeg",
+    "box_x0_y0_x1_y1": [
+      78,
+      588,
+      240,
+      782
+    ],
+    "text": "A1C - 10.2%\nTSH - 8.56\nCreat - 0.53\nAST/ALT - 53/38\nHb - 10.6"
+  },
+  "rx5_c": {
+    "source": "images/rx5.jpeg",
+    "box_x0_y0_x1_y1": [
+      515,
+      612,
+      685,
+      656
+    ],
+    "text": "Thyrox 37.5"
+  },
+  "rx6_a": {
+    "source": "images/rx6.jpeg",
+    "box_x0_y0_x1_y1": [
+      30,
+      370,
+      135,
+      458
+    ],
+    "text": "FBS - 152\nPPBS - 204 mg/dl"
+  },
+  "rx6_b": {
+    "source": "images/rx6.jpeg",
+    "box_x0_y0_x1_y1": [
+      330,
+      440,
+      475,
+      484
+    ],
+    "text": "Bp - 138/84 mm"
+  },
+  "rx6_c": {
+    "source": "images/rx6.jpeg",
+    "box_x0_y0_x1_y1": [
+      280,
+      615,
+      490,
+      665
+    ],
+    "text": "Cap Nurokind plus"
+  },
+  "rx7_a": {
+    "source": "images/rx7.jpeg",
+    "box_x0_y0_x1_y1": [
+      325,
+      185,
+      485,
+      228
+    ],
+    "text": "Bp - 160/100 mm"
+  },
+  "rx7_b": {
+    "source": "images/rx7.jpeg",
+    "box_x0_y0_x1_y1": [
+      30,
+      428,
+      152,
+      472
+    ],
+    "text": "Na+ - 135"
+  },
+  "rx7_c": {
+    "source": "images/rx7.jpeg",
+    "box_x0_y0_x1_y1": [
+      355,
+      375,
+      585,
+      408
+    ],
+    "text": "(2) Tab Telista H 40"
+  },
+  "rx8_a": {
+    "source": "images/rx8.jpeg",
+    "box_x0_y0_x1_y1": [
+      150,
+      450,
+      305,
+      490
+    ],
+    "text": "BP: 116/81"
+  },
+  "rx8_b": {
+    "source": "images/rx8.jpeg",
+    "box_x0_y0_x1_y1": [
+      435,
+      440,
+      850,
+      505
+    ],
+    "text": "C/O - calf pain (B/L)"
+  },
+  "rx8_c": {
+    "source": "images/rx8.jpeg",
+    "box_x0_y0_x1_y1": [
+      362,
+      548,
+      730,
+      615
+    ],
+    "text": "1) Tab. Etoshine-MR"
+  }
+}

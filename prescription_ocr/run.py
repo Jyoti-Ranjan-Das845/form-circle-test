@@ -7,6 +7,7 @@ Two ways to run the same model:
     FEATHERLESS_API_KEY=... python run.py --featherless    # hosted, no GPU needed
 
     python run.py --local rx8             # just one image
+    python run.py --local --images crops/images --out results/local_crops    # the text crops
 
 The prompt is the image plus the exact tag "<prescription>" and nothing else, greedy decoding, up to 2048 new
 tokens, as on the model card (https://huggingface.co/ekacare/parrotlet-v-2.5-pro).
@@ -94,15 +95,17 @@ def main() -> int:
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--local", action="store_true", help="run the model on this machine's GPU")
     mode.add_argument("--featherless", action="store_true", help="call the hosted model on Featherless")
+    ap.add_argument("--images", default=str(IMAGES), help="folder of .jpeg images (default: images/)")
+    ap.add_argument("--out", default=None, help="results folder (default: results/<mode>)")
     ap.add_argument("only", nargs="*", help="image names to run, e.g. rx8 (default: all)")
     args = ap.parse_args()
 
     name = "local" if args.local else "featherless"
     run = local_runner() if args.local else featherless_runner()
-    out_dir = HERE / "results" / name
+    out_dir = Path(args.out) if args.out else HERE / "results" / name
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    for img in sorted(IMAGES.glob("*.jpeg")):
+    for img in sorted(Path(args.images).glob("*.jpeg")):
         if args.only and img.stem not in args.only:
             continue
         print(f"{img.stem}: reading …", flush=True)
