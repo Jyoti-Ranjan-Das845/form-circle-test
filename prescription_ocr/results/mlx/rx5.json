@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "seconds": 18.0,
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 523
+  },
+  "raw": "{\"prescription_elements\": {\"documentDate\": \"2026-10-03\", \"observations\": [{\"category\": \"vital-sign\", \"name\": \"SystolicBP\", \"value\": 126, \"unit\": \"mmHg\"}, {\"category\": \"vital-sign\", \"name\": \"DiastolicBP\", \"value\": 96, \"unit\": \"mmHg\"}], \"diagnosticResults\": [{\"category\": \"laboratory\", \"name\": \"Hb%\", \"results\": [{\"name\": \"Hb%\", \"value\": 10.2, \"unit\": \"%\"}]}, {\"category\": \"laboratory\", \"name\": \"TS1\", \"results\": [{\"name\": \"TS1\", \"value\": 8.56}]}, {\"category\": \"laboratory\", \"name\": \"Creat\", \"results\": [{\"name\": \"Creat\", \"value\": 0.53}]}, {\"category\": \"laboratory\", \"name\": \"TS1/ALT\", \"results\": [{\"name\": \"TS1/ALT\", \"value\": \"53/38\"}]}], \"medicationRequest\": [{\"name\": \"Tab. Sanifran 1000\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 2, \"unit\": \"months\"}}, {\"name\": \"Tab. Glimepiride MV 2.2\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}, {\"name\": \"Tab. Trox 37.5\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}, {\"name\": \"Tab. Rosmelp 10\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}, {\"name\": \"Tab. Loy for XL\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}], \"serviceRequest\": [{\"category\": \"lab\", \"name\": \"Hb%\"}]}}",
+  "json": {
+    "prescription_elements": {
+      "documentDate": "2026-10-03",
+      "observations": [
+        {
+          "category": "vital-sign",
+          "name": "SystolicBP",
+          "value": 126,
+          "unit": "mmHg"
+        },
+        {
+          "category": "vital-sign",
+          "name": "DiastolicBP",
+          "value": 96,
+          "unit": "mmHg"
+        }
+      ],
+      "diagnosticResults": [
+        {
+          "category": "laboratory",
+          "name": "Hb%",
+          "results": [
+            {
+              "name": "Hb%",
+              "value": 10.2,
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "TS1",
+          "results": [
+            {
+              "name": "TS1",
+              "value": 8.56
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "Creat",
+          "results": [
+            {
+              "name": "Creat",
+              "value": 0.53
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "TS1/ALT",
+          "results": [
+            {
+              "name": "TS1/ALT",
+              "value": "53/38"
+            }
+          ]
+        }
+      ],
+      "medicationRequest": [
+        {
+          "name": "Tab. Sanifran 1000",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 2,
+            "unit": "months"
+          }
+        },
+        {
+          "name": "Tab. Glimepiride MV 2.2",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        },
+        {
+          "name": "Tab. Trox 37.5",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        },
+        {
+          "name": "Tab. Rosmelp 10",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        },
+        {
+          "name": "Tab. Loy for XL",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        }
+      ],
+      "serviceRequest": [
+        {
+          "category": "lab",
+          "name": "Hb%"
+        }
+      ]
+    }
+  },
+  "image": "rx5.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "peak_memory_gb": 8.2
+}

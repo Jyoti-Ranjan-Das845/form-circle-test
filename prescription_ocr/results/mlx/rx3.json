@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "seconds": 13.9,
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 381
+  },
+  "raw": "{\"prescription_elements\": {\"documentDate\": \"2026-10-03\", \"observations\": [{\"category\": \"vital-sign\", \"name\": \"SystolicBP\", \"value\": 110, \"unit\": \"mmHg\"}, {\"category\": \"vital-sign\", \"name\": \"DiastolicBP\", \"value\": 82, \"unit\": \"mmHg\"}], \"medicationRequest\": [{\"name\": \"Tab. Glimirs MN 2.25\", \"dose\": {\"value\": 7, \"unit\": \"tablet\"}, \"frequency\": \"2-0-2\", \"duration\": {\"value\": 2, \"unit\": \"days\"}}, {\"name\": \"Tab. Cospirol 35/100\", \"dose\": {\"value\": 3, \"unit\": \"tablet\"}, \"frequency\": \"2-0-1\", \"duration\": {\"value\": 2, \"unit\": \"days\"}}, {\"name\": \"Tab. Geminos 40\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 3, \"unit\": \"days\"}}, {\"name\": \"Tab. Rozonel 10\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 3, \"unit\": \"days\"}}, {\"name\": \"Cap. Pan-D\", \"dose\": {\"value\": 1, \"unit\": \"capsule\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"days\"}}], \"followUp\": [{\"relativeTiming\": \"after 2 weeks\"}]}}",
+  "json": {
+    "prescription_elements": {
+      "documentDate": "2026-10-03",
+      "observations": [
+        {
+          "category": "vital-sign",
+          "name": "SystolicBP",
+          "value": 110,
+          "unit": "mmHg"
+        },
+        {
+          "category": "vital-sign",
+          "name": "DiastolicBP",
+          "value": 82,
+          "unit": "mmHg"
+        }
+      ],
+      "medicationRequest": [
+        {
+          "name": "Tab. Glimirs MN 2.25",
+          "dose": {
+            "value": 7,
+            "unit": "tablet"
+          },
+          "frequency": "2-0-2",
+          "duration": {
+            "value": 2,
+            "unit": "days"
+          }
+        },
+        {
+          "name": "Tab. Cospirol 35/100",
+          "dose": {
+            "value": 3,
+            "unit": "tablet"
+          },
+          "frequency": "2-0-1",
+          "duration": {
+            "value": 2,
+            "unit": "days"
+          }
+        },
+        {
+          "name": "Tab. Geminos 40",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 3,
+            "unit": "days"
+          }
+        },
+        {
+          "name": "Tab. Rozonel 10",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 3,
+            "unit": "days"
+          }
+        },
+        {
+          "name": "Cap. Pan-D",
+          "dose": {
+            "value": 1,
+            "unit": "capsule"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "days"
+          }
+        }
+      ],
+      "followUp": [
+        {
+          "relativeTiming": "after 2 weeks"
+        }
+      ]
+    }
+  },
+  "image": "rx3.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "peak_memory_gb": 8.3
+}

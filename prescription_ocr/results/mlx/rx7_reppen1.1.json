@@ -1,0 +1,232 @@
+{
+  "ok": true,
+  "seconds": 25.0,
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 780
+  },
+  "raw": "{\"prescription_elements\": {\"observations\": [{\"category\": \"vital-sign\", \"name\": \"SystolicBP\", \"value\": 160, \"unit\": \"mmHg\"}, {\"category\": \"vital-sign\", \"name\": \"DiastolicBP\", \"value\": 100, \"unit\": \"mmHg\"}], \"diagnosticResults\": [{\"category\": \"laboratory\", \"name\": \"Na+\", \"results\": [{\"name\": \"Na+\", \"value\": 128, \"unit\": \"mEq/l\"}]}, {\"category\": \"laboratory\", \"name\": \"K+\", \"results\": [{\"name\": \"K+\", \"value\": 198, \"unit\": \"mEq/l\"}]}, {\"category\": \"laboratory\", \"name\": \"A/C\", \"results\": [{\"name\": \"A/C\", \"value\": 7.1}]}, {\"category\": \"laboratory\", \"name\": \"Na+\", \"results\": [{\"name\": \"Na+\", \"value\": 135}]}, {\"category\": \"laboratory\", \"name\": \"K+\", \"results\": [{\"name\": \"K+\", \"value\": 4.98}]}, {\"category\": \"laboratory\", \"name\": \"Creat\", \"results\": [{\"name\": \"Creat\", \"value\": 0.59}]}, {\"category\": \"laboratory\", \"name\": \"Lox\", \"results\": [{\"name\": \"Lox\", \"value\": 102}]}, {\"category\": \"laboratory\", \"name\": \"TSH\", \"results\": [{\"name\": \"TSH\", \"value\": 4.19}]}, {\"category\": \"laboratory\", \"name\": \"VSK\", \"results\": [{\"name\": \"VSK\", \"value\": 104.5}, {\"name\": \"Med.\", \"value\": 29}]}, {\"category\": \"laboratory\", \"name\": \"Na+\", \"results\": [{\"name\": \"Na+\", \"value\": 240}]}, {\"category\": \"laboratory\", \"name\": \"K+\", \"results\": [{\"name\": \"K+\", \"value\": 4.1}]}, {\"category\": \"laboratory\", \"name\": \"A/S, ACT\", \"results\": [{\"name\": \"Ca\", \"value\": 10.2}, {\"name\": \"Al\", \"value\": 1.3}]}, {\"category\": \"laboratory\", \"name\": \"Calcium\", \"results\": [{\"name\": \"Ca\", \"value\": 10.2}, {\"name\": \"Al\", \"value\": 1.3}]}], \"medicationRequest\": [{\"name\": \"Tab Nicandhia Retard 20\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"after meals\"}, {\"name\": \"Tab Telista H 40\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"after meals\"}, {\"name\": \"Tab Met XL 75\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"after meals\"}, {\"name\": \"Tab Ronnehip 10\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"after meals\"}, {\"name\": \"Cap OMA Q10\", \"dose\": {\"value\": 1, \"unit\": \"capsule\"}, \"frequency\": \"1-0-1\", \"when\": \"after meals\"}], \"serviceRequest\": [{\"category\": \"lab\", \"name\": \"Calcium\"}]}}",
+  "json": {
+    "prescription_elements": {
+      "observations": [
+        {
+          "category": "vital-sign",
+          "name": "SystolicBP",
+          "value": 160,
+          "unit": "mmHg"
+        },
+        {
+          "category": "vital-sign",
+          "name": "DiastolicBP",
+          "value": 100,
+          "unit": "mmHg"
+        }
+      ],
+      "diagnosticResults": [
+        {
+          "category": "laboratory",
+          "name": "Na+",
+          "results": [
+            {
+              "name": "Na+",
+              "value": 128,
+              "unit": "mEq/l"
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "K+",
+          "results": [
+            {
+              "name": "K+",
+              "value": 198,
+              "unit": "mEq/l"
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "A/C",
+          "results": [
+            {
+              "name": "A/C",
+              "value": 7.1
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "Na+",
+          "results": [
+            {
+              "name": "Na+",
+              "value": 135
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "K+",
+          "results": [
+            {
+              "name": "K+",
+              "value": 4.98
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "Creat",
+          "results": [
+            {
+              "name": "Creat",
+              "value": 0.59
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "Lox",
+          "results": [
+            {
+              "name": "Lox",
+              "value": 102
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "TSH",
+          "results": [
+            {
+              "name": "TSH",
+              "value": 4.19
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "VSK",
+          "results": [
+            {
+              "name": "VSK",
+              "value": 104.5
+            },
+            {
+              "name": "Med.",
+              "value": 29
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "Na+",
+          "results": [
+            {
+              "name": "Na+",
+              "value": 240
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "K+",
+          "results": [
+            {
+              "name": "K+",
+              "value": 4.1
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "A/S, ACT",
+          "results": [
+            {
+              "name": "Ca",
+              "value": 10.2
+            },
+            {
+              "name": "Al",
+              "value": 1.3
+            }
+          ]
+        },
+        {
+          "category": "laboratory",
+          "name": "Calcium",
+          "results": [
+            {
+              "name": "Ca",
+              "value": 10.2
+            },
+            {
+              "name": "Al",
+              "value": 1.3
+            }
+          ]
+        }
+      ],
+      "medicationRequest": [
+        {
+          "name": "Tab Nicandhia Retard 20",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "after meals"
+        },
+        {
+          "name": "Tab Telista H 40",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "after meals"
+        },
+        {
+          "name": "Tab Met XL 75",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "after meals"
+        },
+        {
+          "name": "Tab Ronnehip 10",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "after meals"
+        },
+        {
+          "name": "Cap OMA Q10",
+          "dose": {
+            "value": 1,
+            "unit": "capsule"
+          },
+          "frequency": "1-0-1",
+          "when": "after meals"
+        }
+      ],
+      "serviceRequest": [
+        {
+          "category": "lab",
+          "name": "Calcium"
+        }
+      ]
+    }
+  },
+  "image": "rx7.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "repetition_penalty": 1.1,
+  "peak_memory_gb": 8.3
+}

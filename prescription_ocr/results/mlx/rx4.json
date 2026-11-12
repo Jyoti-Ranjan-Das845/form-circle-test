@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "seconds": 10.1,
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 241
+  },
+  "raw": "{\"prescription_elements\": {\"observations\": [{\"category\": \"vital-sign\", \"name\": \"SystolicBP\", \"value\": 110, \"unit\": \"mmHg\"}, {\"category\": \"vital-sign\", \"name\": \"DiastolicBP\", \"value\": 87, \"unit\": \"mmHg\"}], \"medicationRequest\": [{\"name\": \"Tab. Linagliptin 480\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}, {\"name\": \"Tab. Calcirol 500\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}, {\"name\": \"Tab. Risenat 40\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"duration\": {\"value\": 1, \"unit\": \"months\"}}]}}",
+  "json": {
+    "prescription_elements": {
+      "observations": [
+        {
+          "category": "vital-sign",
+          "name": "SystolicBP",
+          "value": 110,
+          "unit": "mmHg"
+        },
+        {
+          "category": "vital-sign",
+          "name": "DiastolicBP",
+          "value": 87,
+          "unit": "mmHg"
+        }
+      ],
+      "medicationRequest": [
+        {
+          "name": "Tab. Linagliptin 480",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        },
+        {
+          "name": "Tab. Calcirol 500",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        },
+        {
+          "name": "Tab. Risenat 40",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "duration": {
+            "value": 1,
+            "unit": "months"
+          }
+        }
+      ]
+    }
+  },
+  "image": "rx4.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "peak_memory_gb": 8.2
+}

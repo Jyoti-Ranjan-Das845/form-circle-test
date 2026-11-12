@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "seconds": 15.3,
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 418
+  },
+  "raw": "{\"prescription_elements\": {\"documentDate\": \"2026-10-03\", \"observations\": [{\"category\": \"vital-sign\", \"name\": \"SystolicBP\", \"value\": 138, \"unit\": \"mmHg\"}, {\"category\": \"vital-sign\", \"name\": \"DiastolicBP\", \"value\": 89, \"unit\": \"mmHg\"}], \"medicationRequest\": [{\"name\": \"Tab. Geminut 1000\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"1 hr before breakfast\"}, {\"name\": \"Tab. Sunita Duo\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"1 hr after meals\"}, {\"name\": \"Tab. Neurokind 10mg\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"1 hr before meals\"}, {\"name\": \"Tab. Pregaloy NT\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"1 hr before meals\"}, {\"name\": \"Tab. Rosnhiem 20\", \"dose\": {\"value\": 2, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"1 hr after meals\"}, {\"name\": \"Tab. Raxidi Mefoli\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"1 hr after meals\"}, {\"name\": \"Tab. Brifolac\", \"dose\": {\"value\": 1, \"unit\": \"tablet\"}, \"frequency\": \"1-0-1\", \"when\": \"2 hr after meals\"}]}}",
+  "json": {
+    "prescription_elements": {
+      "documentDate": "2026-10-03",
+      "observations": [
+        {
+          "category": "vital-sign",
+          "name": "SystolicBP",
+          "value": 138,
+          "unit": "mmHg"
+        },
+        {
+          "category": "vital-sign",
+          "name": "DiastolicBP",
+          "value": 89,
+          "unit": "mmHg"
+        }
+      ],
+      "medicationRequest": [
+        {
+          "name": "Tab. Geminut 1000",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "1 hr before breakfast"
+        },
+        {
+          "name": "Tab. Sunita Duo",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "1 hr after meals"
+        },
+        {
+          "name": "Tab. Neurokind 10mg",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "1 hr before meals"
+        },
+        {
+          "name": "Tab. Pregaloy NT",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "1 hr before meals"
+        },
+        {
+          "name": "Tab. Rosnhiem 20",
+          "dose": {
+            "value": 2,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "1 hr after meals"
+        },
+        {
+          "name": "Tab. Raxidi Mefoli",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "1 hr after meals"
+        },
+        {
+          "name": "Tab. Brifolac",
+          "dose": {
+            "value": 1,
+            "unit": "tablet"
+          },
+          "frequency": "1-0-1",
+          "when": "2 hr after meals"
+        }
+      ]
+    }
+  },
+  "image": "rx6.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "peak_memory_gb": 8.3
+}

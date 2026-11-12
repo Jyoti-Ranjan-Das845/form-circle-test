@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "seconds": 4.9,
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 39
+  },
+  "raw": "{\"prescription_elements\": {\"observations\": [{\"category\": \"vital-sign\", \"name\": \"BodyWeight\", \"value\": 71, \"unit\": \"kg\"}]}}",
+  "json": {
+    "prescription_elements": {
+      "observations": [
+        {
+          "category": "vital-sign",
+          "name": "BodyWeight",
+          "value": 71,
+          "unit": "kg"
+        }
+      ]
+    }
+  },
+  "image": "rx2.jpeg",
+  "model": "ekacare/parrotlet-v-2.5-pro (mlx 8-bit local)",
+  "tag": "<prescription>",
+  "mode": "mlx",
+  "repetition_penalty": 1.1,
+  "peak_memory_gb": 8.0
+}
