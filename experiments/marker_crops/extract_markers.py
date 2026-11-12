@@ -170,13 +170,20 @@ def main():
     ap.add_argument("--gap", type=int, default=8); ap.add_argument("--pad", type=int, default=6)
     ap.add_argument("--min-area", type=int, default=40); ap.add_argument("--diff-thresh", type=int, default=30)
     ap.add_argument("--pages", default=None, help="comma list of 2-digit page ids")
+    ap.add_argument("--clean-dir", default=None, help="folder of clean pages (default real_forms/)")
+    ap.add_argument("--marked-dir", default=None, help="folder of marked pages, same file names (default real_forms_marked/)")
+    ap.add_argument("--out", default=None, help="output folder (default experiments/marker_crops/out)")
     a = ap.parse_args()
+    global CLEAN, MARKED, OUT
+    if a.clean_dir: CLEAN = Path(a.clean_dir)
+    if a.marked_dir: MARKED = Path(a.marked_dir)
+    if a.out: OUT = Path(a.out)
     summary = []
-    for mp in sorted(MARKED.glob("*.png")):
+    for mp in sorted(p for p in MARKED.iterdir() if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".tif", ".tiff")):
         stem = mp.stem
         if a.pages and stem[:2] not in a.pages.split(","): continue
-        cp = CLEAN / mp.name
-        if not cp.exists():
+        cp = next((c for c in [CLEAN / mp.name] + list(CLEAN.glob(mp.stem + ".*")) if c.exists()), None)
+        if cp is None:
             summary.append(dict(page=stem, status="no clean counterpart")); continue
         clean, marked = load_rgb(cp), load_rgb(mp)
         if clean.shape != marked.shape:                      # edge case: size mismatch
@@ -211,7 +218,7 @@ def main():
         ov.save(od / "overlay.png")
         (od / "markers.json").write_text(json.dumps(dict(page=stem, size=[W, H], params=vars(a), markers=markers), indent=1))
         flags = [f"{m['id']}:{m['shape']}:{m['note']}" for m in markers if m["shape"] != "closed" or m["note"]]
-        summary.append(dict(page=stem, status="ok", markers=len(markers), gt_items=gt_count(stem),
+        summary.append(dict(page=stem, status="ok", markers=len(markers), gt_items=gt_count(stem) if not a.clean_dir else None,
                             closed=sum(m["shape"] == "closed" for m in markers), flagged_ids=flags,
                             min_red_fraction=min(m["red_fraction"] for m in markers)))
     OUT.mkdir(exist_ok=True)

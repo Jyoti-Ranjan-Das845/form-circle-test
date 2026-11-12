@@ -13,6 +13,7 @@ MODELS = {  # key: (repo, thinking flag or None, fixed prompt for OCR-only model
     "qwen35_4b": ("mlx-community/Qwen3.5-4B-8bit", False, None),
     "paddle_vl": ("mlx-community/PaddleOCR-VL-1.6-4bit", None, "OCR:"),
     "glm_ocr":   ("mlx-community/GLM-OCR-bf16", None, "Text Recognition:"),
+    "parrotlet_v": (str(Path.home() / "models/parrotlet-v-2.5-pro-8bit"), False, None),   # Gemma 4 E2B fine-tune, converted locally
 }
 PROMPTS = {
     "marked": "What text is inside the red circle? Reply with only that text, exactly as printed.",
@@ -25,13 +26,16 @@ IMG = {"marked": ("crop_marked",), "both": ("crop_marked", "crop_clean"), "insid
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("model", choices=MODELS)
-    ap.add_argument("--modes", default="marked,both"); a = ap.parse_args()
+    ap.add_argument("--modes", default="marked,both")
+    ap.add_argument("--in", dest="indir", default=None, help="detector output folder (default experiments/marker_crops/out)")
+    ap.add_argument("--out", default=None, help="results folder (default experiments/marker_crops/out_vlm/<model>)")
+    a = ap.parse_args()
     from mlx_vlm import load, generate
     from mlx_vlm.prompt_utils import apply_chat_template
     repo, think, fixed = MODELS[a.model]
     t0 = time.time(); model, proc = load(repo); print(f"loaded {repo} in {time.time()-t0:.0f}s", flush=True)
-    out = HERE / "out_vlm" / a.model; out.mkdir(parents=True, exist_ok=True)
-    pages = sorted(HERE.glob("out/*/markers.json"))
+    out = Path(a.out) if a.out else HERE / "out_vlm" / a.model; out.mkdir(parents=True, exist_ok=True)
+    pages = sorted((Path(a.indir) if a.indir else HERE / "out").glob("*/markers.json"))
     results = {}
     for mode in a.modes.split(","):
         prompt = fixed or PROMPTS[mode]
